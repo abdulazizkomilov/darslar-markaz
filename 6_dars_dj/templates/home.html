@@ -10,16 +10,9 @@
             <div class="card-header">
                 <span class="font-weight-bold"><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></span>
             </div>
-            {% if post.photo %}
-                <img class="card-img-top" src="{{ post.photo.url }}" width="350" height="450" alt="{{ post.title }}">
-            {% endif %}
             <div class="card-body">
                 <p>{{ post.body | slice:":100" }}</p>
             </div>
-            <div class="card-footer text-left text-muted">
-                <span class="text-muted">Muallif {{ post.author | title }} - {{ post.date }}</span>
-            </div>
-            </br>
         </div>
     {% endfor %}
 
