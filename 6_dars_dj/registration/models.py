@@ -3,6 +3,8 @@ from django.urls import reverse
 
 class Reclama(models.Model):
     title = models.CharField(max_length=200)
+    body = models.TextField()
+    photo = models.ImageField(upload_to='images/', blank=True)
     author = models.ForeignKey(
         'auth.User',
 

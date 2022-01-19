@@ -12,15 +12,15 @@
 </header>
 
 {% if user.is_authenticated %}
-    <p>Xush kelibsiz {{ user.username }}!</p>
+    <p>Xush kelibsiz {{ user.username.title }}!</p>
     <p>
         <a href="{% url 'logout' %}">Chiqish</a>
     </p>
 
 {% else %}
     <p>
-    <div><a href="{% url 'signup' %}">Ro`yxatdan o`tish  |</a></div>
-        <a href="{% url 'login' %}">Saytga kirish</a>
+        <button type="submit"><a href="{% url 'signup' %}">Ro`yxatdan o`tish</a></button>
+        <button type="submit"><a href="{% url 'login' %}">Saytga kirish</a></button>
     </p>
 {% endif %}
 
