@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <div class="post-entry">
+        <h2>{{ post_title }}</h2>
+        <h3>{{ post_author }}</h3>
+        <p>{{ post_body }}</p>
+    </div>
+{% endblock content %}

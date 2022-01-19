@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+<header>
+    <h1>
+        <a href="{% url 'home' %}">HOME</a>
+    </h1>
+</header>
+
+{% if user.is_authenticated %}
+    <p>Xush kelibsiz {{ user.username }}!</p>
+    <p>
+        <a href="{% url 'logout' %}">Chiqish</a>
+    </p>
+
+{% else %}
+    <p>
+        <a href="{% url 'signup' %}">Ro`yxatdan o`tish</a>
+        <a href="{% url 'login' %}">Saytga kirish</a>
+    </p>
+{% endif %}
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>
