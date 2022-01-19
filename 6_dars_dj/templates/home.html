@@ -6,14 +6,16 @@
 {% block content %}
 
     {% for post in object_list %}
-        <div class="card">
-            <div class="card-header">
-                <span class="font-weight-bold"><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></span>
+        <li>
+            <div class="card">
+                <div class="card-header">
+                    <span class="font-weight-bold"><a href="{% url 'post_detail' post.pk %}"><h3>{{ post.title }}</h3></a></span>
+                </div>
+                <div class="card-body">
+                    <p>{{ post.body | slice:":101" }}</p>
+                </div>
             </div>
-            <div class="card-body">
-                <p>{{ post.body | slice:":100" }}</p>
-            </div>
-        </div>
+        </li>
     {% endfor %}
 
 {% endblock content %}
