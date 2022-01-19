@@ -4,18 +4,21 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-
-    {% for post in object_list %}
-        <ul>
-            <div class="card" id="tg">
-                <div class="card-header">
-                    <li>
-                        <span class="font-weight-bold"><a href="{% url 'post_detail' post.pk %}"><h3>{{ post.title }}</h3></a></span>
-                        <ul><p>{{ post.body | slice:":101" }}</p></ul>
-                    </li>
-                </div>
-            </div>
-        </ul>
-    {% endfor %}
+    {% if user.is_authenticated %}
+        {% for post in object_list %}
+                <ul>
+                    <div class="card" id="tg">
+                        <div class="card-header">
+                            <li>
+                                <span class="font-weight-bold"><a href="{% url 'post_detail' post.pk %}"><h3>{{ post.title }}</h3></a></span>
+                                <ul><p>{{ post.body | slice:":101" }}</p></ul>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+        {% endfor %}
+    {% else %}
+        <h3  style="text-align: center">Postlarni ko`rish uchun iltimos sayitdan ro`yxatdan o`ting aziz foydalanuvchi!</h3>
+    {% endif %}
 
 {% endblock content %}
