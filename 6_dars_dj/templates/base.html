@@ -4,25 +4,41 @@
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
 </head>
+<style>
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    li{
+        margin-left: 15px;
+    }
+
+    #tg{
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+
+</style>
 <body>
 <header>
     <h1>
         <a href="{% url 'home' %}">HOME</a>
     </h1>
+    {% if user.is_authenticated %}
+        <h1>Xush kelibsiz {{ user.username.title }}!</h1>
+        <p>
+            <button type="submit"><a href="{% url 'logout' %}">Chiqish</a></button>
+        </p>
+
+    {% else %}
+        <p>
+            <button type="submit"><a href="{% url 'signup' %}">Ro`yxatdan o`tish</a></button>
+            <button type="submit"><a href="{% url 'login' %}">Saytga kirish</a></button>
+        </p>
+    {% endif %}
 </header>
-
-{% if user.is_authenticated %}
-    <p>Xush kelibsiz {{ user.username.title }}!</p>
-    <p>
-        <a href="{% url 'logout' %}">Chiqish</a>
-    </p>
-
-{% else %}
-    <p>
-        <button type="submit"><a href="{% url 'signup' %}">Ro`yxatdan o`tish</a></button>
-        <button type="submit"><a href="{% url 'login' %}">Saytga kirish</a></button>
-    </p>
-{% endif %}
 
 {% block content %}
 {% endblock content %}
