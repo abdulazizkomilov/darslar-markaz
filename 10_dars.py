@@ -4,7 +4,7 @@
 # print("Assalom alaykum!")
 
 # IndentationError
-print("Hello World!")
+# print("Hello World!")
 
 # print("O'ngacha sanaymiz")
 # for n in range(10):
