@@ -1,40 +1,53 @@
-# float
-# boolen
 # PI
 # Constanta
 # type()
-# <,  >,  ==, !=, <=, >=, +=, **, //, %, /
 # PI = 3.14
 # AS = 55.90
 
-# b = 10 / 3
-# b1 = 10 // 2
-# b2 = 2**3
-# b4 = 10 / 3
-# b3 = 10 % 2
+# import math
+# a = math.pi
+# print(a)
 
+# d = 20 
+# ism = 'Islom'
 
-# c = 10
-# c1 = 5
-
-# d = 20 != 70
-
-
+# b = 10 == 23
+# a = 23 != 70
+# print(a)
+# print(b)
+# a = 30
+# b= 15
+# c = a**b
+# print(math.sqrt(c))
 
 # import  math as m
+# print(m.ceil(8.3))
 
-# m.pi
+# print(m.floor(8.7))
 
-# m.ceil(8.3)
+# print(m.sqrt(81))
 
-# m.floor(8.7)
+# print(m.sin(0))
 
-# m.sqrt(125)
+# print(m.factorial(10))
 
-# m.sin(0)
+# print(m.log(125, 5))
 
-# m.factorial(10)
+# print(m.cos(180))
 
-# m.log(125, 5)
+# a = 155
+# b = 87
+# c = a + b
+# print(c)
 
-# m.cos(180)
+
+
+
+
+
+
+
+
+
+
+
