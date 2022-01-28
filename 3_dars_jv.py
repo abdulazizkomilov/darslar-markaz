@@ -1,7 +1,7 @@
-# #Foydalanuvchi kiritgan sonning kvadrati va kubini konsolga chiqaruvchi dastur
-# x = int(input("Istalgan son kiriting:\n>>>"))
-# print(x, " ning kvadrati ", x**2, " ga teng")
-# print(x, " ning kubi ", x**3, " ga teng")
+#Foydalanuvchi kiritgan sonning kvadrati va kubini konsolga chiqaruvchi dastur
+x = int(input("Istalgan son kiriting:\n>>>"))
+print(x, " ning kvadrati ", x**2, " ga teng")
+print(x, " ning kubi ", x**3, " ga teng")
 
 # # Foydalanuvchining yoshini so'rang, 
 # # va uning tug'ilgan yilini hisoblab, konsolga chiqaring.

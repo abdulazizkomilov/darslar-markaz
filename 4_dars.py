@@ -1,6 +1,6 @@
-# sabzovotlar = ['kartoshka', 'sabsi', 'piyoz']
+# # sabzovotlar = ['kartoshka', 'sabsi', 'piyoz', 'un']
 
-# ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
+# # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
 # ismlar = ["Ali", "Vali", "Hasan", "Husan", "G'ani"]
 # # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
 # print("Salom " + ismlar[0] + " ishlaring yaxshimi?")
@@ -11,18 +11,18 @@
 # print(ismlar[-1] + " g'ildirakni g'izillatib g'ildratti")
 # print("salom "+ ismlar[2])
 
-# # # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
-# # sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_678_000, 112.4]
-# # print(sonlar)
-# # print(sonlar[-1])
+# # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
+sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_678_000, 112.4]
+# print(sonlar)
+# print(sonlar[-1])
 
 # # # # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
-# # sonlar[0] = sonlar[0] + sonlar[-1]
-# # sonlar[1] = -67.8
-# # sonlar[4] = sonlar[4] + 37
-# # del sonlar[5]
-# # del sonlar[0]
-# # print(sonlar)
+sonlar[0] = sonlar[0] + sonlar[-1]
+sonlar[1] = -67.8
+sonlar[4] = sonlar[4] + 37
+del sonlar[5]
+del sonlar[0]
+print(sonlar)
 
 # # t_shaxslarva z_shaxslar degan 2 ta ro'yxat yarating va biriga o'zingiz eng ko'p hurmat qilgan tarixiy shaxslarning, ikkinchisiga esa zamonamizdagi tirik bo'lgan shaxslarning ismini kiriting.
 # t_shaxslar = ["Amir Temur", "Imom Buxoriy", "Napoleon"]
