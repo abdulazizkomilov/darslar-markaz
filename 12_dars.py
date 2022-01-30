@@ -1,20 +1,20 @@
 # # .items()
-talaba_0 = {
-    'ism':'alijon',
-    'familiya':'shamshiyev',
-    'yosh':22,
-    'fakultet':'matematika',
-    'kurs':4
-    }
+# talaba_0 = {
+#     'ism':'alijon',
+#     'familiya':'shamshiyev',
+#     'yosh':22,
+#     'fakultet':'matematika',
+#     'kurs':4
+#     }
 
-key = input("Kalit so`z kiriting: ")
-if key.lower() in talaba_0:
-    print(talaba_0[key])
-else:
-    key = input("Bunday kalit suz mavjud emas iltimos kalit so`z va qiymat kiriting.\nKey>>> ")
-    value = input("Value>>> ")
-    talaba_0[key] = value
-    print(f"{talaba_0['ism'].capitalize()} {talaba_0[key].capitalize()} shahrida yashaydi.")
+# key = input("Kalit so`z kiriting: ")
+# if key.lower() in talaba_0:
+#     print(talaba_0[key])
+# else:
+#     key = input("Bunday kalit suz mavjud emas iltimos kalit so`z va qiymat kiriting.\nKey>>> ")
+#     value = input("Value>>> ")
+#     talaba_0[key] = value
+#     print(f"{talaba_0['ism'].capitalize()} {talaba_0[key].capitalize()} shahrida yashaydi.")
 
 # print(talaba_0.items())
 
