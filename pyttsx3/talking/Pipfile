@@ -8,6 +8,8 @@ speechrecognition = "*"
 pyttsx3 = "*"
 pipwin = "*"
 playsound = "*"
+pyaudio = "*"
+gtts = "*"
 
 [dev-packages]
 
