@@ -10,6 +10,7 @@ pipwin = "*"
 playsound = "*"
 pyaudio = "*"
 gtts = "*"
+yfinance = "*"
 
 [dev-packages]
 

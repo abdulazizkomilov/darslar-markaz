@@ -4,8 +4,21 @@ from gtts import gTTS
 import random
 from time import ctime
 import webbrowser
+import yfinance as yf
 import time
 import os
+
+
+class person:
+    name = ''
+    def setName(self, name):
+        self.name = name
+
+def there_exists(terms):
+    for term in terms:
+        if term in voice_data:
+            return True
+
 
 r = sr.Recognizer()
 
