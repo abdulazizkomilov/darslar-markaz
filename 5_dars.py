@@ -1,12 +1,32 @@
-# # TARTIBLASH
-# cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
+# Teskor klavishlar
+# CTRL + C -copy (kopya qiladi)
+# CTRL + V -paste (kopya qilganni quyadi)
+# CTRL + X -cut (kesib oladi)
+# CTRL + Z -undo (orqaga qaytaradi)
+# CTRL + SHIFT + Z -next (oldinga yuradi)
+# CTRL + L -clear  (oynani tozalaydi)
+# CTRL + S -save (faylni saqlaydi)
+# CTRL + ! -comment (anacondada commentga oladi yani codeni uqimay ketadi)
+# CTRL + ? -comment (pycharmda commentga oladi yani codeni uqimay ketadi)
+# CTRL + ''+'' -workes (ish stoli)
+# CTRL + ''-'' -workes (ish stoli)
+# CTRL + SHIFT + ''+'' -consol (consol yoki shell)
+# CTRL  + ''-'' -consol consol yoki shell)
+# ALT + TAB barcha ochiq oynalarni ko`rsatadi
+# CTRL bir nechta filelarni birdan belgilash
+# CTRL + A barcha fileni belgilaydi
+
+
+# TARTIBLASH
+cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
+# print(cars)
 # cars.sort()
 # print(cars)
 
-# # KATTA VA KICHIK HARF
-# cars = ['Bmw','mercedes benz', 'volvo', 'gm', 'Tesla', 'audi']
-# cars.sort()
-# print(cars)
+# KATTA VA KICHIK HARF
+cars = ['Bmw','mercedes benz', 'volvo', 'gm', 'Tesla', 'Audi']
+cars.sort()
+print(cars)
 
 # # TESKARI TARTIB
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
@@ -21,19 +41,6 @@
 # print(sorted(mehmonlar, reverse=True))
 # print("Asl ro'yxat o'zgarmas qoldi:", mehmonlar)
 
-# CTRL + C -copy (kopya qiladi)
-# CTRL + V -paste (kopya qilganni quyadi)
-# CTRL + X -cut (kesib oladi)
-# CTRL + Z -undo (orqaga qaytaradi)
-# CTRL + SHIFT + Z -next (oldinga yuradi)
-# CTRL + L -clear  (oynani tozalaydi)
-# CTRL + S -save (faylni saqlaydi)
-# CTRL + ! -comment (anacondada commentga oladi yani codeni uqimay ketadi)
-# CTRL + ? -comment (pycharmda commentga oladi yani codeni uqimay ketadi)
-# CTRL + ''+'' -workes (ish stoli)
-# CTRL + ''-'' -workes (ish stoli)
-# CTRL + SHIFT + ''+'' -consol (consol yoki shell)
-# CTRL  + ''-'' -consol consol yoki shell)
 
 # # SONLI RO'YXATLAR
 # ages = [12, 98, 34, 65, 34, 76, 11]
