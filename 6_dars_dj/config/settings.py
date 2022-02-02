@@ -139,3 +139,5 @@ CRISPY_CLASS_CONVERTERS = {
 }
 
 CRISPY_TEMPLATE_PACK = 'uni_form'
+
+AUTH_USER_MODEL = 'registration.CustomUser'
