@@ -2,9 +2,10 @@ from django.db import models
 from django.urls import reverse
 
 class Reclama(models.Model):
-    title = models.CharField(max_length=200)
+    title = models.CharField(max_length=100)
     body = models.TextField()
     photo = models.ImageField(upload_to='images/', blank=True)
+    summary = models.CharField(max_length=200, blank=True)
     author = models.ForeignKey(
         'auth.User',
 
