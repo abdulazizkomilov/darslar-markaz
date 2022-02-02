@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.contrib.auth.models import AbstractUser
 
 class Reclama(models.Model):
     title = models.CharField(max_length=100)
@@ -17,3 +18,10 @@ class Reclama(models.Model):
 
     def get_absolute_url(self):
         return reverse('post_detail', args=[str(self.pk)])
+
+    
+    
+    
+class CustomUser(AbstractUser):
+    age = models.PositiveIntegerField(null=True, blank=True)
+    
