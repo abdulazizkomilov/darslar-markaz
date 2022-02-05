@@ -17,21 +17,23 @@
 # CTRL + A barcha fileni belgilaydi
 
 
-# TARTIBLASH
-cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
-# print(cars)
-# cars.sort()
-# print(cars)
+# # TARTIBLASH
+# cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
+# # print(cars)
+# # cars.sort()
+# # print(cars)
 
-# KATTA VA KICHIK HARF
-cars = ['Bmw','mercedes benz', 'volvo', 'gm', 'Tesla', 'Audi']
-cars.sort()
-print(cars)
+# # KATTA VA KICHIK HARF
+# cars = ['Bmw','mercedes benz', 'volvo', 'gm', 'Tesla', 'Audi']
+# cars.sort()
+# # print(cars)
 
 # # TESKARI TARTIB
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
+# print(cars)
 # cars.sort(reverse=True)
 # print(cars)
+# print(sorted(cars))
 # print(cars)
 
 # # SORTED()
@@ -43,7 +45,7 @@ print(cars)
 
 
 # # SONLI RO'YXATLAR
-# ages = [12, 98, 34, 65, 34, 76, 11]
+# ages = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
 # ages.sort()
 # print(ages)
 # print(sorted(ages, reverse=True))
@@ -58,9 +60,9 @@ print(cars)
 # fruits = ['pear','banana','apple','watermelon','lemon']
 # print("Elementlar soni:",len(fruits)) # len(fruits) ro'yxat uzunligini qaytaradi
 
-# # MIN(), MAX(), SUM()
-# narhlar = [12000, 22500, 23456, 9800, 5600, 9934, 32874]
-# arzon = min(narhlar)
-# qimmat = max(narhlar)
-# jami = sum(narhlar)
-# print("Eng arzon narh ", arzon, ". Eng qimmati ", qimmat, ". Jami: ", jami)
+# MIN(), MAX(), SUM()
+narhlar = [12000, 22500, 23456, 9800, 5600, 9934, 32874]
+arzon = min(narhlar)
+qimmat = max(narhlar)
+jami = sum(narhlar)
+print("Eng arzon narh ", arzon, ". Eng qimmati ", qimmat, ". Jami: ", jami)
