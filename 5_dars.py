@@ -16,7 +16,7 @@
 # CTRL bir nechta filelarni birdan belgilash
 # CTRL + A barcha fileni belgilaydi
 
-
+.isdigit()
 # # TARTIBLASH
 # cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
 # # print(cars)

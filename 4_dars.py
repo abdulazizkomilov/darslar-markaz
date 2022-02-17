@@ -1,5 +1,5 @@
-# # sabzovotlar = ['kartoshka', 'sabsi', 'piyoz', 'un']
-
+# sabzovotlar = ['kartoshka', 'sabsi', 'piyoz', 'un']
+.isdigit()
 # # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
 # ismlar = ["Ali", "Vali", "Hasan", "Husan", "G'ani"]
 # # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:

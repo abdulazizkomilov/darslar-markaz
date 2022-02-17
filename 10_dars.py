@@ -1,10 +1,10 @@
-# SintaxError
-# print "Hello World!"
-# print("Hello World!"
+# # SintaxError
+# # print "Hello World!"
+# print("Hello World!")
 # print("Assalom alaykum!")
 
-# IndentationError
-# print("Hello World!")
+# # IndentationError
+#  print("Hello World!")
 
 # print("O'ngacha sanaymiz")
 # for n in range(10):
@@ -16,8 +16,8 @@
 # else:
 #     print("Manfiy son")
 
-# TypeError
-# son = input("Istalgan son kiriting: ")
+# # TypeError
+# son = int(input("Istalgan son kiriting: "))
 # print(f"{son} ning kvadrati {son**2} ga teng")
 
 # #NameError
@@ -26,7 +26,7 @@
 # for meva in mevalar:
 #     print(meva)
 
-# ValueError
+# # ValueError
 
 # son = int(input("Istalgan son kiriting: "))
 # if son>=0:
@@ -36,23 +36,23 @@
 
 # #IndexError
 # mevalar = ['olma','anor','uzum']
-# print(mevalar[2])
+# print(mevalar[3])
 
-# ZeroDivisionError
+# # ZeroDivisionError
 # x, y = 50, 50
 # z = 250/(x-y)
 
-# Mantiqiy xatolar
+# # Mantiqiy xatolar
 # radius = 5
 # pi = 4.14
 # aylana_yuzi = pi*radius**2
 # print(aylana_yuzi)
 
 # son = float(input("Istalgan son kiriting: "))
-# ildiz = son**1/2
+# ildiz = son**(1/2)
 # print(f"{son} ning ildizi {ildiz} ga teng")
 
-# mevalar = ['olma','uzum','nok','anor','anjir']
-# for meva in mevalar:
-#     print(meva)
-#     print("Dastur tugadi")
+mevalar = ['olma','uzum','nok','anor','anjir']
+for meva in mevalar:
+    print(meva)
+    print("Dastur tugadi")
