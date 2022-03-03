@@ -46,4 +46,3 @@
 #         continue  # agar foydalanuvchi manfiy son kiritsa tsiklni takrorlaymiz
 #     else:
 #         ildiz = float(qiymat) ** (0.5)
-#         print(f"{qiymat} ning ildizi {ildiz} ga teng")

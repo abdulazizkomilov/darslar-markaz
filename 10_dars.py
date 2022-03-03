@@ -52,7 +52,7 @@
 # ildiz = son**(1/2)
 # print(f"{son} ning ildizi {ildiz} ga teng")
 
-mevalar = ['olma','uzum','nok','anor','anjir']
-for meva in mevalar:
-    print(meva)
-    print("Dastur tugadi")
+# mevalar = ['olma','uzum','nok','anor','anjir']
+# for meva in mevalar:
+#     print(meva)
+#     print("Dastur tugadi")

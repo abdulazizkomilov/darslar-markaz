@@ -49,4 +49,3 @@
 #     baho = input(f"{talaba.title()}ning bahosini kiriting: ")
 #     print(f"{talaba.title()} baholandi")
 #     baholangan_talabalar[talaba] = int(baho)
-    

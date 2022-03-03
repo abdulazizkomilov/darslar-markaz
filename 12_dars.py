@@ -14,7 +14,8 @@
 #     key = input("Bunday kalit suz mavjud emas iltimos kalit so`z va qiymat kiriting.\nKey>>> ")
 #     value = input("Value>>> ")
 #     talaba_0[key] = value
-#     print(f"{talaba_0['ism'].capitalize()} {talaba_0[key].capitalize()} shahrida yashaydi.")
+#     print(f"{key} -- {talaba_0[key]}")
+#     # print(f"{talaba_0['ism'].capitalize()} {talaba_0[key].capitalize()} shahrida yashaydi.")
 
 # print(talaba_0.items())
 
@@ -42,15 +43,15 @@
 #     'shaftoli':30000
 #     }
 
-# print(mahsulotlar.keys())
+# # print(mahsulotlar.keys())
 
-# print('Do\'kondagi mahsulotlar:')
-# for mahsulot in mahsulotlar.keys():
-#     print(mahsulot.title())
+# # print('Do\'kondagi mahsulotlar:')
+# # for mahsulot in mahsulotlar.keys():
+# #     print(mahsulot.title())
 
-# print('Do\'kondagi mahsulotlar:')
-# for mahsulot in mahsulotlar:
-#     print(mahsulot.title())
+# # # print('Do\'kondagi mahsulotlar:')
+# # # for mahsulot in mahsulotlar:
+# # #     print(mahsulot.title())
 
 # bozorlik = ['anor','uzum','non','baliq']
 # for mahsulot in mahsulotlar:
@@ -76,24 +77,24 @@
 
 # # set
 
-# telefonlar = {
-#     'ali':'iphone x',
-#     'vali':'galaxy s9',
-#     'olim':'mi 10 pro',
-#     'orif':'nokia 3310',
-#     'hamida':'galaxy s9',
-#     'maryam':'huawei p30',
-#     'tohir':'iphone x',
-#     'umar':'iphone x'
-#     }
+telefonlar = {
+    'ali':'iphone x',
+    'vali':'galaxy s9',
+    'olim':'mi 10 pro',
+    'orif':'nokia 3310',
+    'hamida':'galaxy s9',
+    'maryam':'huawei p30',
+    'tohir':'iphone x',
+    'umar':'iphone x'
+    }
 
 # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 # for tel in telefonlar.values():
 #     print(tel)
 
-# # set
-# print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-# for tel in set(telefonlar.values()):
-#     print(tel)
+# set
+print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+for tel in set(telefonlar.values()):
+    print(tel)
 
 # toys = {"ball","car","lamp","ball"}
