@@ -117,8 +117,8 @@ class Fan:
         return self.talabalar_soni
 
 
-def see_methods(klass):
-    return [method for method in dir(klass) if method.startswith("__") is False]
+# def see_methods(klass):
+#     return [method for method in dir(klass) if method.startswith("__") is False]
 
 
 matematika = Fan("Oliy Matematika")
@@ -134,8 +134,8 @@ print(matematika.talabalar)
 mat_talabalar = matematika.get_students()
 print(mat_talabalar)
 
-print(see_methods(Talaba))
-print(see_methods(talaba1))
-print(see_methods(str))
-print(talaba1.__dict__)
-print(talaba1.__dict__.keys())
+# print(see_methods(Talaba))
+# print(see_methods(talaba1))
+# print(see_methods(str))
+# print(talaba1.__dict__)
+# print(talaba1.__dict__.keys())

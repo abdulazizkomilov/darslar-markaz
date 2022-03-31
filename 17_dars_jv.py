@@ -67,7 +67,7 @@
                 
 #     return tub_sonlar
 
-# tub_sonlar_top(1,20)
+# tub_sonlar_top(1,200)
 
 
 # def fibonacci(n):
@@ -76,6 +76,7 @@
 #         if x==0 or x==1:
 #             sonlar.append(1)        
 #         else:
+#             # print(sonlar[x-1], sonlar[x-2])
 #             sonlar.append(sonlar[x-1]+sonlar[x-2])
 #     return sonlar
 

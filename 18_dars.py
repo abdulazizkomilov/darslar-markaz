@@ -7,10 +7,10 @@
 #     return baholar
 
 
-# talabalar = ["ali", "vali", "hasan", "husan"]
-# baholar = bahola(talabalar)
-# print(baholar)
-# print(talabalar)
+
+# baho111 = bahola(["ali", "vali", "hasan", "husan"])
+# print(baho111)
+
 
 
 
@@ -34,14 +34,11 @@
 
 # def summa(*sonlar):
 #     """Kiritilgan sonlar yig'indisini hisoblaydigan funksiya"""
-#     yigindi = 0
+#     yigindi = 1
 #     for son in sonlar:
 #         yigindi += son
 #     return yigindi
 
-
-# print(summa(1, 2))
-# print(summa(1, 2, 3, 4, 5))
 # print(summa(4, 5, 6, 7))
 
 
@@ -62,10 +59,7 @@
 
 # print(summa(1, 2))
 # print(summa(1, 2, 3, 4, 5))
-# print(summa(4, 5, 6, 7))
-# print(summa(2))
-
-
+# print(summa(9))
 
 # def avto_info(kompaniya, model, **malumotlar):
 #     """Avto haqidagi ma'lumotlarni lug'at ko'rinishdia qaytaruvchi funksiya"""

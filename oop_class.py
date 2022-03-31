@@ -57,28 +57,28 @@ class Talaba:
 
 talaba1 = Talaba("Alijon", "Valiyev", 2000)
 print(talaba1.get_fullname())
-print(talaba1.get_age(2021))
+print(talaba1.get_age(2022))
 
-talaba1.tanishtir()
+# talaba1.tanishtir()
 
-# class Talaba1():
-#     # /sknda.fkn
-#     def __init__(self, ism, familya, tyil):
-#         self.ism = ism
+class Talaba1():
+    # /sknda.fkn
+    def __init__(self, ism, familya, tyil):
+        self.ism = ism
     
     
-#     def get_name(self):
-#         pass
+    def get_name(self):
+        pass
     
-#     def get_lastname(self):
-#         pass
+    def get_lastname(self):
+        pass
     
-#     def get_fullname(self):
-#         pass
+    def get_fullname(self):
+        pass
     
-#     def get_age(self):
-#         pass
+    def get_age(self):
+        pass
     
-#     def tanishtir(self):
-#         pass
+    def tanishtir(self):
+        pass
 

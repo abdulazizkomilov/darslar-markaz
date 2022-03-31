@@ -4,50 +4,28 @@
 # PI = 3.14
 # AS = 55.90
 
-# import math
+# a = 10
+
+# PI = 3.14 
+
+# DM = 77
+import math
 # a = math.pi
 # print(a)
 
-# d = 20 
-# ism = 'Islom'
-
-# b = 10 == 23
-# a = 23 != 70
-# print(a)
-# print(b)
-# a = 30
-# b= 15
+# a = 3
+# b = 3
 # c = a**b
-# print(math.sqrt(c))
+# print(math.sqrt(c)) #ildizdan chiqaradi
 
-# import  math as m
-# print(m.ceil(8.3))
+# print(math.ceil(8.3)) #katta yaqini
 
-# print(m.floor(8.7))
+# print(math.floor(8.7)) #kichik yaqini
 
-# print(m.sqrt(81))
+# print(math.sin(5))  #sonning sin si
 
-# print(m.sin(0))
+# print(math.factorial(5))
 
-# print(m.factorial(10))
+# print(math.log(125, 5))
 
-# print(m.log(125, 5))
-
-# print(m.cos(180))
-
-# a = 155
-# b = 87
-# c = a + b
-# print(c)
-
-
-
-
-
-
-
-
-
-
-
-
+# print(math.cos(180))

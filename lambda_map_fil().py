@@ -1,10 +1,15 @@
-# import math
+import math
 
 # def nom(argument):
 #     return ifoda
-# lambda x: x*x
-# uzunlik = lambda pi, r : 2*pi*r
-# print(uzunlik(math.pi,10))
+
+a = lambda x: x*x
+print(a(8))
+
+uzunlik = lambda pi, r : 2*pi*r
+print(uzunlik(math.pi,10))
+
+
 # def kbvadrat(x, y):
 
 # kvadrat = lambda x, y : x ** y
@@ -45,9 +50,9 @@
 # ismlar = ['hasan','husan','olim','umid']
 # print(list(map(lambda matn:matn.upper(),ismlar)))
 
-import random as r
+# import random as r
 
-sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
+# sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
 # print(sonlar)
 
 
@@ -63,7 +68,7 @@ sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
 # print(juft_sonlar)
 
 
-mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "banan"]
+# mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "banan"]
 # harf = "b"
 # mevalar_b = list(filter(lambda meva: meva.startswith(harf), mevalar))
 # print(mevalar_b)
@@ -73,8 +78,8 @@ mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "ban
 
 # print(list(filter(lambda meva: (meva.startswith("a") and meva.endswith("r")), mevalar)))
 
-sonlar = r.sample(range(100),10)
-juft = [son for son in sonlar if son%2==0]; print(juft)
+# sonlar = r.sample(range(100),10)
+# juft = [son for son in sonlar if son%2==0]; print(juft)
 
 
 # f1 = lambda x: x * 10

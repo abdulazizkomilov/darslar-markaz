@@ -22,9 +22,8 @@
 # ishora = True
 # while ishora:
 #     ism = input("Do'stingiz ismini kiriting: ")
-#     yosh = input(f"{ism.title()}ning yoshini kiriting: ")
-#     dostlar[ism] = int(yosh)
-
+#     yosh = int(input(f"{ism.title()}ning yoshini kiriting: "))
+#     dostlar[ism] = yosh
 #     javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
 #     if javob == "yo'q":
 #         ishora = False
@@ -35,7 +34,7 @@
     
     
 # cars = ["lacetti", "nexia", "toyota", "nexia", "audi", "malibu", "nexia", "lacetti"]
-# car = "lacetti"
+# car = "nexia"
 # while car in cars:
 #     cars.remove(car)
 
