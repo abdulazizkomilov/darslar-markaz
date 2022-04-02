@@ -16,20 +16,19 @@
 # CTRL bir nechta filelarni birdan belgilash
 # CTRL + A barcha fileni belgilaydi
 
-.isdigit()
 # # TARTIBLASH
 # cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
-# # print(cars)
-# # cars.sort()
-# # print(cars)
+# print(cars)
+# cars.sort()
+# print(cars)
 
 # # KATTA VA KICHIK HARF
-# cars = ['Bmw','mercedes benz', 'volvo', 'gm', 'Tesla', 'Audi']
+# cars = ['bmw','mercedes benz', 'Volvo', 'gm', 'Tesla', 'audi']
 # cars.sort()
-# # print(cars)
+# print(cars)
 
 # # TESKARI TARTIB
-# cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
+cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 # print(cars)
 # cars.sort(reverse=True)
 # print(cars)
@@ -45,7 +44,7 @@
 
 
 # # SONLI RO'YXATLAR
-# ages = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
+ages = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
 # ages.sort()
 # print(ages)
 # print(sorted(ages, reverse=True))
