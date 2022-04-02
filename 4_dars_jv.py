@@ -11,9 +11,9 @@
 # print(sonlar)
 
 # # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring. 
-# sonlar[0] = sonlar[0]+sonlar[-1]
+# sonlar[0] += sonlar[-1]
 # sonlar[1] = -67.8
-# sonlar[4] = sonlar[4] + 37
+# sonlar[4] += 37
 # del sonlar[5]
 # print(sonlar)
 
