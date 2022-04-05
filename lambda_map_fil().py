@@ -58,10 +58,10 @@ from math import sqrt  # sqrt - kvadrat ildiz
 # ismlar = ['hasan','husan','olim','umid']
 # print(list(map(lambda matn:matn.upper(),ismlar)))
 
-import random as r
+# import random as r
 
-sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-print(sonlar)
+# sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
+# print(sonlar)
 
 
 # def juftmi(x):
@@ -72,19 +72,19 @@ print(sonlar)
 # juft_sonlar = list(filter(juftmi,sonlar))
 # print(juft_sonlar)
 
-juft_sonlar = list(filter(lambda x: x % 2 == 0, sonlar))
-print(juft_sonlar)
+# juft_sonlar = list(filter(lambda x: x % 2 == 0, sonlar))
+# print(juft_sonlar)
 
 
 # mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "banan"]
-# harf = "b"
+# harf = "t"
 # mevalar_b = list(filter(lambda meva: meva.startswith(harf), mevalar))
 # print(mevalar_b)
 
 # mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar))
 # print(mevalar2)
 
-# print(list(filter(lambda meva: (meva.startswith("a") and meva.endswith("r")), mevalar)))
+# print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar)))
 
 # sonlar = r.sample(range(100),10)
 # juft = [son for son in sonlar if son%2==0]; print(juft)
@@ -93,7 +93,7 @@ print(juft_sonlar)
 
 # import random as r # random modulini r deb chaqirayapmiz
 
-# son = r.randint(0,100) # 0 va 100 oralig'ida tasodifiy son
+# son = r.randint(1,11) # 0 va 100 oralig'ida tasodifiy son
 # print(son)
 
 
