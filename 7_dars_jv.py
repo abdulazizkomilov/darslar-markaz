@@ -15,6 +15,14 @@
 # for son in sonlar:
 #     print(son ** 3)
 
+# # i = 0
+# sonlar = list(range(120, 1200, 2))
+# # for a in sonlar:
+# #     i += a
+# #     print(f"{i};  {i} + {a} = {i + a}")
+# # print(sum(sonlar))
+# print(max(sonlar) - min(sonlar))
+
 # # Foydalanuvchidan 5 ta eng sevimli kinolarini kiritshni so'rang,
 # # va kinolar degan ro'yxatga saqlab oling. Natijani konsolga chiqaring.
 # kinolar = []

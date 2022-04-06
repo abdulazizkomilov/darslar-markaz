@@ -44,6 +44,7 @@ avto3 = Avto("Toyota",'Carolla',"Silver",2018, 45000)
 avto4 = Avto("Mazda", "6", 'Qizil',2015,35000)
 avto5 = Avto("Volkswagen","Polo",'Qora',2015,30000)
 avto6 = Avto("Honda","Accord","Oq",2017,42000)
+avto7 = Avto("Ga","Ford","Oq",2018,40000)
 
 
 class AvtoSalon:
