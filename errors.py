@@ -1,25 +1,27 @@
-# # ERRORS
-# # O`zgaruvchiklar
+# ERRORS
+# O`zgaruvchiklar
 
-# dustlar = ['olim', 'usmon']
+dustlar = ['olim', 'usmon']
 # dustalr = ...
-# 1dustlar = []
-# dustlar1@ = []
-# salom = ''Assalomu alaykum''
+# dustlar = []
+dustlar1_fgh = []
+salom = 'Assalomu alaykum'
 # !@#$%^&*()
 
-# input()
+# input("Ismingizni kiriting>>>")
 # a = input("Ismingizni kiriting>>>")
 # print(a)
 # input('Savol yozish kerak? ')
-# input()
-# # print()
-# a = 1
-# b = 2
-# print (f"a = {a} ga teng")
-# print(f"b = {b} ga teng")
+# int(input())
+# print()
+a = 1
+b = 2
+# print(f"a = {a} ga teng")
+# print(f"b = (b) ga teng")
+# print("b = {b} ga teng")
 
-# list()
-# lists = ['Computer', 81, 124, ]
+list()
+lists = ['Computer', 81, 124, ]
+
 # lists = ['Computer', 81, 124, 'telephone']
-# print(lists[1])
+print(lists[3])

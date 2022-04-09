@@ -15,6 +15,8 @@
 # javob = float(input("12x6 nechiga teng?>>> "))
 # if javob!=72:
 #     print("Javob xato!")
+# else:
+#     print("Javob to`gri")
 
 # yosh = int(input("Yoshingiz nechida?>>>"))
 # if yosh>=18: # yosh 18 dan katta yoki teng bo'lsa
@@ -27,8 +29,8 @@
 #     print("Login 5 harfdan ko'proq bo'lishi shart!")
 
 # yil = int(input("Tug'ilgan yilingizni kiriting:"))
-# if 2020-yil<18: # foydalanuvchi yoshini hisoblaymiz
-#     print(f"Yoshingiz {2020-yil}da ekan.")
+# if 2022-yil<18: # foydalanuvchi yoshini hisoblaymiz
+#     print(f"Yoshingiz {2022-yil}da ekan.")
 #     print("Kirish mumkin emas!")
 # else:
 #     print("Xush kelibsiz!")
@@ -40,6 +42,6 @@
 #     else:
 #         print(car.title())
 
-# yosh = int(input("Yoshingiz nechida?>>>"))
-# if yosh > 65:
-#     print("Siz COVID-19 riks guruhida ekansiz")
+yosh = int(input("Yoshingiz nechida?>>>"))
+if yosh > 65:
+    print("Siz COVID-19 riks guruhida ekansiz")
