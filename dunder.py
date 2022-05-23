@@ -19,9 +19,9 @@ class Avto:
     def get_km(self):
         return self.__km
 
-    # def __str__(self):
-    #     """Obyekt haqida ma'lumot"""
-    #     return f"Avto: {self.make} {self.model}. {self.narh}$"
+    def __str__(self):
+        """Obyekt haqida ma'lumot"""
+        return f"Avto: {self.make} {self.model}. {self.narh}$"
 
     def __repr__(self):
         """Obyekt haqida ma'lumot"""
@@ -43,14 +43,14 @@ class Avto:
         return self.narh == boshqa_avto.narh
     
     def __ne__(self, boshqa_avto):          # x != y 
-        return self.narh != boshqa_avto.narh
+        return self.narh !=  boshqa_avto.narh
 
     def get_info(self):
         return (
             f"{self.rang} {self.make} {self.model}.{self.yil}-yil. Narhi:{self.narh}$"
         )
 
-avto = Avto("BMW", "x7", "qora", 2020, 60000)
+avto = Avto("BMW", "x7", "qora", 2020, 40000)
 # print(avto)  #__str__
 # str(avto)    #__str__
 
@@ -73,12 +73,12 @@ class AvtoSalon:
     def __repr__(self):
         return f"{self.name} avto saloni"
 
-    def __getitem__(self, index):    # salon1[2]  index kurish uchun
-        return self.avtolar[index]
+    # def __getitem__(self, index):    # salon1[2]  index kurish uchun
+    #     return self.avtolar[index]
 
-    def __setitem__(self, index, value):   # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
-        if isinstance(value, Avto):
-            self.avtolar[index] = value
+    # def __setitem__(self, index, value):   # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
+    #     if isinstance(value, Avto):
+    #         self.avtolar[index] = value
 
     def add_avto(self, *qiymat):
         for avto in qiymat:
@@ -89,12 +89,12 @@ class AvtoSalon:
 
 
 salon1 = AvtoSalon("MaxAvto")
-salon2 = AvtoSalon("Avto Lider")
-salon3 = AvtoSalon("Sam Avto")
+# salon2 = AvtoSalon("Avto Lider")
+# salon3 = AvtoSalon("Sam Avto")
 
 
 salon1.add_avto(avto1, avto2, avto3)
-salon2.add_avto(avto4, avto5, avto6)
-salon3.add_avto(avto)
+salon1.add_avto(avto4, avto5, avto6)
+# salon3.add_avto(avto)
 
-# AMALIYOT - Avvalga darslarda yaratilgan obyektlarga (Shaxs, Talaba) turli dunder metodlarni qo'shishni mashq qiling. + Obyekt haqida ma'lumot (rerp) + Talabalarni bosqichi bo'yicha solishtirish (lt, eg va hokazo)
+# # AMALIYOT - Avvalga darslarda yaratilgan obyektlarga (Shaxs, Talaba) turli dunder metodlarni qo'shishni mashq qiling. + Obyekt haqida ma'lumot (rerp) + Talabalarni bosqichi bo'yicha solishtirish (lt, eg va hokazo)

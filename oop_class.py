@@ -1,24 +1,28 @@
 # class Talaba:
 #     """Talaba nomli klass yaratamiz"""
 
-#     def __init__(self, ism, familiya, tyil):
+#     def __init__(self, ism, familiya, tyil, tel):
 #         """Talabaning xususiyatlari"""
 #         self.ism = ism
 #         self.familiya = familiya
 #         self.tyil = tyil
+#         self.tel = tel
+    
+#     def get_tel(self):
+#         return self.tel
 
 #     def tanishtir(self):
-#         print(f"Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman")
+#         print(f"Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman, {self.tel}")
 
 
-# talaba1 = Talaba("Alijon", "Valiyev", 2000)
-# talaba2 = Talaba("Hasan", "Umarov", 1995)
+# talaba1 = Talaba("Alijon", "Valiyev", 2000, 99893208399)
+# talaba2 = Talaba("Hasan", "Umarov", 1995, 9983737593)
 
 # print(talaba1.ism)
 # print(talaba1.familiya)
 # talaba2.tanishtir()
 
-# talaba2 = Talaba("Olim", "Olimov", 1995)
+# talaba2 = Talaba("Olim","Hakimov", 2001, 901234567)
 # talaba2.tanishtir()
 # talaba3 = Talaba("Husan", "Akbarov", 2004)
 # talaba4 = Talaba("Hasan", "Akbarov", 2004)
@@ -55,30 +59,29 @@ class Talaba:
         print(f"Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman")
 
 
-talaba1 = Talaba("Alijon", "Valiyev", 2000)
+talaba1 = Talaba("olim", "Hakimov", 2005)
 print(talaba1.get_fullname())
 print(talaba1.get_age(2022))
 
-# talaba1.tanishtir()
+talaba1.tanishtir()
 
-class Talaba1():
-    # /sknda.fkn
-    def __init__(self, ism, familya, tyil):
-        self.ism = ism
+# class Talaba1():
+#     # /sknda.fkn
+#     def __init__(self, ism, familya, tyil):
+#         self.ism = ism
     
+#     def get_name(self):
+#         pass
     
-    def get_name(self):
-        pass
+#     def get_lastname(self):
+#         pass
     
-    def get_lastname(self):
-        pass
+#     def get_fullname(self):
+#         pass
     
-    def get_fullname(self):
-        pass
+#     def get_age(self):
+#         pass
     
-    def get_age(self):
-        pass
-    
-    def tanishtir(self):
-        pass
+#     def tanishtir(self):
+#         pass
 

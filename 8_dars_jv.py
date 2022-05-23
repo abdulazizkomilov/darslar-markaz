@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # #Yangi cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia'] degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
 # cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
 # for car in cars:
@@ -36,7 +35,7 @@
 
 # #Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring. 
 # son = float(input('Istalgan son kiriting: '))
-=======
+
 # #Yangi cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia'] degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
 # cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
 # for car in cars:
@@ -74,5 +73,5 @@
 
 # #Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring. 
 # son = float(input('Istalgan son kiriting: '))
->>>>>>> fb467f257ec44a18f9f793f5c04562f7569806d7
+
 # print(son**(1/2)) if son>0 else print('Musbat son kiriting')

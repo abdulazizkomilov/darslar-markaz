@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load tailwind_tags %}
+
+{% block content %}
+    {% for post in object_list %}
+        <div class="group relative text-sm">
+            <div class="aspect-w-1 aspect-h-1 rounded-lg bg-gray-100 overflow-hidden group-hover:opacity-75">
+                <img src="https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg" alt="Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees." class="object-center object-cover" width="150" height="150">
+            </div>
+            <a href="{% url 'post_detail' post.pk %}" class="mt-6 block font-medium text-gray-900">
+                <span class="absolute z-10 inset-0" aria-hidden="true"></span>
+                {{ post.title }}
+            </a>
+            <p aria-hidden="true" class="mt-1">{{ post.body | slice:":10" }}</p>
+        </div>
+    {% endfor %}
+{% endblock content %}

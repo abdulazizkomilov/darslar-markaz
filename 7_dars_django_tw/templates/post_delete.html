@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load tailwind_filters %}
+
+{% block head_title %}<title>Delete</title>{% endblock %}
+
+{% block content %}
+    <h1>Postni o`chirish</h1>
+        <form action="" method="post">{% csrf_token %}
+            {{ form|crispy }}
+            <button type="submit" class="btn btn-info">O`chirish</button>
+        </form>
+{% endblock content %}

@@ -7,13 +7,14 @@
 # .lower() kichik
 # .upper() katta
 
-# a = 'abdUlaZIZ komiLoV'
+# a = 'abdulaziz komilov'
 # print(a.capitalize())
-# print()
+# # print()
 
 # name = input("Ismingizni kiriting: ")
 
 # print("Salom", name.title())
+# print(a.title())
 
 # name = input("Ismingizni kiriting: ")
 # age = input("")
@@ -32,28 +33,29 @@
 # print(son3 / son2)
 
 
-# % // **, <, >,
+# # % // **, <, >,
 # son1 = 10
 # son2 = 3
 
+# print(son1 / son2)
 # print(son1 % son2)
 # print(son1 // son2)
 # print(son1 ** son2)
 
-# a = 22
-# b = 54
+a = 22
+b = 54
 # age = 10
-# print(a > b)
-# print(a < b)
-# age = int(input("yosh...: "))
-# print(2022 - age)
+print(a > b)
+print(a < b)
+age = int(input("yosh...: "))
+print(2022 - age)
 
 
 # float()
-
-# a = 5.3
-# b = 3.7
-# print(a - b)
+g = 5
+a = 5.3
+b = 3.7
+print(a - b)
 
 
 # ==, !=

@@ -77,12 +77,12 @@ class AvtoSalon:
         else:
             print(f"AvtoSalon ga {type(qiymat)} qo`shib bo`lmaydi")
 
-    def __call__(self, *param):   # salon1() obyekt haqida malumot / salon1(avto1, avto2) qabulqilsin
-        if param:
-            for avto in param:
-                self.add_avto(avto)
-        else:
-            return [avto for avto in self.avtolar]
+    # def __call__(self, *param):   # salon1() obyekt haqida malumot / salon1(avto1, avto2) qabulqilsin
+    #     if param:
+    #         for avto in param:
+    #             self.add_avto(avto)
+    #     else:
+    #         return [avto for avto in self.avtolar]
 
     def add_avto(self, *qiymat):
         for avto in qiymat:
@@ -100,6 +100,6 @@ salon3 = AvtoSalon("Sam Avto")
 
 
 salon1.add_avto(avto1, avto2, avto3)
-salon2.add_avto(avto4, avto5, avto6)
+salon2.add_avto(avto4, avto5, avto6, avto7)
 
     

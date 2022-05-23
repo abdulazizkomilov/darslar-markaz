@@ -1,13 +1,12 @@
-## Xatolar
-# yosh = input("Yoshingizni kiriting: ")
-# yosh = int(yosh)
+# # Xatolar
+# yosh = int(input("Yoshingizni kiriting: "))
 # print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
 # # try-except
 # yosh = input("Yoshingizni kiriting: ")
 # try:
 #     yosh = int(yosh)
-#     print(f"Siz {2021-yosh} yilda tug'ilgansiz")
+#     print(f"Siz {2022-yosh} yilda tug'ilgansiz")
 # except ValueError:
 #     print("Butun son kiritmadingiz")
 
@@ -22,17 +21,18 @@
 # else:
 #     print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
-# x, y = 5, 10
+# x, y = 3, 10
 # try:
-#     y/(x-5)
+#     print(y/(x-3))
 # except ZeroDivisionError:
 #     print("0 ga bo'lib bo'lmaydi")
 
 # mevalar = ['olma','anor','anjir','uzum']
-# index = int(input("kiriting: "))
+# a = int(input("index kiriting: "))
+# index = a - 1
 # try:
-#     if len(mevalar) < index:
-#         print(mevalar[index])
+#     if len(mevalar) <= index:
+#         mevalar[index]
 # except IndexError:
 #     print(f"Ro'yxatda {len(mevalar)} ta meva bor xolos")
 # else:
@@ -44,15 +44,20 @@
 #         "email":"admin@sariq.dev",
 #         "phone":"99897123456"}
 
-# key="tel"
+# key="phone"
 # try:
 #     print(f'Foydalanuvchi: {user[key]}')
 # except KeyError:
 #     print("Bunday kalit mavjud emas")
 
+
+
+
 # filename = "data.txt" # bunday fayl mavjud emas
 # with open(filename) as f:
 #     text = f.read()
+
+
 
 # filename = "data.txt" # bunday fayl mavjud emas
 # try:
@@ -62,11 +67,11 @@
 #     print(f"Kechirasiz, {filename} fayli mavjud emas. Bosh fayl tanlang.")
 
 # n = input("Butun son kiriting: ")
-# # n = int(n)
-# # x=20/n
-# # print(x)
+# n = int(n)
+# x=20/n
+# print(x)
 
-
+# n = input("Butun son kiriting: ")
 # try:
 #     n = int(n)
 #     x=20/n
@@ -120,3 +125,5 @@
 #     print("Bu son emas")
 # except:
 #     print("Xato yuz berdi!")
+
+

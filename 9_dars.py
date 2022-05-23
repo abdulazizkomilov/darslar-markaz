@@ -3,7 +3,7 @@
 #     print('Sizga kirish bepul.')
 # elif yosh <= 12:
 #     print("Sizga kirish 5000 so'm")
-# elif yosh<=18:
+# elif yosh <= 18:
 #     print('Sizga kirish 8000 so\'m')
 # else:
 #     print('Sizga kirish 10000 so\'m')
@@ -16,8 +16,6 @@
 #     price = 5000
 # else:
 #     price = 10000
-
-
 # print(f"Sizga kirish {price} so'm")
 
 # yosh = int(input('Yoshingiz nechida? '))
@@ -46,7 +44,7 @@
 # print(f"Sizga kirish {price} so'm")
 
 # kun = input("Bugun nima kun?>>>")
-# if kun.lower()=='shanba' or kun.lower()=='yakshanba':
+# if kun.lower() == 'shanba' or kun.lower() == 'yakshanba':
 #     print('Bugun dam olish kuni.')
 # else:
 #     print('Bugun ish kuni.')
@@ -59,7 +57,7 @@
 #     print("Uyda dam olamiz!")
 
 # choy = True
-# salat = False
+# salat = True
 # price = 15000
 # if choy and salat:
 #     price = price + 10000
@@ -77,7 +75,7 @@
 
 # if choy:
 #     print("Mijoz choy oldi.")
-#     narh = narh + 3000
+#     narh += 3000
 # if salat:
 #     print("Mijoz salat oldi.")
 #     narh = narh + 5000
@@ -93,6 +91,14 @@
 
 # print(f"Jami {narh} so'm")
 
+# ism = input("Ta`laba ism va familyasini kiriting: ")
+# baho = int(input(f"{ism}ni baholang>>> "))
+# if baho == 5:
+#     print("A`lo")
+# elif baho == 4:
+#     print("Yaxshi")
+# elif baho <= 3:
+#     print("Yomon")
 
 # menu = ['osh','qazonkabob','shashlik','norin','somsa']
 # ovqat = input('Nima ovqat yeysiz?>>>')
@@ -104,12 +110,10 @@
 
 
 
-# yosh = int(input("Yoshingiz nechida? "))
+# yosh = input("Yoshingiz nechida? ")
 
-# yosh = "18"
+# yosh = '18'
 # print(yosh.isdigit())
-
-
 
 # yil = "7"
 # print(yil.isdigit())
@@ -117,11 +121,11 @@
 # yil2 = "ikki"
 # print(yil2.isalnum())
 
-yosh = input("Yoshingiz nechida? ")
-if yosh.isdigit():
-    yosh = float(yosh)
-else:
-    print("Matnli raqam ")
+# yosh = input("Yoshingiz nechida? ")
+# if yosh.isdigit():
+#     yosh = float(yosh)
+# else:
+#     print("Matnli raqam ")
 
 
 # menu = ['osh','qazonkabob','shashlik','norin','somsa']

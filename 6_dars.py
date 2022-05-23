@@ -1,5 +1,5 @@
 # # RANGE()
-# sonlar = list(range(0, 11))
+# sonlar = list(range(0, 100, 5))
 # print(sonlar)
 
 # # RANGE VA QADAM
@@ -20,7 +20,7 @@
 # print(cars[2:]) # 2-elementdan boshlab ro'yxat oxirigacha kesib oladi
 
 # # RO'YXATDAN NUSXA OLISH
-# sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
+sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
 # # sonlar2 = sonlar
 # sonlar2 = sonlar[:] # sonlar2 degan ro'yxatni sonlar ga tenglaymiz
 # sonlar2.append(6) # sonlar2 ga 6 sonini qo'shamiz
@@ -39,9 +39,9 @@
 # print(toys[:5])
 
 # toys = ('bus','car','bear','dino','snake','lizard')
-# toys[3] = 'dragon'
-# del(toys[0])
-# toys.append('dragon')
+# # toys[3] = 'dragon'
+# # del(toys[0])
+# # toys.append('dragon')
 
 # # TUPLES<->LIST
 # toys = ('bus','car','bear','dino','snake','lizard') # o'zgarmas ro'yxat

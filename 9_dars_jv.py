@@ -1,19 +1,20 @@
-# son = float(input("Juft son kiriting: "))
+# son = int(input("Juft son kiriting: "))
 # if son % 2 != 0:
 #     print("Bu son juft emas.")
 # else:
 #     print("Rahmat!")
     
     
-# #2
-# yosh = int(input("Yoshingiz nechida?"))
+# # #2
+# yosh = int(input("Yoshingiz nechida? "))
 
-# if yosh <= 4 or yosh >= 60:
+# if yosh <= 4 or yosh >= 60: # agar
 #     narh = 0
-# elif yosh < 18:
+# elif yosh < 18:    #aks holda agar 
 #     narh = 10000
-# else:
+# else:               #aks holda
 #     narh = 20000
+    
 # print(f"Chipta {narh} so'm")
 
 
@@ -26,8 +27,8 @@
 #     print(f"{x}<{y}")
 # else:
 #     print(f"{x}>{y}")
-    
-    
+
+
 # #4
 # mahsulotlar = [
 #     "un",
@@ -161,26 +162,16 @@
 #     print("Kabisa yil emas")
 
 
-# oylar
-oy = int(input("oy>>> "))
+# # oylar
+# oy = int(input("oy>>> "))
 
-oylar = ['yan', 
-         'fev', 
-         'mart', 
-         'apr', 
-         'may', 
-         'iyn', 
-         'iyl', 
-         'avg', 
-         'sep', 
-         'okt', 
-         'nov',
-         'dek',]
+# oylar = ['yan', 'fev', 'mart', 'apr', 'may', 
+#           'iyn', 
+#           'iyl', 
+#           'avg', 
+#           'sep', 
+#           'okt', 
+#           'nov',
+#           'dek']
 
-for a in range(1, 13):
-    if oy == a:
-        a -= 1
-        print(f"{oylar[a]}")
-
-
-# kun
+# print(f"{oylar[oy-1]}")
