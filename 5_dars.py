@@ -28,11 +28,11 @@
 # print(cars)
 
 # # TESKARI TARTIB
-cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
+# cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 # print(cars)
-# cars.sort(reverse=True)
+# cars.sort(reverse=True)   # z - a
 # print(cars)
-# print(sorted(cars))
+# print(sorted(cars))  # a -z
 # print(cars)
 
 # # SORTED()
@@ -44,11 +44,11 @@ cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 
 
 # # SONLI RO'YXATLAR
-ages = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
-# ages.sort()
-# print(ages)
-# print(sorted(ages, reverse=True))
-# print(ages)
+# a = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
+# a.sort() # a - z
+# print(a)
+# print(sorted(a, reverse=True))
+# print(a)
 
 # # RO'YXATNI ORTIDAN BOSHLAB CHIQARISH
 # fruits = ['pear','banana','apple','watermelon','lemon']
@@ -59,9 +59,9 @@ ages = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
 # fruits = ['pear','banana','apple','watermelon','lemon']
 # print("Elementlar soni:",len(fruits)) # len(fruits) ro'yxat uzunligini qaytaradi
 
-# MIN(), MAX(), SUM()
-narhlar = [12000, 22500, 23456, 9800, 5600, 9934, 32874]
-arzon = min(narhlar)
-qimmat = max(narhlar)
-jami = sum(narhlar)
-print("Eng arzon narh ", arzon, ". Eng qimmati ", qimmat, ". Jami: ", jami)
+# # MIN(), MAX(), SUM()
+# narhlar = [12000, 22500, 23456, 9800, 5600, 9934, 32874]
+# arzon = min(narhlar)
+# qimmat = max(narhlar)
+# jami = sum(narhlar)
+# print("Eng arzon narh ", arzon, ". Eng qimmati ", qimmat, ". Jami: ", jami)

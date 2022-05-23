@@ -1,20 +1,22 @@
-# sabzovotlar = ['kartoshka', 'sabsi', 'piyoz', 'un']
+# sabzovotlar = ["kartoshka", 'sabsi', 'piyoz', 'un']
 
 # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
 # ismlar = ["Ali", "Vali", "Hasan", "Husan", "G'ani"]
-# Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
-# print("Salom " + ismlar[0] + " ishlaring yaxshimi?")
-
-# print(f"  ")
+# # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
+# print("Salom " + ismlar[3] + " ishlaring yaxshimi?")
+# print(f"Salom {ismlar[0]} ishlaring yaxshimi?")
+# yil = input("... ")
+# print(f"Siz {yil}da tug`ulgansiz.")
+# # print(f"  ")
 
 # print(f"{ismlar[2]} va {ismlar[3]} egizaklar")
 
 # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
-sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_678_000, 112.4]
+# sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_678_000, 112.4]
 # print(sonlar)
 # print(sonlar[-1])
 
-# # # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
+# # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
 # sonlar[0] = sonlar[0] + sonlar[-1]
 # sonlar[1] = -67.8
 # sonlar[4] = sonlar[4] + 37
@@ -46,8 +48,8 @@ friends.append("Alex")
 friends.append("Danny")
 friends.append("Sobirjon")
 friends.append("Vanya")
-# friends.append(20)
-# friends.append(982.43)
+friends.append(20)
+friends.append(982.43)
 # print(friends)
 
 # # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni .remove() metodi yordamida o'chrib tashlang.
@@ -65,11 +67,11 @@ friends.append("Vanya")
 
 
 # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. .pop() va .append() metodlari yordamida mehmonga kelgan do'stlaringizning ismini friends ro'yxatidan sug'urib olib, mehmonlar ro'yxatiga qo'shing.
-mehmonlar = []
-mehmonlar.append(friends.pop(3))
-mehmonlar.append(friends.pop(-1))
-mehmonlar.append(friends.pop(0))
-print("\nKelgan mehmonlar: ", mehmonlar)
+# mehmonlar = []
+# mehmonlar.append(friends.pop(3))
+# mehmonlar.append(friends.pop(-1))
+# mehmonlar.append(friends.pop(0))
+# print("\nKelgan mehmonlar: ", mehmonlar)
 
 
 
