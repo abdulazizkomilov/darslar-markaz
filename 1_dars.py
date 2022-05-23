@@ -3,10 +3,12 @@
 
 # print('Assalomu alaykum')
 # print("Xush kelibsiz")
+# print(789)
 
-# str() - string  
-# int() - integir
+# # str() - string  
+# # int() - integir
 
+# # a = int(input())
 # son = 10
 # son2 = 33
 # print("son = ",son)
@@ -14,16 +16,14 @@
 
 # a = 5
 # b = 6
-c = 'assalomu alaykum'
+# c = 'assalomu alaykum'
 
 # print(c)
-# print("b =",b)
-# print("a =",a)
-# 
+# print("b =",a)
+# print("a =",b)
+# # 
 
 # name = "Abdulaziz Komilov"
 # age = 20
-# print(name, ", yoshim", age, "da")
 
-a = 5
-b = 10
+# print(name, ", yoshim", age, "da")

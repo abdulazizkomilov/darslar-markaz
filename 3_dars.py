@@ -10,19 +10,22 @@
 
 # DM = 77
 import math
+
 # a = math.pi
 # print(a)
 
-# a = 3
-# b = 3
-# c = a**b
+# a = 7
+# b = 7
+# c = a*b
+# print(c)
+
 # print(math.sqrt(c)) #ildizdan chiqaradi
 
-# print(math.ceil(8.3)) #katta yaqini
+# print(math.ceil(45.6)) #katta yaqini
 
-# print(math.floor(8.7)) #kichik yaqini
+# print(math.floor(45.67)) #kichik yaqini
 
-# print(math.sin(5))  #sonning sin si
+# print(math.sin(90))  #sonning sin si
 
 # print(math.factorial(5))
 
