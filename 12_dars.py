@@ -1,11 +1,11 @@
-# # .items()
-# talaba_0 = {
-#     'ism':'alijon',
-#     'familiya':'shamshiyev',
-#     'yosh':22,
-#     'fakultet':'matematika',
-#     'kurs':4
-#     }
+# .items()
+talaba_0 = {
+    'ism':'alijon',
+    'familiya':'shamshiyev',
+    'yosh':22,
+    'fakultet':'matematika',
+    'kurs':4
+    }
 
 # key = input("Kalit so`z kiriting: ")
 # if key.lower() in talaba_0:
@@ -15,14 +15,11 @@
 #     value = input("Value>>> ")
 #     talaba_0[key] = value
 #     print(f"{key} -- {talaba_0[key]}")
-#     # print(f"{talaba_0['ism'].capitalize()} {talaba_0[key].capitalize()} shahrida yashaydi.")
-
 # print(talaba_0.items())
 
 # for kalit, qiymat in talaba_0.items():
 #     print(f"Kalit: {kalit}")
 #     print(f"Qiymat: {qiymat} \n")
-
 
 # telefonlar = {
 #     'ali':'iphone x',
@@ -31,36 +28,31 @@
 #     'orif':'nokia 3310'
 #     }
 
-# for k, q in telefonlar.items():
-#     print(f"{k.title()}ning telefoni {q}")
+# for key, value in telefonlar.items():
+#     print(f"{key.title()}ning telefoni {value}")
 
-# # .keys()
-# mahsulotlar = {
-#     'olma':10000,
-#     'anor':20000,
-#     'uzum':40000,
-#     'anjir':25000,
-#     'shaftoli':30000
-#     }
-
+# # # .keys()
+mahsulotlar = {
+    'olma':10000,
+    'anor':20000,
+    'uzum':40000,
+    'anjir':25000,
+    'shaftoli':30000
+    }
 # # print(mahsulotlar.keys())
+# print('Do\'kondagi mahsulotlar:')
+# for mahsulot in mahsulotlar.keys():
+#     print(mahsulot.title())
 
-# # print('Do\'kondagi mahsulotlar:')
-# # for mahsulot in mahsulotlar.keys():
-# #     print(mahsulot.title())
+bozorlik = ['anor','uzum','non','baliq']
+for mahsulot in mahsulotlar:
+    if mahsulot in bozorlik:
+        print(f"{mahsulot.title()} {mahsulotlar[mahsulot]} so'm")
 
-# # # print('Do\'kondagi mahsulotlar:')
-# # # for mahsulot in mahsulotlar:
-# # #     print(mahsulot.title())
+for buyum in bozorlik:
+    if buyum not in mahsulotlar:
+        print(f"Iltimos, do'koningizga {buyum} ham olib keling")
 
-# bozorlik = ['anor','uzum','non','baliq']
-# for mahsulot in mahsulotlar:
-#     if mahsulot in bozorlik:
-#         print(f"{mahsulot.title()} {mahsulotlar[mahsulot]} so'm")
-
-# for buyum in bozorlik:
-#     if buyum not in mahsulotlar:
-#         print(f"Iltimos, do'koningizga {buyum} ham olib keling")
 
 # # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
 # print("Do'konimizdagi mahsulotlar:")
@@ -68,7 +60,13 @@
 #     print(mahsulot.title())
 
 # # .values()
-# print(telefonlar.values())
+# # print(telefonlar.values())
+# telefonlar = {
+#     'ali':'iphone x',
+#     'vali':'galaxy s9',
+#     'olim':'mi 10 pro',
+#     'orif':'nokia 3310'
+#     }
 
 # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 # for tel in telefonlar.values():
@@ -77,24 +75,24 @@
 
 # # set
 
-telefonlar = {
-    'ali':'iphone x',
-    'vali':'galaxy s9',
-    'olim':'mi 10 pro',
-    'orif':'nokia 3310',
-    'hamida':'galaxy s9',
-    'maryam':'huawei p30',
-    'tohir':'iphone x',
-    'umar':'iphone x'
-    }
+# telefonlar = {
+#     'ali':'iphone x',
+#     'vali':'galaxy s9',
+#     'olim':'mi 10 pro',
+#     'orif':'nokia 3310',
+#     'hamida':'galaxy s9',
+#     'maryam':'huawei p30',
+#     'tohir':'iphone x',
+#     'umar':'iphone x'
+#     }
 
 # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 # for tel in telefonlar.values():
 #     print(tel)
 
-# set
-print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-for tel in set(telefonlar.values()):
-    print(tel)
+# # set
+# print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+# for tel in set(telefonlar.values()):
+#     print(tel)
 
 # toys = {"ball","car","lamp","ball"}

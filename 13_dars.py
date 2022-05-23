@@ -4,33 +4,33 @@
 #     "float": "O'nlik son",
 #     "boolean": "Mantiqiy qiymat",
 #     "for": "Biror amalni qayta-qayta bajarish tsikli",
-#     "if": "Shartlarni tekshirish operatori",
+#     "if": "Shartlarni tekshirish operatori"
 # }
 
 # for key, value in sorted(python_words.items()):
-#     print(f"{key.title()} - {value}")
+#     print(f"{key.title()} - {value.title()}")
     
     
     
-# __2__
-davlatlar = {
-    "o'zbekiston": "toshkent",
-    "aqsh": "washington d.c.",
-    "rossiya": "moskva",
-    "tojikiston": "dushanbe",
-    "qirg'iziston": "bishkek",
-    "qozog'iston": "nursulton",
-    "malayziya": "kuala-lumpur",
-    "singapur": "sungapur",
-    "italiya": "rim",
-}
+# # # __2__
+# davlatlar = {
+#     "o'zbekiston": "toshkent",
+#     "aqsh": "washington d.c.",
+#     "rossiya": "moskva",
+#     "tojikiston": "dushanbe",
+#     "qirg'iziston": "bishkek",
+#     "qozog'iston": "nursulton",
+#     "malayziya": "kuala-lumpur",
+#     "singapur": "singapur",
+#     "italiya": "rim"
+# }
 
-country = input("Qaysi davlatning poytaxtini bilishni istaysiz?:").lower()
-capital = davlatlar.get(country)
-if capital == None:
-    print("Kechirasiz, bizda bu haqida ma'lumot yo'q")
-else:
-    print(f"{country.upper()}ning poytaxti {capital.title()} shahri")
+# country = input("Qaysi davlatning poytaxtini bilishni istaysiz?:").lower()
+# capital = davlatlar.get(country)
+# if capital == None:
+#     print("Kechirasiz, bizda bu haqida ma'lumot yo'q")
+# else:
+#     print(f"{country.upper()}ning poytaxti {capital.title()} shahri")
     
 
 # __3__

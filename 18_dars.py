@@ -1,4 +1,4 @@
-# def bahola(ismlar):
+# def talabani_bahola(ismlar):
 #     baholar = {}
 #     while ismlar:
 #         ism = ismlar.pop()
@@ -8,8 +8,8 @@
 
 
 
-# baho111 = bahola(["ali", "vali", "hasan", "husan"])
-# print(baho111)
+# baho = talabani_bahola(["ali", "vali", "hasan", "husan"])
+# print(baho)
 
 
 
@@ -34,12 +34,12 @@
 
 # def summa(*sonlar):
 #     """Kiritilgan sonlar yig'indisini hisoblaydigan funksiya"""
-#     yigindi = 1
+#     yigindi = 0
 #     for son in sonlar:
 #         yigindi += son
 #     return yigindi
 
-# print(summa(4, 5, 6, 7))
+# print(summa(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 
 
 # def summa(*sonlar):
@@ -47,26 +47,25 @@
 #     return sum(sonlar)
 
 
-# print(summa(2))
 # print(summa(1, 2, 3, 4, 5))
-# print(summa(4, 5, 6, 7))
+# print(summa(1, 2, 3, 9, 10))
 
 
-# def summa(x, y, *sonlar):
-#     """Kiritilgan sonlar yig'indisini hisoblaydigan funksiya"""
-#     return x + y + sum(sonlar)
+def summa(x, y, *sonlar):
+    """Kiritilgan sonlar yig'indisini hisoblaydigan funksiya"""
+    return x + y + sum(sonlar)
 
 
-# print(summa(1, 2))
-# print(summa(1, 2, 3, 4, 5))
-# print(summa(9))
+print(summa(1, 2))
+print(summa(1, 2, 3, 4, 5))
+print(summa(9, 11))
 
-# def avto_info(kompaniya, model, **malumotlar):
-#     """Avto haqidagi ma'lumotlarni lug'at ko'rinishdia qaytaruvchi funksiya"""
-#     malumotlar["kompaniya"] = kompaniya
-#     malumotlar["model"] = model
-#     return malumotlar
+def avto_info(kompaniya, model, **malumotlar):
+    """Avto haqidagi ma'lumotlarni lug'at ko'rinishdia qaytaruvchi funksiya"""
+    malumotlar["kompaniya"] = kompaniya
+    malumotlar["model"] = model
+    return malumotlar
 
 
-# avto1 = avto_info("GM", "malibu", rang="qora", yil=2018)
-# avto2 = avto_info("Kia", "K5", rang="qizil", narh=35000, yil=2020, korobka="avtomat")
+avto1 = avto_info("GM", "malibu", rang="qora", yil=2018)
+avto2 = avto_info("Kia", "K5", rang="qizil", narh=35000, yil=2020, korobka="avtomat")

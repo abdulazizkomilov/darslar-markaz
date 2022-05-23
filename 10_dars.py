@@ -1,17 +1,17 @@
 # # SintaxError
-# # print "Hello World!"
 # print("Hello World!")
-# print("Assalom alaykum!")
+# print('Hello World!')
+# print('Assalom alaykum!')
 
 # # IndentationError
-#  print("Hello World!")
+# print("Hello World!")
 
 # print("O'ngacha sanaymiz")
 # for n in range(10):
 # print(n+1)
 
 # son = 50
-# if son>=0:
+# if son >= 0:
 #     print("Musbat son")
 # else:
 #     print("Manfiy son")
@@ -21,14 +21,13 @@
 # print(f"{son} ning kvadrati {son**2} ga teng")
 
 # #NameError
-# # prit("Hello World!")
+# print("Hello World!")
 # mevalar = ['olma','uzum','nok','anor','anjir']
 # for meva in mevalar:
 #     print(meva)
 
 # # ValueError
-
-# son = int(input("Istalgan son kiriting: "))
+# son = float(input("Istalgan son kiriting: "))
 # if son>=0:
 #     print("Musbat son")
 # else:
@@ -44,7 +43,7 @@
 
 # # Mantiqiy xatolar
 # radius = 5
-# pi = 4.14
+# pi = 3.14
 # aylana_yuzi = pi*radius**2
 # print(aylana_yuzi)
 
@@ -56,3 +55,4 @@
 # for meva in mevalar:
 #     print(meva)
 #     print("Dastur tugadi")
+# print("0")
