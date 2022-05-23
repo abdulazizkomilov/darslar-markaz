@@ -6,20 +6,20 @@
 # salom_ber()
 
 
-# def salom_ber(ism):
+# def salom_ber(ism, familya):
 #     """Fodyalanuvchi ismini qabul qilib,
 #     unga salom beruvchi funksiya"""
-#     print(f"Assalomu alaykum, hurmatli {ism.title()}!")
+#     print(f"Assalomu alaykum, hurmatli {ism.title()} {familya.title()}!")
 
 
 # #2
-# salom_ber("hasan")
-# salom_ber("olim")
+# salom_ber("hasan", "olimov")
+# salom_ber("olim", "hakimov")
 
-# # # salom_ber()
+# # # # salom_ber()
 
 
-# #3
+#3
 # def toliq_ism(ism, familiya):
 #     """Foydalanuvchi ism va familiyasini jamlab chiqaruvchi funksiya"""
 #     print(
@@ -29,7 +29,7 @@
 
 
 # toliq_ism('olim','hakimov')
-# # toliq_ism('hakimov','olim')
+# toliq_ism('hakimov','olim')
 
 
 # def yosh_hisobla(ism, tugilgan_yil):
@@ -38,7 +38,7 @@
 
 
 # yosh_hisobla('olim',1997)
-# yosh_hisobla(1997,'olim')
+# # yosh_hisobla(1997,'olim')
 
 # yosh_hisobla(tugilgan_yil=1997, ism="ali")
 # toliq_ism(familiya="hakimov", ism="olim")
@@ -50,8 +50,8 @@
 #     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")
 
 
-# # yosh_hisobla(1995,2022)
-# # yosh_hisobla(1993)
+# yosh_hisobla(1995,2022)
+# yosh_hisobla(1993)
 
 # tyil = int(input("Tug'ilgan yilingizni kiriting: "))
 # yosh_hisobla(tyil)

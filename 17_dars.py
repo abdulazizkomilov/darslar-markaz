@@ -3,12 +3,10 @@
 #     toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism
 
-
 # talaba1 = toliq_ism_yasa("olim", "hakimov")
 # talaba2 = toliq_ism_yasa("hakim", "olimov")
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 # print(f"{talaba1} darsga kechikib keldi")
-
 
 
 # def toliq_ism_yasa(ism, familiya, otasining_ismi=""):
@@ -25,7 +23,7 @@
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 
 
-# # # ****
+# ****
 # def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
 #     avto = {
 #         "kompany": kompaniya,
@@ -59,7 +57,7 @@
 #     return sonlar
 
 
-# print(oraliq(0, 10))
+# print(oraliq(0,10))
 # print(oraliq(10, 21))
 
 # def oraliq(min,max,qadam=1):

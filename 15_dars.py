@@ -11,7 +11,7 @@
 #         break
 
 
-# print("Do'stlaringiz ro'yxati:")
+# print("Do'stlaringiz ro'yxati: ")
 # for ism in ismlar:
 #     print(ism.title())
     
@@ -25,7 +25,7 @@
 #     yosh = int(input(f"{ism.title()}ning yoshini kiriting: "))
 #     dostlar[ism] = yosh
 #     javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
-#     if javob == "yo'q":
+#     if javob != "ha":
 #         ishora = False
 
 # for ism, yosh in dostlar.items():
@@ -48,3 +48,12 @@
 #     baho = input(f"{talaba.title()}ning bahosini kiriting: ")
 #     print(f"{talaba.title()} baholandi")
 #     baholangan_talabalar[talaba] = int(baho)
+
+
+
+# masala
+# talabalar1 = {
+#     'id12345': 'ali hakimov',
+#     }
+
+

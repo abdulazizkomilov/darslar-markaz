@@ -8,10 +8,9 @@
 
 # # while()
 # son = 1  # son ga 1 qiymatini beramiz
-# while son <= 5:  # toki son 5 dan kichik yoki teng ekan...
-#     print(son, end=" ")  # son ni konsolga chiqaramiz
-#     son = son + 1
-#     # son += 1 # songa 1 qo'shamiz
+# while son < 1100000:  # toki son 5 dan kichik yoki teng ekan...
+#     print(son, end=" ")  # son ni konsolga chiqaramiz    
+#     son += 1
 
 
 # # while and input
@@ -76,15 +75,20 @@
 #     else:
 #         print(son)
 
-# # infinite loop
-# son = 1
-# while son<10:
-    
-#     if son%2==0:
-        
+# infinite loop;
+# import math
+# print("Kiritilgan sonning ildizini qaytaruvchi dastur.")
+# savol = "Istalgan son kiriting "
+# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+# while True:
+#     son = input(savol)
+#     if son == 'exit':
+#         break
 #     else:
-#         print(son)
-#     son += 1
+#         print(math.sqrt(float(son)))
+# print('Dastur to\'xtadi!')
+
+
 
 # son = 0
 # while son<10:
@@ -94,12 +98,12 @@
 #         print(son)
 #     son += 1
 
-# son = 0
-# while son<10:
-#     son += 1
-#     if son%2 != 0:
-#         continue
-#     else:
-#         print(son)
+son = 0
+while son<10:
+    son += 1
+    if son%2 != 0:
+        continue
+    else:
+        print(son)
     
     
