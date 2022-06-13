@@ -1,5 +1,5 @@
 class Avto:
-    __num_avto = 0
+    __num_avto = 0  #incapsulatsiya
     """Avtomobil klassi"""
 
     def __init__(self, make, model, rang, yil, narh, km=1000):
@@ -19,9 +19,9 @@ class Avto:
     def get_km(self):
         return self.__km
 
-    def __str__(self):
-        """Obyekt haqida ma'lumot"""
-        return f"Avto: {self.make} {self.model}. {self.narh}$"
+    # def __str__(self):
+    #     """Obyekt haqida ma'lumot"""
+    #     return f"Avto: {self.make} {self.model}. {self.narh}$"
 
     def __repr__(self):
         """Obyekt haqida ma'lumot"""
@@ -54,7 +54,7 @@ avto = Avto("BMW", "x7", "qora", 2020, 40000)
 # print(avto)  #__str__
 # str(avto)    #__str__
 
-# repr(avto)  #all __str__, print
+# repr(avto)  #all str, print
 
 avto1 = Avto("GM","Malibu","Qora",2020,60000)
 avto2 = Avto("GM","Lacetti","Oq",2020,20000)
@@ -73,14 +73,14 @@ class AvtoSalon:
     def __repr__(self):
         return f"{self.name} avto saloni"
 
-    # def __getitem__(self, index):    # salon1[2]  index kurish uchun
-    #     return self.avtolar[index]
+    def __getitem__(self, index):    # salon1[2]  index kurish uchun
+        return self.avtolar[index]
 
-    # def __setitem__(self, index, value):   # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
-    #     if isinstance(value, Avto):
-    #         self.avtolar[index] = value
+    def __setitem__(self, index, value):   # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
+        if isinstance(value, Avto):
+            self.avtolar[index] = value
 
-    def add_avto(self, *qiymat):
+    def add_avto(self, *qiymat):  # *args, # **kwargs == *key, *value
         for avto in qiymat:
             if isinstance(avto, Avto):
                 self.avtolar.append(avto)
@@ -89,12 +89,13 @@ class AvtoSalon:
 
 
 salon1 = AvtoSalon("MaxAvto")
-# salon2 = AvtoSalon("Avto Lider")
-# salon3 = AvtoSalon("Sam Avto")
+salon2 = AvtoSalon("Avto Lider")
+salon3 = AvtoSalon("Sam Avto")
 
 
 salon1.add_avto(avto1, avto2, avto3)
-salon1.add_avto(avto4, avto5, avto6)
-# salon3.add_avto(avto)
+salon2.add_avto(avto4, avto5, avto6)
+salon3.add_avto(avto)
 
-# # AMALIYOT - Avvalga darslarda yaratilgan obyektlarga (Shaxs, Talaba) turli dunder metodlarni qo'shishni mashq qiling. + Obyekt haqida ma'lumot (rerp) + Talabalarni bosqichi bo'yicha solishtirish (lt, eg va hokazo)
+# salon1[1] / salon3[5] / salon2[:]
+# salon1[0] = Avto("Volva","K7","Oq",2017,50000)

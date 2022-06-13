@@ -29,23 +29,6 @@ talaba1.update_bosqich() # 1 bosqichga oshiramiz
 # # print(talaba1.get_info())
 
 
-# class Fan():
-#     def __init__(self,nomi):
-#         self.nomi = nomi
-#         self.talabalar_soni = 0
-#         self.talabalar = []
-    
-#     def add_student(self,talaba):
-#         """Fanga talabalar qo'shish"""
-#         self.talabalar.append(talaba)
-#         self.talabalar_soni += 1
-        
-#     def get_students(self):
-#         return [talaba.get_info() for talaba in self.talabalar]
-        
-
-
-
 class Fan():
     """Fan nomli klass"""
     def __init__(self,nomi):
@@ -90,7 +73,7 @@ matematika.add_student(talaba3)
 
 
 # mat_talabalar = matematika.get_students()
-# # print(mat_talabalar)
+# print(mat_talabalar)
 
 
 # dir()    
@@ -98,18 +81,20 @@ matematika.add_student(talaba3)
 
 # # # Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
 
-# def see_methods(klass):
-#     return [method for method in dir(klass) if method.startswith('__') is False]
+def see_methods(klass):
+    return [method for method in dir(klass) if method.startswith('__') is False]
+    
+    # for method in dir(klass):
+    #     if method.startswith('__') is False:
+    #         return method
 
-# print(see_methods(Talaba))
+print(see_methods(Talaba))
+print(see_methods(talaba1))
 
+print(talaba1.__dict__)
 
-# print(see_methods(talaba1))
-
-# print(talaba1.__dict__)
-
-# print(talaba1.__dict__.keys())
-
+print(talaba1.__dict__.keys())
+print(talaba1.__dict__.values())
 
 # AMALIYOT
 # Avto degan yangi klass yarating. Unga avtomobillarga doir bo'lgan bir nechta xususiyatlar (model, rang, korobka, narh va hokazo) qo'shing. Ayrim xususiyatlarga standart qiymat bering (masalan, kilometer=0)

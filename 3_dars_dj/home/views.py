@@ -1,5 +1,6 @@
 from django.views.generic import TemplateView
-# Create your views here.
+from .models import Post
 
 class HomePageView(TemplateView):
+    model = Post
     template_name = 'home.html'

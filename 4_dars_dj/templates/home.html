@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>home</title>
-</head>
-<body>
-    <h1>Xush Kelibsiz Kun.uz Sahifasiga</h1>
+{% extends 'base.html' %}
+
+{% block content %}
     {% for post in object_list %}
-        <li>{{ post.title }}
-            <ul>{{ post.text}}</ul>
+        <li><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a>
+            <ul>{{ post.summury }}</ul>
         </li>
     {% endfor %}
-</body>
-</html>
+{% endblock %}

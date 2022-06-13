@@ -12,7 +12,7 @@
     
     
     
-# # # __2__
+# # __2__
 # davlatlar = {
 #     "o'zbekiston": "toshkent",
 #     "aqsh": "washington d.c.",

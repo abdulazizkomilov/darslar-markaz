@@ -44,14 +44,14 @@ mahsulotlar = {
 # for mahsulot in mahsulotlar.keys():
 #     print(mahsulot.title())
 
-bozorlik = ['anor','uzum','non','baliq']
-for mahsulot in mahsulotlar:
-    if mahsulot in bozorlik:
-        print(f"{mahsulot.title()} {mahsulotlar[mahsulot]} so'm")
+# bozorlik = ['anor','uzum','non','baliq']
+# for mahsulot in mahsulotlar:
+#     if mahsulot in bozorlik:
+#         print(f"{mahsulot.title()} {mahsulotlar[mahsulot]} so'm")
 
-for buyum in bozorlik:
-    if buyum not in mahsulotlar:
-        print(f"Iltimos, do'koningizga {buyum} ham olib keling")
+# for buyum in bozorlik:
+#     if buyum not in mahsulotlar:
+#         print(f"Iltimos, do'koningizga {buyum} ham olib keling")
 
 
 # # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
@@ -68,6 +68,7 @@ for buyum in bozorlik:
 #     'orif':'nokia 3310'
 #     }
 
+# print(telefonlar.values())
 # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
 # for tel in telefonlar.values():
 #     print(tel)
@@ -75,24 +76,24 @@ for buyum in bozorlik:
 
 # # set
 
-# telefonlar = {
-#     'ali':'iphone x',
-#     'vali':'galaxy s9',
-#     'olim':'mi 10 pro',
-#     'orif':'nokia 3310',
-#     'hamida':'galaxy s9',
-#     'maryam':'huawei p30',
-#     'tohir':'iphone x',
-#     'umar':'iphone x'
-#     }
+telefonlar = {
+    'ali':'iphone x',
+    'vali':'galaxy s9',
+    'olim':'mi 10 pro',
+    'orif':'nokia 3310',
+    'hamida':'galaxy s9',
+    'maryam':'huawei p30',
+    'tohir':'iphone x',
+    'umar':'iphone x'
+    }
 
-# print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-# for tel in telefonlar.values():
-#     print(tel)
+print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+for tel in telefonlar.values():
+    print(tel)
 
 # # set
-# print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-# for tel in set(telefonlar.values()):
-#     print(tel)
+print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+for tel in set(telefonlar.values()):
+    print(tel)
 
 # toys = {"ball","car","lamp","ball"}
