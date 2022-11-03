@@ -8,8 +8,9 @@
 # .upper() katta
 
 # a = 'abdulaziz komilov'
+# print(a)
 # print(a.capitalize())
-# # print()
+
 
 # name = input("Ismingizni kiriting: ")
 
@@ -17,50 +18,51 @@
 # print(a.title())
 
 # name = input("Ismingizni kiriting: ")
-# age = input("")
-# print("")
+# print("A.A F.", name, 'X.K')
+
+# age = input("Yoshingizni kiriting: ")
+# print(2022-age)
 
 # + - / *  
 # son1 = 10
 # son2 = 4
-# son3 = son1 + son2
-# print(son3)
+# natija = son1 + son2
+# print(natija)
 
 # son4 = son1 - son2
 # print(son4)
 
-# print(son1 * son2)
-# print(son3 / son2)
+# a = 10
+# b = 4
+# natija = a * b
+# print(natija / 2)
 
 
 # # % // **, <, >,
 # son1 = 10
 # son2 = 3
-
+# natija = son1 / son2
 # print(son1 / son2)
 # print(son1 % son2)
 # print(son1 // son2)
 # print(son1 ** son2)
 
-a = 22
-b = 54
-# age = 10
-print(a > b)
-print(a < b)
-age = int(input("yosh...: "))
-print(2022 - age)
+# a = 22
+# b = 54
+# print(a > b)
+# print(a < b)
 
 
 # float()
-g = 5
-a = 5.3
-b = 3.7
-print(a - b)
+# d = "salom"
+# o = True
+# g = 5
+# a = 5.3
+# b = 3.7
+# print(a - b)
 
 
 # ==, !=
-
-
 
 
 

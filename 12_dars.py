@@ -1,11 +1,11 @@
-# .items()
-talaba_0 = {
-    'ism':'alijon',
-    'familiya':'shamshiyev',
-    'yosh':22,
-    'fakultet':'matematika',
-    'kurs':4
-    }
+# # .items()
+# talaba_0 = {
+#     'ism':'alijon',
+#     'familiya':'shamshiyev',
+#     'yosh':22,
+#     'fakultet':'matematika',
+#     'kurs':4
+#     }
 
 # key = input("Kalit so`z kiriting: ")
 # if key.lower() in talaba_0:
@@ -15,6 +15,7 @@ talaba_0 = {
 #     value = input("Value>>> ")
 #     talaba_0[key] = value
 #     print(f"{key} -- {talaba_0[key]}")
+    
 # print(talaba_0.items())
 
 # for kalit, qiymat in talaba_0.items():
@@ -53,14 +54,19 @@ mahsulotlar = {
 #     if buyum not in mahsulotlar:
 #         print(f"Iltimos, do'koningizga {buyum} ham olib keling")
 
-
-# # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
+# mahsulotlar = {
+#     'olma':10000,
+#     'anor':20000,
+#     'uzum':40000,
+#     'anjir':25000,
+#     'shaftoli':30000
+#     }
+# # # LUG'AT ELEMENTLARINI TARTIB BILAN CHIQARISH
 # print("Do'konimizdagi mahsulotlar:")
 # for mahsulot in sorted(mahsulotlar):
 #     print(mahsulot.title())
 
 # # .values()
-# # print(telefonlar.values())
 # telefonlar = {
 #     'ali':'iphone x',
 #     'vali':'galaxy s9',
@@ -76,24 +82,22 @@ mahsulotlar = {
 
 # # set
 
-telefonlar = {
-    'ali':'iphone x',
-    'vali':'galaxy s9',
-    'olim':'mi 10 pro',
-    'orif':'nokia 3310',
-    'hamida':'galaxy s9',
-    'maryam':'huawei p30',
-    'tohir':'iphone x',
-    'umar':'iphone x'
-    }
+# telefonlar = {
+#     'ali':'iphone x',
+#     'vali':'galaxy s9',
+#     'olim':'mi 10 pro',
+#     'orif':'nokia 3310',
+#     'hamida':'galaxy s9',
+#     'maryam':'huawei p30',
+#     'tohir':'iphone x',
+#     'umar':'iphone x'
+#     }
 
-print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-for tel in telefonlar.values():
-    print(tel)
+# # print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+# # for tel in telefonlar.values():
+# #     print(tel)
 
-# # set
-print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
-for tel in set(telefonlar.values()):
-    print(tel)
-
-# toys = {"ball","car","lamp","ball"}
+# # # # set
+# print('Foydalanuvchilar quyidagi telefonlarni ishlatishadi:')
+# for tel in set(telefonlar.values()):
+#     print(tel)

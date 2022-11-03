@@ -1,22 +1,22 @@
-# car_0 = {"model": "ferrari", "rang": "qizil"}
-# print(car_0["model"])
-# print(car_0["rang"])
+# # car = {"model": "ferrari", "rang": "qizil"}
+# # print(car["model"])
+# # print(car["rang"])
 
 # # Lug'atda istalgan ma'lumot turlarini saqlash mumkin
 # talaba_0 = {
 #     'ism':'murod olimov',
-#     'yosh':22,
-#     't_yil':2000
+#     'yosh': 22,
+#     't_yil': 2000
 # }
-# print(f"{talaba_0['ism'].title()}, \
-#   {talaba_0['t_yil']}-yilda tu'gilgan,\
-#   {talaba_0['yosh']} yoshda")
+# # print(f"""{talaba_0['ism'].title()}, 
+# #   {talaba_0['t_yil']}-yilda tu'gilgan,
+# #   {talaba_0['yosh']} yoshda""")
 
-# # Yangi kalit so'z va qiymat qo'shish
+# # # Yangi kalit so'z va qiymat qo'shish
 # talaba_0['kurs'] = 4
 # talaba_0['fakultet'] = 'informatika'
 # talaba_0['ism'] = 'abdulloh'
-# print(talaba_0)
+# # print(talaba_0)
 # print(f"{talaba_0['ism'].title()}, \
 #   {talaba_0['t_yil']}-yilda tu'gilgan,\
 #   {talaba_0['yosh']} yoshda, \
@@ -35,7 +35,7 @@
 # talaba_1['kurs'] = 4
 # print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
-# # Kalit so'z-qiymat ni o'chirib tashlashj
+# # Kalit so'z-qiymat ni o'chirib tashlash
 # talaba_0 = {'ism':'murod olimov','yosh':22,'t_yil':2000}
 # print(talaba_0)
 # del talaba_0['yosh']
@@ -48,7 +48,7 @@
 #     'olim':'mi 10 pro',
 #     'orif':'nokia 3310'
 #     }
-# # get() metodi
+
 # phone = telefonlar['ali']
 # print(f"Alining telefoni {phone}")
 
@@ -57,7 +57,9 @@
 
 # # phone = telefonlar['hasan']
 # # print(f"Hasanning telefoni {phone}")
-# phone = telefonlar.get('hasan','Bunday ism mavjud emas')
+
+# # get() metodi
+# phone = telefonlar.get('olim','Bunday ism mavjud emas')
 # print(phone)
 
 # phone = telefonlar['ali']
@@ -70,12 +72,12 @@
 # phone = telefonlar.get('hasan')
 # print(phone)
 
-sonlar = {}
-a_1 = int(input("a>>>  "))
-b_1 = int(input("b>>>  "))
-sonlar["a"] = a_1
-sonlar["b"] = b_1
-print(sonlar)
+# sonlar = {}
+# a_1 = int(input("a>>>  "))
+# b_1 = int(input("b>>>  "))
+# sonlar["a"] = a_1
+# sonlar["b"] = b_1
+# print(sonlar)
 
-print(f"a = {sonlar['a']}")
+# print(f"a = {sonlar['a']}")
 

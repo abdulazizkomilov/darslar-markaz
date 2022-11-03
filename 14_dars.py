@@ -8,10 +8,10 @@
 
 # # while()
 # son = 1  # son ga 1 qiymatini beramiz
-# while son < 1100000:  # toki son 5 dan kichik yoki teng ekan...
-#     print(son, end=" ")  # son ni konsolga chiqaramiz    
-#     son += 1
-
+# while son < 100:  # toki son 11 dan kichik yoki teng ekan...
+#     print(son, end="\n")  # son ni konsolga chiqaramiz    
+#     son = son + 1
+# print("salom")
 
 # # while and input
 # print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
@@ -25,7 +25,7 @@
 # print('Dastur tugadi')
 
 
-# # ishora
+# ishora
 # print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
 # savol = "Istalgan son kiriting "
 # savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
@@ -52,19 +52,19 @@
 # print('Dastur tugadi!')
 
 
-# # break for
-# sonlar = list(range(1,11))
-# for son in sonlar:
-#     if son == 5:
-#         break
-#     print(f"{son} ning kvadrati {son**2} ga teng")
+# break for
+sonlar = list(range(1,11))
+for son in sonlar:
+    if son == 5:
+        break
+    print(f"{son} ning kvadrati {son**2} ga teng")
 
-# # CONTINUE
-# sonlar = list(range(1,11))
-# for son in sonlar:
-#     if son == 5:
-#         continue
-#     print(f"{son} ning kvadrati {son**2} ga teng")
+# CONTINUE
+sonlar = list(range(1,11))
+for son in sonlar:
+    if son == 5:
+        continue
+    print(f"{son} ning kvadrati {son**2} ga teng")
 
 # # Continue while
 # son = 0
@@ -98,12 +98,12 @@
 #         print(son)
 #     son += 1
 
-son = 0
-while son<10:
-    son += 1
-    if son%2 != 0:
-        continue
-    else:
-        print(son)
+# son = 0
+# while son<10:
+#     son += 1
+#     if son%2 != 0:
+#         continue
+#     else:
+#         print(son)
     
     

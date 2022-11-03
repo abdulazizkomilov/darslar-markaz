@@ -1,18 +1,14 @@
-# # __1__
 # python_words = {
 #     "integer": "Butun son",
 #     "float": "O'nlik son",
 #     "boolean": "Mantiqiy qiymat",
 #     "for": "Biror amalni qayta-qayta bajarish tsikli",
-#     "if": "Shartlarni tekshirish operatori"
+#     "if": "Shartlarni tekshirish operatori",
 # }
 
 # for key, value in sorted(python_words.items()):
 #     print(f"{key.title()} - {value.title()}")
     
-    
-    
-# # __2__
 # davlatlar = {
 #     "o'zbekiston": "toshkent",
 #     "aqsh": "washington d.c.",
@@ -25,33 +21,33 @@
 #     "italiya": "rim"
 # }
 
-# country = input("Qaysi davlatning poytaxtini bilishni istaysiz?:").lower()
+# country = input("Qaysi davlatning poytaxtini bilishni 
+#                 istaysiz?:").lower()
 # capital = davlatlar.get(country)
 # if capital == None:
 #     print("Kechirasiz, bizda bu haqida ma'lumot yo'q")
 # else:
 #     print(f"{country.upper()}ning poytaxti {capital.title()} shahri")
     
+# menu = {
+#     "osh": 20000,
+#     "lag'mon": 22000,
+#     "non": 4000,
+#     "choy": 5000,
+#     "shashlik": 12000,
+#     "somsa": 6000,
+#     "tabaka": 15000,
+# }
+# narh = 0
+# print("3 ta taom buyurtma bering.")
+# buyurtmalar = []
+# for n in range(3):
+#     buyurtmalar.append(input(f"{n+1}-taom:").lower())
 
-# __3__
-menu = {
-    "osh": 20000,
-    "lag'mon": 22000,
-    "non": 4000,
-    "choy": 5000,
-    "shashlik": 12000,
-    "somsa": 6000,
-    "tabaka": 15000,
-}
-
-print("3 ta taom buyurtma bering.")
-buyurtmalar = []
-for n in range(3):
-    buyurtmalar.append(input(f"{n+1}-taom:").lower())
-
-for buyurtma in buyurtmalar:
-    if buyurtma in menu:
-        print(f"{buyurtma.title()} {menu[buyurtma]} so'm")
-    else:
-        print(f"Kechirasiz, bizda {buyurtma} yo'q.")
-        
+# for buyurtma in buyurtmalar:
+#     if buyurtma in menu:
+#         narh = narh + menu[buyurtma]
+#         print(f"{buyurtma.title()} {menu[buyurtma]} so'm")
+#     else:
+#         print(f"Kechirasiz, bizda {buyurtma} yo'q.")
+# print(f"Jami: {narh}")
