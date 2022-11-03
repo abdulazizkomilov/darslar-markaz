@@ -9,6 +9,8 @@
 # PI = 3.14 
 
 # DM = 77
+
+
 import math
 
 # a = math.pi
@@ -21,14 +23,14 @@ import math
 
 # print(math.sqrt(c)) #ildizdan chiqaradi
 
-# print(math.ceil(45.6)) #katta yaqini
+# print(math.ceil(45.6)) #katta yaqiniga
 
-# print(math.floor(45.67)) #kichik yaqini
+# print(math.floor(45.67)) #kichik yaqiniga
 
 # print(math.sin(90))  #sonning sin si
 
-# print(math.factorial(5))
+# print(math.factorial(5))  #1*2*3*4*5
 
-# print(math.log(125, 5))
+# print(math.log(125, 5))  #(5*5*5) == 5**3
 
 # print(math.cos(180))

@@ -1,33 +1,15 @@
-# Teskor klavishlar
-# CTRL + C -copy (kopya qiladi)
-# CTRL + V -paste (kopya qilganni quyadi)
-# CTRL + X -cut (kesib oladi)
-# CTRL + Z -undo (orqaga qaytaradi)
-# CTRL + SHIFT + Z -next (oldinga yuradi)
-# CTRL + L -clear  (oynani tozalaydi)
-# CTRL + S -save (faylni saqlaydi)
-# CTRL + ! -comment (anacondada commentga oladi yani codeni uqimay ketadi)
-# CTRL + ? -comment (pycharmda commentga oladi yani codeni uqimay ketadi)
-# CTRL + ''+'' -workes (ish stoli)
-# CTRL + ''-'' -workes (ish stoli)
-# CTRL + SHIFT + ''+'' -consol (consol yoki shell)
-# CTRL  + ''-'' -consol consol yoki shell)
-# ALT + TAB barcha ochiq oynalarni ko`rsatadi
-# CTRL bir nechta filelarni birdan belgilash
-# CTRL + A barcha fileni belgilaydi
-
-# # TARTIBLASH
+# TARTIBLASH
 # cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
 # print(cars)
 # cars.sort()
 # print(cars)
 
-# # KATTA VA KICHIK HARF
-# cars = ['bmw','mercedes benz', 'Volvo', 'gm', 'Tesla', 'audi']
+# KATTA VA KICHIK HARF
+# cars = ['bmw','mercedes benz', 'Volvo', 'gm', 'Tesla', 'Audi']
 # cars.sort()
 # print(cars)
 
-# # TESKARI TARTIB
+# TESKARI TARTIB z-a
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 # print(cars)
 # cars.sort(reverse=True)   # z - a
@@ -37,7 +19,7 @@
 
 # # SORTED()
 # mehmonlar = ['Odil', 'Hamid', 'Temur', 'Avazbek', 'Farruh', 'Shamsiddin']
-# print("sorted() dan qaytargan ro'yxat:", sorted(mehmonlar))
+# print("sorted() a-z dan qaytargan ro'yxat:", sorted(mehmonlar))
 # print("Asl ro'yxat o'zgarmas qoldi:", mehmonlar)
 # print(sorted(mehmonlar, reverse=True))
 # print("Asl ro'yxat o'zgarmas qoldi:", mehmonlar)
@@ -45,19 +27,37 @@
 
 # # SONLI RO'YXATLAR
 # a = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
-# a.sort() # a - z
-# print(a)
+# # a.sort() # a - z
+# print(sorted(a))
 # print(sorted(a, reverse=True))
 # print(a)
 
-# # RO'YXATNI ORTIDAN BOSHLAB CHIQARISH
+# friends = []
+# name_1 = input("Ismingizni kiriting:  ")
+# friends.append(name_1)
+# name_2 = input("Ismingizni kiriting:  ")
+# friends.append(name_2)
+# name_3 = input("Ismingizni kiriting:  ")
+# friends.append(name_3)
+# name_4 = input("Ismingizni kiriting:  ")
+# friends.append(name_4)
+# name_5 = input("Ismingizni kiriting:  ")
+# friends.append(name_5)
+# print(sorted(friends))
+# print(friends)
+
+# RO'YXATNI ORTIDAN BOSHLAB CHIQARISH
 # fruits = ['pear','banana','apple','watermelon','lemon']
-# fruits.reverse()
+# fruits.reverse() 
 # print(fruits)
+
+# son = [3, 5, 2, 1, 4]
+# son.reverse() 
+# print(son)
 
 # # RO'YXAT UZUNLIGI
 # fruits = ['pear','banana','apple','watermelon','lemon']
-# print("Elementlar soni:",len(fruits)) # len(fruits) ro'yxat uzunligini qaytaradi
+# print("Elementlar soni:", len(fruits)) # len(fruits) ro'yxat uzunligini qaytaradi
 
 # # MIN(), MAX(), SUM()
 # narhlar = [12000, 22500, 23456, 9800, 5600, 9934, 32874]
@@ -65,3 +65,4 @@
 # qimmat = max(narhlar)
 # jami = sum(narhlar)
 # print("Eng arzon narh ", arzon, ". Eng qimmati ", qimmat, ". Jami: ", jami)
+# print(f"Eng arzon narh: {arzon}. Eng qimmati: {qimmat}. Jami: {jami}")

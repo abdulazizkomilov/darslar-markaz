@@ -18,11 +18,26 @@
 # davlatlar.reverse()
 # print(davlatlar)
 
-# # sort() metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
+# sort() metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
 # davlatlar.sort()
 # print(davlatlar)
 # davlatlar.sort(reverse=True)
 # print(davlatlar)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # # 120 dan 1200 gacha bo'lgan juft sonlar ro'yxatini tuzing
 # sonlar = list(range(120, 1200))
