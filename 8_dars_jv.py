@@ -16,7 +16,7 @@
 #     print(car.upper()) 
     
     
-# #Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, "Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?" xabarini konsolga chiqaring. Aks xolda, "Xush kelibsiz, {foydalanuvchi_ismi}!" matnini konsolga chiqaring.
+# # #Foydalanuvchi login ismini so'rang. Agar login admin bo'lsa, "Xush kelibsiz, Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?" xabarini konsolga chiqaring. Aks xolda, "Xush kelibsiz, {foydalanuvchi_ismi}!" matnini konsolga chiqaring.
 # login = input("Login kiriting: ")
 # if login.lower() == 'admin':
 #   print("Xush kelibsiz Admin, foydalanuvchilar ro'yxatini ko'rasizmi?")
@@ -29,12 +29,22 @@
 # if x==y: print(f"Sonlar teng: {x}={y}")
 
 # #Foydalanuvchidan istalgan son kiritishni so'rang. Agar son manfiy bo'lsa konsolga "Manfiy son", agar musbat bo'lsa "Musbat son" degan xabarni chiqaring.
-# son = float(input("Istalgan son kiriting:"))
-# print("Son manfiy") if son<0 else print("Son musbat")
+# son = float(input("Istalgan son kiriting: "))
+# [print("Son manfiy") if son<0 else print("Son musbat")]
+# print("son manfiy") if son < 0 else print("son musbat")
+    
+
+    
 
 
+# import math
 # #Foydalanuvchidan son kiritishni so'rang, agar son musbat bo'lsa uning ildizini hisoblab konsolga chiqaring. Agar son manfiy bo'lsa, "Musbat son kiriting" degan xabarni chiqaring. 
 # son = float(input('Istalgan son kiriting: '))
+# if son > 0:
+#     a = math.sqrt(son)
+#     print(a)
+# else:
+#     print("Musbat son kiriting")
 
 # #Yangi cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia'] degan ro'yxat tuzing, ro'yxat elementlarining birinchi harfini katta qilib konsolga chqaring. GM uchun ikkala harfni katta qiling.
 # cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']

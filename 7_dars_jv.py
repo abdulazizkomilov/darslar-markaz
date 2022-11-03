@@ -4,8 +4,8 @@
 # for ism in ismlar:
 #     print(f"Assalom alaykum, {ism}. Sahifamizga xush kelibsiz!")
 
-# # Yuoqirdagi tsikl tugaganidan so'ng,
-# # ekranga "Kod n marta takrorlandi" degan xabar chiqaring
+# # # Yuoqirdagi tsikl tugaganidan so'ng,
+# # # ekranga "Kod n marta takrorlandi" degan xabar chiqaring
 # # (n o'rniga kod necha marta takrorlanganini yozing)
 # print(f"Kod {len(ismlar)} marta takrorlandi")
 
@@ -13,6 +13,7 @@
 # # Ro'yxatning xar bir elementining kubini yangi qatordan konsolga chiqaring.
 # sonlar = list(range(11, 100, 2))
 # for son in sonlar:
+#     print(son)
 #     print(son ** 3)
 
 # # i = 0
@@ -27,7 +28,7 @@
 # # va kinolar degan ro'yxatga saqlab oling. Natijani konsolga chiqaring.
 # kinolar = []
 # print("5 ta sevimli kinoingiz qaysilar?")
-# for k in range(5):
+# for k in range(5):  # 0, 1, 2, 3, 4  k = 0
 #     kinolar.append(input(f"{k+1}-kino:"))
 # print(kinolar)
 

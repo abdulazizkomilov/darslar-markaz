@@ -1,8 +1,8 @@
 # # RANGE()
-# sonlar = list(range(0, 100, 5))
+# sonlar = list(range(1, 10, 2))
 # print(sonlar)
 
-# # RANGE VA QADAM
+# RANGE VA QADA          15, 35
 # juft_sonlar = list(range(0, 20, 2)) # 0 dan 20 gacha 2 qadam bilan
 # print("Juft sonlar: ", juft_sonlar)
 
@@ -10,7 +10,7 @@
 # #toq_sonni chiqarib kurish
 # print("Toq sonlar: ", toq_sonlar)
 
-# # RO'YXATNI KESISH
+# RO'YXATNI KESISH
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 # my_cars = cars[0:3] # 0-indeskdan boshlab 3 ta element ajratib olamiz
 # print(cars)
@@ -20,7 +20,7 @@
 # print(cars[2:]) # 2-elementdan boshlab ro'yxat oxirigacha kesib oladi
 
 # # RO'YXATDAN NUSXA OLISH
-sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
+# sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
 # # sonlar2 = sonlar
 # sonlar2 = sonlar[:] # sonlar2 degan ro'yxatni sonlar ga tenglaymiz
 # sonlar2.append(6) # sonlar2 ga 6 sonini qo'shamiz
@@ -28,9 +28,17 @@ sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
 # print("Bu sonlar ro'yxati:", sonlar)
 # print("Bu sonlar2 ro'yxati:", sonlar2)
 
+
+# numbers deb nomlangan list yasang va range yordamida 
+# 22dan 68gacha sonlarni shakillantirib oling va 
+# shu listdan numbers_2 nomli list yasab unga qo`shimcha 
+# 88, 12, 0 va 99 sonlarni qo`shib tartib bilan chiqaring
+
+
+
 # # TUPLES
 # tomonlar = (20, 30, 55.2)
-# # tomonlar.append(6)
+# # tomonlar.pop(0)
 # print(tomonlar)
 
 # toys = ('bus','car','bear','dino','snake','lizard')
@@ -39,9 +47,9 @@ sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
 # print(toys[:5])
 
 # toys = ('bus','car','bear','dino','snake','lizard')
-# # toys[3] = 'dragon'
-# # del(toys[0])
-# # toys.append('dragon')
+# toys[3] = 'dragon'
+# del(toys[0])
+# toys.append('dragon')
 
 # # TUPLES<->LIST
 # toys = ('bus','car','bear','dino','snake','lizard') # o'zgarmas ro'yxat

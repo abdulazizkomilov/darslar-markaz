@@ -44,8 +44,8 @@
 # ]
 
 # savat = []
-# for n in range(5):
-#     savat.append(input(f"Savatga {n+1}-mahsulotni qo'shing: "))
+# # for n in range(5):
+# #     savat.append(input(f"Savatga {n+1}-mahsulotni qo'shing: "))
 
 # if savat:
 #     for mahsulot in savat:
@@ -104,14 +104,14 @@
 #     print("Xush kelibsiz!")
     
     
-# # 6
+# # # 6
 # son = int(input("Istalgan butun son kiriting: "))
 
 # for n in range(2, 11):
 #     if not (son % n):
 #         print(f"{son} soni {n} ga qoldiqsiz bo'linadi")
 
-# # 1
+# 1
 # for x in range(1,11):
 #     print(x, end=(" "))
 
@@ -130,8 +130,8 @@
 #     print(a, end=(", "))
     
 
-# # 4
-# til = input("Tilni tanlang: uz/en ? ")
+# # # 4
+# til = input("Tilni tanlang: uz/en/ru ? ")
 
 # if til == 'uz':
 #     print("Assalomu alaykum")
@@ -143,8 +143,8 @@
 # # ikkita tasodifiy son
 # from random import randint
 
-# a = randint(1, 500)
-# b = randint(1, 500)
+# a = randint(1, 11)
+# b = randint(1, 11)
 
 # c = int(input('{} + {} = '.format(a, b)))
 
@@ -152,7 +152,31 @@
 #     print("To`g`ri! :)")
 # else:
 #     print("Xato! :(")
+ 
+from random import randint   
+print("Amallardan birini tanlang: ")
+a = ["ayirish", "bo'lish", "qo'shish"]
+
+son = 1
+for b in a:
+    print(son, "-", b, end=("\n"))
+    son += 1
     
+savol = input("Amal raqamini kiriting. >>>  ")
+if savol == "1":
+    a = randint(1, 11)
+    b = randint(1, 11)
+    print("Misolni javobini kiriting:")
+    c = int(input('{} - {} = '.format(a, b)))
+    if c == (a - b):
+        print("To`g`ri! :)")
+    else:
+        print("Xato! :(")
+elif savol == "2":
+    print("bo'lish")
+elif savol == "3":
+    print("qo'shish")
+
 # # yil 
 # a = int(input("Yilni kiriting >>> "))
 
