@@ -52,19 +52,19 @@
 # print('Dastur tugadi!')
 
 
-# break for
-sonlar = list(range(1,11))
-for son in sonlar:
-    if son == 5:
-        break
-    print(f"{son} ning kvadrati {son**2} ga teng")
+# # break for
+# sonlar = list(range(1,11))
+# for son in sonlar:
+#     if son == 5:
+#         break
+#     print(f"{son} ning kvadrati {son**2} ga teng")
 
-# CONTINUE
-sonlar = list(range(1,11))
-for son in sonlar:
-    if son == 5:
-        continue
-    print(f"{son} ning kvadrati {son**2} ga teng")
+# # CONTINUE
+# sonlar = list(range(1,11))
+# for son in sonlar:
+#     if son == 5:
+#         continue
+#     print(f"{son} ning kvadrati {son**2} ga teng")
 
 # # Continue while
 # son = 0
@@ -75,7 +75,7 @@ for son in sonlar:
 #     else:
 #         print(son)
 
-# infinite loop;
+# # infinite loop;
 # import math
 # print("Kiritilgan sonning ildizini qaytaruvchi dastur.")
 # savol = "Istalgan son kiriting "
@@ -85,25 +85,29 @@ for son in sonlar:
 #     if son == 'exit':
 #         break
 #     else:
-#         print(math.sqrt(float(son)))
+#         if int(son) < 0:
+#             print("Iltimos musbat son kiriting!")
+#         else:
+#             print(math.sqrt(float(son)))
 # print('Dastur to\'xtadi!')
 
 
 
 # son = 0
 # while son<10:
+    
 #     if son%2!=0:
 #         continue
 #     else:
 #         print(son)
 #     son += 1
 
-# son = 0
-# while son<10:
-#     son += 1
-#     if son%2 != 0:
-#         continue
-#     else:
-#         print(son)
+son = 0
+while son<10:
+    son += 1
+    if son%2 != 0:
+        continue
+    else:
+        print(son)
     
     
