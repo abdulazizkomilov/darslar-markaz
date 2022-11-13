@@ -7,3 +7,4 @@ def son_top(num):
     return summa
 
 print(son_top(son))
+
