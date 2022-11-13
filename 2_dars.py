@@ -1,26 +1,26 @@
-# int, str
-# float()
-# boolen
-# input, + - / * % // **, <, >, ==, !=
-# .capitalize() so`z boshidagini katta
-# .title() so`zlar bosh harflarini katta
-# .lower() kichik
-# .upper() katta
+# # int, str
+# # float()
+# # boolen
+# # input, + - / * % // **, <, >, ==, !=
+# # .capitalize() so`z boshidagini katta
+# # .title() so`zlar bosh harflarini katta
+# # .lower() kichik
+# # .upper() katta
 
 # a = 'abdulaziz komilov'
 # print(a)
 # print(a.capitalize())
-
+# print(a.title())
 
 # name = input("Ismingizni kiriting: ")
 
 # print("Salom", name.title())
-# print(a.title())
+
 
 # name = input("Ismingizni kiriting: ")
 # print("A.A F.", name, 'X.K')
 
-# age = input("Yoshingizni kiriting: ")
+# age = int(input("Yoshingizni kiriting: "))
 # print(2022-age)
 
 # + - / *  
