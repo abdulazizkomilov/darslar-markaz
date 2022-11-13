@@ -1,6 +1,4 @@
-# print("Hello World!")
-
-
+# print("Assalomu alaykum")
 
 # print('Hello world!')
 
@@ -11,9 +9,12 @@
 # # str() - string  {matnlar}
 # # int() - integir  {sonlar}
 
-# a = int(input("a sonni kiriting: "))
+# ism = input("Ismingizni kiriting: ")
+# print("Xush kelibsiz -", ism)
+
+# a = int(input("A sonni kiriting: "))
 # b = int(input("b sonni kiriting: "))
-# print(a + b)
+# print("a + b =", a + b)
 
 # ism = input("Assalomu alaykum foydalanuvchi isminzgizni kiriting: ")
 # print('Assalomu alaykum ', ism, 'dasurimizga xush kelibsiz!')
@@ -37,6 +38,22 @@
 
 
 # print(name, "yoshim", age, "da", )
+
+# name = input("Ismingizni kiriting>>>  ")
+# age = int(input("Yoshingni kiriting>>>  "))
+# print("Assalomu alaykum ",name,"sizning yoshingiz ",age,"da")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
