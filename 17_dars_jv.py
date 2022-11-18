@@ -70,14 +70,15 @@
 # tub_sonlar_top(1,200)
 
 
-# def fibonacci(n):
-#     sonlar = []
-#     for x in range(n):
-#         if x==0 or x==1:
-#             sonlar.append(1)        
-#         else:
-#             # print(sonlar[x-1], sonlar[x-2])
-#             sonlar.append(sonlar[x-1]+sonlar[x-2])
-#     return sonlar
+def fibonacci(n):
+    sonlar = []
+    for x in range(n):
+        if x==0 or x==1:
+            sonlar.append(1)    
+            print(sonlar)
+        else:
+            print(sonlar[x-1], sonlar[x-2])
+            sonlar.append(sonlar[x-1]+sonlar[x-2])
+    return sonlar
 
-# print(fibonacci(10))
+print(fibonacci(10))
