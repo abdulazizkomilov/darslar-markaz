@@ -1,21 +1,24 @@
-# import avto_info_mod # avto_info_mod faylini (modulini) chaqiramiz
+import avto_dars_mod # avto_info_mod faylini (modulini) chaqiramiz
 
-# avto1 = avto_info_mod.avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
-# avto_info_mod.info_print(avto1)
+avto1 = avto_dars_mod.avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
+avto_dars_mod.info_print(avto1)
 
 
 
-# import avto_info_mod as aim # avto_info_mod ni qisqa nom aim bilan chaqiramiz
+import avto_dars_mod as adm # avto_info_mod ni qisqa nom aim bilan chaqiramiz
 
-# avto1 = aim.avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
-# aim.info_print(avto1)
+avto1 = adm.avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
+adm.info_print(avto1)
 
-import avto_info_mod as aim # avto_info_mod ni qisqa nom aim bilan chaqiramiz
 
-avto1 = aim.avto_kirit()
+
+
+import avto_dars_mod as adm # avto_info_mod ni qisqa nom aim bilan chaqiramiz
+
+avto1 = adm.avto_kirit()
 
 for avto in avto1:
-    aim.info_print(avto)
+    adm.info_print(avto)
 
 
 # from avto_info_mod import avto_info, info_print

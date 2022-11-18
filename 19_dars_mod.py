@@ -24,7 +24,8 @@ def avto_kirit():
         narhi = input("Narhi: ")
         # Foydalanuvchi kiritdan ma'lumotlardan avto_info yordamida
         # lug'at shakllantirib, har bir lug'atni ro'yxatga qo'shamiz:
-        avtolar.append(avto_info(kompaniya, model, rangi, korobka, yili, narhi))
+        avtolar.append(avto_info(kompaniya, model, rangi, 
+                                 korobka, yili, narhi))
         # Yana avto qo'shish-qo'shmaslikni so'raymiz
         javob = input("Yana avto qo'shasizmi? (yes/no): ")
         if javob == "no":
