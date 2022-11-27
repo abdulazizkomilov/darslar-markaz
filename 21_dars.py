@@ -1,5 +1,4 @@
 import math
-
 # def nom(argument):
 #     argument+=1
     
@@ -9,7 +8,7 @@ import math
 
 # uzunlik = lambda pi, r : 2*pi*r
 
-# # print(uzunlik(math.pi,10))
+# print(uzunlik(math.pi, 10))
 
 # kvadrat = lambda x, y: x ** y
 # print(kvadrat(3, 2))
@@ -25,8 +24,7 @@ import math
 # print(kub(10))
 # print(f"3-ning kvadrati {kvadrat(3)} ga, " f"kubi {kub(3)} ga teng")
 
-# from math import sqrt  # sqrt - kvadrat ildiz
-
+# from math import sqrt
 sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 # ildizlar = list(map(sqrt,sonlar))
 # print(ildizlar)
@@ -38,7 +36,7 @@ sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 
 # print(list(map(daraja2,sonlar)))
 
-# kvadratlar = list(map(lambda x: x * x, sonlar))
+# print(list(map(lambda x: x * x, sonlar)))
 # print(kvadratlar)
 
 
@@ -52,7 +50,7 @@ sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 
 # import random as r
 # sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-# # print(sonlar)
+# print(sonlar)
 # # def juftmi(x):
 # #     """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
 # #     return x % 2 == 0
@@ -64,12 +62,12 @@ sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 # print(juft_sonlar)
 
 mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "banan"]
-# harf = "sh"
-# mevalar_b = list(filter(lambda meva: meva.startswith(harf), mevalar))
-# print(mevalar_b)
+harf = "a"
+mevalar_b = list(filter(lambda meva: meva.startswith(harf), mevalar))
+print(mevalar_b)
 
-# mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar))
-# print(mevalar2)
+mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar))
+print(mevalar2)
 
 print(list(filter(lambda meva: (meva.startswith("a") and meva.endswith("r")), mevalar)))
 
