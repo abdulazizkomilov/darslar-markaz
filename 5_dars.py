@@ -1,20 +1,20 @@
-# TARTIBLASH
+# # TARTIBLASH
 # cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
 # print(cars)
 # cars.sort()
 # print(cars)
 
-# KATTA VA KICHIK HARF
+# # KATTA VA KICHIK HARF
 # cars = ['bmw','mercedes benz', 'Volvo', 'gm', 'Tesla', 'Audi']
 # cars.sort()
 # print(cars)
 
-# TESKARI TARTIB z-a
+# # TESKARI TARTIB z-a
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 # print(cars)
-# cars.sort(reverse=True)   # z - a
+# cars.sort(reverse=True)   # z - a; asl ro`yxatni o`zgartirib yuboradi 
 # print(cars)
-# print(sorted(cars))  # a -z
+# print(sorted(cars))  # a -z; asl ro`yxatni o`zgartirmaydi 
 # print(cars)
 
 # # SORTED()
@@ -46,7 +46,7 @@
 # print(sorted(friends))
 # print(friends)
 
-# RO'YXATNI ORTIDAN BOSHLAB CHIQARISH
+# # RO'YXATNI ORTIDAN BOSHLAB CHIQARISH
 # fruits = ['pear','banana','apple','watermelon','lemon']
 # fruits.reverse() 
 # print(fruits)

@@ -34,13 +34,13 @@
 
 
 # yosh = int(input('Yoshingiz nechida? '))
-# if yosh<=4:
+# if yosh<=4:   # 0 -> 4
 #     price = 0
-# elif yosh<=12:
+# elif yosh<=12:  # 5 -> 12
 #     price = 5000
-# elif yosh<65:
+# elif yosh<65:  # 65 ->
 #     price = 10000
-# elif yosh>=65:
+# elif yosh>=65: # <- 65
 #     price = 8000
 
 # print(f"Sizga kirish {price} so'm")
@@ -51,40 +51,61 @@
 # else:
 #     print('Bugun ish kuni.')
 
-# kun = input("Bugun nima kun?")
-# harorat = float(input("Havo harorati qanday? "))
+# kun = input("Bugun nima kun?>>> ")
+# harorat = float(input("h kiriting: "))
+# kunlar = ["dushanba", 
+#           "seshanba", 
+#           "chorshanba",
+#           "payshanba", 
+#           "juma",
+#           "shanba",
+#           'yakshanba']
+# for i in kunlar:
+#     i
+#     if kun.lower() == i:
+#         if kun.lower() == kunlar[-1] and harorat >= 30:
+#             print("chom ....")
+#         else:
+#             print(f"{i} ish kuni")
+#     else:
+#         print("h k b k")       
+        
 # if kun.lower()=='yakshanba' and harorat>=30:
 #     print("Cho'milgani ketdik!")
 # elif kun.lower()=='yakshanba' and harorat<30:
 #     print("Uyda dam olamiz!")
-
+# elif kun.lower()=='dushanba' or kun.lower()=='shanba':
+#     print("Ish kuni")
+# else:
+#     print("i h k b k")
+    
 # non = input("""Buyurtmachi non oldimi? 
 # Olgan bulsa '1' deb yozing
 # >>> """)
 
 # choy = True  #yes 1 | no 0
-# salat = False
+# salat = True
 # price = 15000
 # if choy and salat:
 #     price = price + 10000
 # elif choy or salat:
 #     price = price + 5000
-
 # print(f"Jami {price} so'm")
+
 
 # narh = 15000 # mijoz 15 so'mga ovqat oldi
 # choy = True  #  1
-# salat = False   # 0
+# salat = True   # 0
 # non = True
 # kompot = True
-# assorti = False
+# assorti = True
 
 # if choy:
 #     print("Mijoz choy oldi.")
 #     narh += 3000
 # if salat:
 #     print("Mijoz salat oldi.")
-#     narh = narh + 5000
+#     narh += 5000
 # if non:
 #     print("Mijoz non oldi.")
 #     narh = narh + 2000
@@ -97,14 +118,16 @@
 
 # print(f"Jami {narh} so'm")
 
-# ism = input("Ta`laba ism va familyasini kiriting: ")
-# baho = int(input(f"{ism.capitalize()}ni baholang>>> "))
-# if baho == 5:
-#     print("A`lo")
-# elif baho == 4:
-#     print("Yaxshi")
-# elif baho <= 3:
-#     print("Yomon")
+ism = input("Ta`laba ism va familyasini kiriting: ")
+baho = int(input(f"{ism.title()} ni baholang>>> "))
+if baho == 5:
+    print("A`lo")
+elif baho == 4:
+    print("Yaxshi")
+elif baho > 0 and baho < 4:
+    print("Yomon")
+elif baho < 0 or baho > 5:
+    print("...")
 
 # menu = ['osh','qazonkabob','shashlik','norin','somsa']
 # ovqat = input('Nima ovqat yeysiz?>>> ')
