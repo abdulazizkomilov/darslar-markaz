@@ -13,14 +13,14 @@
 #     print("Salom, Ali")
 
 
-# javob = float(input("12x6 nechiga teng?>>> "))
+# javob = float(input("12x6 nechiga teng?>>> ")) # 3.14 31.4 314.0
 # if javob != 72:
 #     print("Javob xato!")
 # else:
 #     print("Javob to`gri")
 
-# yosh = int(input("Yoshingiz nechida?>>>"))
-# if yosh>=18: # yosh 18 dan katta yoki teng bo'lsa
+# yosh = int(input("Yoshingiz nechida?>>> "))
+# if yosh >= 18: # yosh 18 dan katta yoki teng bo'lsa
 #     print('Xush kelibsiz!')
 # else:
 #     print('Kirish mumkin emas!')
@@ -36,19 +36,13 @@
 #     print(f"Yoshingiz {2022-yil}da ekan.")
 #     print("Kirish mumkin emas!")
 # else:
+#     print(f"Yoshingiz {2022-yil}da ekan.")
 #     print("Xush kelibsiz!")
 
 
-# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
-# for car in cars:
-#     if car=='gm':
-#         print(car.upper())
-#     else:
-#         print(car.title())
-
-# yosh = int(input("Yoshingiz nechida?>>>"))
-# if yosh > 65:
-#     print("Siz COVID-19 riks guruhida ekansiz")
+yosh = int(input("Yoshingiz nechida?>>>"))
+if yosh > 65:
+    print("Siz COVID-19 riks guruhida ekansiz")
     
     
     
