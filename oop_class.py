@@ -8,11 +8,15 @@
 #         self.tyil = tyil
 #         self.tel = tel
     
+#     def get_f_name(self):
+#         return f"To`liq ism familiyam: {self.ism} {self.familiya}"
+    
 #     def get_tel(self):
 #         return self.tel
 
 #     def tanishtir(self):
-#         print(f"Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman, {self.tel}")
+#         print(f"""Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman, 
+#               {self.tel}""")
 
 
 # talaba1 = Talaba("Alijon", "Valiyev", 2000, 99893208399)
@@ -24,8 +28,8 @@
 
 # talaba2 = Talaba("Olim","Hakimov", 2001, 901234567)
 # talaba2.tanishtir()
-# talaba3 = Talaba("Husan", "Akbarov", 2004)
-# talaba4 = Talaba("Hasan", "Akbarov", 2004)
+# talaba3 = Talaba("Husan", "Akbarov", 2004, 234567890)
+# talaba4 = Talaba("Hasan", "Akbarov", 2004, 987654453)
 # talaba4.tanishtir()
 
 
