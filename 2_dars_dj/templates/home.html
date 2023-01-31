@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; color: darkorange">
+            Assalamu alaykum xush kelibsiz
+        </h1>
+        {% for post in Post %}
+            <ul>
+                {{ post.title }}
+                <li>
+                    {{ post.body }}
+                </li>
+            </ul>
+        {% endfor%}
+    </div>
+</body>
+</html>

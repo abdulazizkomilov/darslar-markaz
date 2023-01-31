@@ -40,7 +40,7 @@ class Talaba(Shaxs):
 
     def get_info(self):
         """Talaba haqida ma'lumot"""
-        info = f"{self.ism} {self.familiya}. {self.get_manzil()} "
+        info = f"{self.ism} {self.familiya} "
         info += f"{self.get_bosqich()}-bosqich. ID raqami: {self.idraqam}"
         return info
 

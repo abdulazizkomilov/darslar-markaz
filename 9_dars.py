@@ -118,16 +118,16 @@
 
 # print(f"Jami {narh} so'm")
 
-ism = input("Ta`laba ism va familyasini kiriting: ")
-baho = int(input(f"{ism.title()} ni baholang>>> "))
-if baho == 5:
-    print("A`lo")
-elif baho == 4:
-    print("Yaxshi")
-elif baho > 0 and baho < 4:
-    print("Yomon")
-elif baho < 0 or baho > 5:
-    print("...")
+# ism = input("Ta`laba ism va familyasini kiriting: ")
+# baho = int(input(f"{ism.title()} ni baholang>>> "))
+# if baho == 5:
+#     print("A`lo")
+# elif baho == 4:
+#     print("Yaxshi")
+# elif baho > 0 and baho < 4:
+#     print("Yomon")
+# elif baho < 0 or baho > 5:
+#     print("...")
 
 # menu = ['osh','qazonkabob','shashlik','norin','somsa']
 # ovqat = input('Nima ovqat yeysiz?>>> ')
@@ -141,14 +141,16 @@ elif baho < 0 or baho > 5:
 #     menu.append(input(f"{son}-ta`omni kiriting: "))
 # taom = input("Nima táom buyyrtma qilasiz: ")
 # if taom not in menu:
-#     print(f"Kechirasiz bizda {taom} yuq! Bizdagi táomlar róyxati: ")
+#     print(f"Kechirasiz bizda {taom} yo`q! Bizdagi táomlar róyxati: ")
 #     for a in menu:
 #         print(a, end=("\n"))
 #     taom_2 = input("Iltimos quydagi táomlardan buyurtma qiling: ")
 #     print(f"{taom_2} qabul qilindi!")
 # else:
 #     print(f"{taom} qabul qilindi!")    
- 
+
+
+
 # menu ga kamida 5ta táom qóshisin...
 
 
@@ -156,26 +158,7 @@ elif baho < 0 or baho > 5:
 #     print(a, end=("\n"))
 
 
-
-# yil2 = input("Yoshingiz nechida? ")
-
-# yosh = '18'
-# print(yosh.isdigit())
-
-# yil = "7"
-# print(yil.isdigit())
-
-# yil2 = "2"
-# print(yil2.isalnum())
-
-# yosh = input("Yoshingiz nechida? ")
-# if yosh.isdigit():
-#     yosh = float(yosh)
-# else:
-#     print("Matnli raqam ")
-
-
-# menu = ['osh','qazonkabob','shashlik','norin','somsa']
+# menu = ['osh','qozonkabob','shashlik','norin','somsa']
 # buyurtmalar = ["osh","somsa","manti", "shashlik"]
 
 # if buyurtmalar:
@@ -186,3 +169,6 @@ elif baho < 0 or baho > 5:
 #             print(f"Kechirasiz, menuda {taom} yo'q")
 # else:
 #     print("Savatchangiz bo'sh!")
+    
+    
+    

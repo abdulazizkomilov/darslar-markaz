@@ -1,25 +1,15 @@
 import json
+# JSON (JavaScript Object Notation).
 
-# import googlemaps
-# from apikey import APIKEY
+ # indent=4
+x = 10
+x_json = json.dumps(x)
 
-# # Googlemap
-# gmaps = googlemaps.Client(key=APIKEY)
+y = 5.5
+y_json = json.dumps(y)
 
-# geocode_result = gmaps.geocode('Olmazor', 'Tashkent', 'Uzbekistan')
-
-# g = json.dumps(geocode_result[0], indent=4, sort_key=True)
-# print(g)
-
-
-# x = 10
-# x_json = json.dumps(x)
-
-# y = 5.5
-# y_json = json.dumps(y)
-
-# m = True
-# m_json = json.dumps(m)
+m = True
+m_json = json.dumps(m)
 
 # # ism = "anvar"
 # # ism_json = json.dumps(ism)
@@ -52,9 +42,9 @@ import json
 # bemor2 = json.loads(sonlar_json)
 # print(bemor2)
 
-filename = "sonlar.json"
-with open(filename) as f:
-    bemor = json.load(f)
-print(bemor)
+# filename = "sonlar.json"
+# with open(filename) as f:
+#     bemor = json.load(f)
+# print(bemor)
 # print(type(bemor))
 

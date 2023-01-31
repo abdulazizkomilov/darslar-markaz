@@ -16,7 +16,7 @@
 
 #     def tanishtir(self):
 #         print(f"""Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman, 
-#               {self.tel}""")
+# {self.tel}""")
 
 
 # talaba1 = Talaba("Alijon", "Valiyev", 2000, 99893208399)
@@ -65,14 +65,14 @@
 
 # talaba1 = Talaba("olim", "Hakimov", 2005)
 # print(talaba1.get_fullname())
-# print(talaba1.get_age(2022))
+# print(talaba1.get_age(2023))
 
 # talaba1.tanishtir()
 
 class Talaba1():
     
     def __init__(self, ism, familya, tyil):
-        self.ism = ism
+        pass
     
     def get_name(self):
         pass
