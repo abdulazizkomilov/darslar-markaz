@@ -2,9 +2,7 @@
 #     """Salom beruvchi funksiya"""
 #     print("Assalomu alaykum!")
 
-
 # salom_ber()
-
 
 # def salom_ber(ism, familya):
 #     """Fodyalanuvchi ismini qabul qilib,
@@ -13,8 +11,9 @@
 
 # salom_ber("hasan", "olimov")
 # salom_ber("olim", "hakimov")
+# salom_ber("ali", "alimov")
 
-# 3
+
 # def toliq_ism(ism, familiya):
 #     """Foydalanuvchi ism va familiyasini jamlab chiqaruvchi funksiya"""
 #     print(
@@ -32,13 +31,11 @@
 
 
 # yosh_hisobla('olim', 1997)
-# # yosh_hisobla(1997,'olim')
+# yosh_hisobla("ali", 2009)
 
-# yosh_hisobla(tugilgan_yil=1997, ism="ali")
-# # toliq_ism(familiya="hakimov", ism="olim")
+# yosh_hisobla(tugilgan_yil=1995, ism="ali")
 
 
-# #4
 # def yosh_hisobla(tugilgan_yil, joriy_yil=2022):
 #     """Foydalanuvchi tug'ilgan yilidan uning yoshini hisoblaydi"""
 #     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")

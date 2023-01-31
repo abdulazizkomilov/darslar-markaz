@@ -10,8 +10,8 @@
 # son = 1  # son ga 1 qiymatini beramiz
 # while son < 100:  # toki son 11 dan kichik yoki teng ekan...
 #     print(son, end="\n")  # son ni konsolga chiqaramiz    
-#     son = son + 1
-# print("salom")
+#     son += 1
+# print("whiledan tashqarida")
 
 # # while and input
 # print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
@@ -22,10 +22,10 @@
 #     qiymat = input(savol)
 #     if qiymat != 'exit':
 #         print(float(qiymat)**2)
-# print('Dastur tugadi')
+# print('Dastur tugadi!')
 
 
-# ishora
+# # ishora
 # print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
 # savol = "Istalgan son kiriting "
 # savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
@@ -42,7 +42,6 @@
 # print("Kiritilgan sonning kvadratini qaytaruvchi dastur.")
 # savol = "Istalgan son kiriting "
 # savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
-
 # while True: # abadiy tsikl
 #     qiymat = input(savol)
 #     if qiymat == 'exit':
@@ -52,7 +51,7 @@
 # print('Dastur tugadi!')
 
 
-# # break for
+# break for
 # sonlar = list(range(1,11))
 # for son in sonlar:
 #     if son == 5:
@@ -66,8 +65,25 @@
 #         continue
 #     print(f"{son} ning kvadrati {son**2} ga teng")
 
-# # Continue while
-# son = 0
+# # break while
+# print("Ismlar ro`yxatini tuzuvchi dastur.")
+# savol = "Istalgan ism kiriting "
+# savol += "(dasturni to'xtatish uchun '1' raqamini yozing): "
+# ismlar = []
+# a = 1
+# while True: # abadiy tsikl
+#     qiymat = input(f"{a} - {savol}")
+#     a +=1
+#     if qiymat == '1':
+#         break
+#     else:
+#         ismlar.append(qiymat)
+# print("\nIsmlar ro`yxati: ")
+# for ism in ismlar:
+#     print(ism, end=("; "))
+
+# Continue while
+# son = 1
 # while son<10:
 #     son += 1
 #     if son%2==0:
@@ -76,20 +92,20 @@
 #         print(son)
 
 # # infinite loop;
-# import math
-# print("Kiritilgan sonning ildizini qaytaruvchi dastur.")
-# savol = "Istalgan son kiriting "
-# savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
-# while True:
-#     son = input(savol)
-#     if son == 'exit':
-#         break
-#     else:
-#         if int(son) < 0:
-#             print("Iltimos musbat son kiriting!")
-#         else:
-#             print(math.sqrt(float(son)))
-# print('Dastur to\'xtadi!')
+import math
+print("Kiritilgan sonning ildizini qaytaruvchi dastur.")
+savol = "Istalgan son kiriting "
+savol += "(dasturni to'xtatish uchun 'exit' deb yozing): "
+while True:
+    son = input(savol)
+    if son == 'exit':
+        break
+    else:
+        if int(son) < 0:
+            print("Iltimos musbat son kiriting!")
+        else:
+            print(math.sqrt(float(son)))
+print('Dastur to\'xtadi!')
 
 
 
@@ -102,12 +118,12 @@
 #         print(son)
 #     son += 1
 
-son = 0
-while son<10:
-    son += 1
-    if son%2 != 0:
-        continue
-    else:
-        print(son)
+# son = 0
+# while son<10:
+#     son += 1
+#     if son%2 != 0:
+#         continue
+#     else:
+#         print(son)
     
     

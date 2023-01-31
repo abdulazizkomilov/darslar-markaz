@@ -1,4 +1,4 @@
-# def toliq_ism_yasa(ism, familiya):
+# def toliq_ism_yasa(ism, familiya): #args
 #     """Toliq ism qaytaruvchi funksiya"""
 #     toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism
@@ -10,20 +10,19 @@
 
 
 # def toliq_ism_yasa(ism, familiya, otasining_ismi=""):
-#     """Toliq isma qaytaruvchi funksiya"""
+#     """Toliq ism va familiya qaytaruvchi funksiya"""
 #     if otasining_ismi:
 #         toliq_ism = f"{ism} {otasining_ismi} {familiya}"
 #     else:
 #         toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism.title()
 
-
 # talaba1 = toliq_ism_yasa("olim", "hakimov")
 # talaba2 = toliq_ism_yasa("hakim", "olimov", "abrorovich")
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 
 
-# # ****
+# # # ****
 # def avto_info(kompaniya, model, rangi, korobka, yili, 
 #               narhi=None):
 #     avto = {
@@ -36,8 +35,7 @@
 #     }
 #     return avto
 
-
-# avto1 = avto_info("GM", "Malibu", "Qora", "Avtomat", 2018)
+# avto1 = avto_info("GM", "Malibu", "Qora", "Avtomat", 2018, 20000)
 # avto2 = avto_info("GM", "Gentra", "Oq", "Mexanika", 2016, 15000)
 # avtolar = [avto1, avto2]
 # print("Onlayn bozordagi mavjud avtomashinalar:")
@@ -61,6 +59,8 @@
 # print(oraliq(0,10))
 # print(oraliq(10, 21))
 
+
+
 # def oraliq(min,max,qadam=1):
 #     sonlar = []
 #     while min<max:
@@ -71,15 +71,14 @@
 # print(oraliq(1,21, 2))
 
 
-
-# def avto_info(kompaniya, model, rangi, korobka, yili, narhi=None):
+# def avto_info(kompaniya, model, rang, korobka, yil, narh=None):
 #     avto = {
 #         "kompaniya": kompaniya,
 #         "model": model,
-#         "rang": rangi,
+#         "rang": rang,
 #         "korobka": korobka,
-#         "yil": yili,
-#         "narh": narhi,
+#         "yil": yil,
+#         "narh": narh,
 #     }
 #     return avto
 
@@ -90,22 +89,22 @@
 #     print("\nQuyidagi ma'lumotlarni kiriting", end="")
 #     kompaniya = input("Ishlab chiqaruvchi: ")
 #     model = input("Modeli: ")
-#     rangi = input("Rangi: ")
+#     rang = input("Rangi: ")
 #     korobka = input("Korobka: ")
-#     yili = input("Ishlab chiqarilgan yili: ")
-#     narhi = input("Narhi: ")
+#     yil = input("Ishlab chiqarilgan yili: ")
+#     narh = input("Narhi: ")
 #     # Foydalanuvchi kiritdan ma'lumotlardan avto_info yordamida
 #     # lug'at shakllantirib, har bir lug'atni ro'yxatga qo'shamiz:
-#     avtolar.append(avto_info(kompaniya, model, rangi, korobka, yili, narhi))
+#     avtolar.append(avto_info(kompaniya, model, rang, korobka, yil, narh))
 #     # Yana avto qo'shish-qo'shmaslikni so'raymiz
 #     javob = input("Yana avto qo'shasizmi? (yes/no): ")
 #     if javob == "no":
 #         break
-
+            
 # print("\nSalonimizdagi avtolar:")
 # for avto in avtolar:
 #     if avto["narh"]:
-#         narh = avto["narh"]
+#         narh = f"{avto['narh']}$"
 #     else:
 #         narh = "Noma'lum"
 #     print(
