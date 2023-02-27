@@ -1,5 +1,5 @@
-# qurulmalar = ["telfon", 'TV', 'wifi', 'sichqoncha']
-# print(qurulmalar[2])
+# qurulmalar = ["telfon", 'TV', 'wifi', 'sichqoncha', 'headphones']
+# print(qurulmalar[1].lower())
 
 # .upper()
 # .lower()
@@ -8,9 +8,8 @@
 # ismlar = ["Ali", "Vali", "Hasan", "Husan", "G'ani"] 
 
 # # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
-# # print("Salom " + ismlar[0] + ismlar[1] + ismlar[-1] + " ishlaring yaxshimi?")
-# print(f"""Salom {ismlar[0].upper()}, {ismlar[1].lower()}, 
-#       {ismlar[-1]} ishlaring yaxshimi?""")
+# print("Salom " + ismlar[0] + ismlar[1] + ismlar[-1] + " ishlaring yaxshimi?")
+# print(f"Salom {ismlar[0].upper()}, {ismlar[1].lower()}, {ismlar[-1]} ishlaring yaxshimi?")
 
 # yil = input("Tugùlgan yilizni kiriting:  ")
 # print(f'Siz {yil}-yilda tug`ulgansiz.')
@@ -28,20 +27,20 @@
 # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
 
 # sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_000_0, 112.4]
-# print(sonlar)
-# print(sonlar[-1])
+# # print(sonlar)
+# # print(sonlar[-1])
 
 # # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
 # sonlar[0] = sonlar[0] + sonlar[-1]
 # sonlar[1] = -67.8
-# sonlar[4] = sonlar[4] + 39
+# sonlar[4] = sonlar[4] + 40
 # del sonlar[5]
 # del sonlar[0]
 # print(sonlar)
 
-# t_shaxslar = ["amir temur", "Imom Buxoriy", "Napoleon"]
+t_shaxslar = ["amir temur", "Imom Buxoriy", "Napoleon"]
 
-# z_shaxslar = ["Bill Gates", "Elon Musk", "Doasnald Trump"]
+z_shaxslar = ["Bill Gates", "Elon Musk", "Doasnald Trump"]
 
 # # # # Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (.pop()), quyidagi ko'rinishda chiqaring:
 # print(f"\nMen tarixiy shaxslardan {t_shaxslar.pop(0).title()} \n\
@@ -55,21 +54,21 @@
 # print(z_shaxslar)
 # print(t_shaxslar)
 
-# # friends nomli bo'sh ro'yxat tuzing va unga .append() yordamida 5-6 ta mehmonga 
+# friends nomli bo'sh ro'yxat tuzing va unga .append() yordamida 5-6 ta mehmonga 
 # chaqirmoqchi bo'lgan do'stlaringizni kiriting.
-# friends = []
-# friends.append("John")
-# friends.append("Alex")
-# friends.append("Danny")
-# friends.append("Sobirjon")
-# friends.append("Vanya")
-# print(f"To`liq list-{friends}")
+friends = []
+friends.append("John")
+friends.append("Alex")
+friends.append("Danny")
+friends.append("Sobirjon")
+friends.append("Vanya")
+print(f"To`liq list-{friends}")
 
-# # # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni .remove() metodi yordamida o'chrib tashlang.
-# friends.remove("John")
-# friends.remove("Alex")
-# friends.remove("Vanya")
-# print(f"Kelganlar-{friends}")
+# # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni .remove() metodi yordamida o'chrib tashlang.
+friends.remove("John")
+friends.remove("Alex")
+friends.remove("Vanya")
+print(f"Kelganlar-{friends}")
 
 
 friends = []
