@@ -1,8 +1,8 @@
-# str() - string
-# int() - integir
+# str() - string #matn
+# int() - integir #son
 
-son = 10
-son2 = 33
+# son = 10
+# son2 = 33
 
 # print("son = ",son)
 # print("son2 = ",son2)
@@ -15,24 +15,8 @@ son2 = 33
 
 
 
-sovol = input("Ismingizni kiriting>>>  ")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# savol = input("Ismingizni kiriting>>>  ")
+# print("Salom ",savol)
 
 # name = "Abdulaziz Komilov"
 # age = 20
