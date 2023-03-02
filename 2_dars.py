@@ -21,13 +21,13 @@
 # print("A.A F.", name, 'X.K')
 
 # age = int(input("Yoshingizni kiriting: "))
-# print(2022-age)
+# print(2023-age)
 
-# + - / *  
+# # + - / *  
 # son1 = 21
 # son2 = 6
-# natija = son1 + son2
-# print(natija)
+# # natija = son1 + son2
+# # print(natija)
 
 # son4 = son1 - son2
 # print(son1, "-", son2, "=", son4)
@@ -55,22 +55,22 @@
 # print(a < b)
 
 
-# float()
+# # float()
 # d = "salom"
 # o = True
 # g = 5
 # a = 5.3
 # b = 3.7
-# print(a - b)
+# print(a -b)
+ 
 
-
-# ==, !=
-son = 10 == 6
-son2 = 27 != 26
-son3 = 27 != 27
-print(son)
-print(son2)
-print(son3)
+# # ==, !=
+# son = 10 == 6
+# son2 = 27 != 26
+# son3 = 27 != 27
+# print(son)
+# print(son2)
+# print(son3)
 
 
 
