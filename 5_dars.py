@@ -1,7 +1,7 @@
 # # TARTIBLASH
 # cars = ["bmw", "mercedes benz", "volvo", "general motors", "tesla", "audi"]
 # print(cars)
-# cars.sort()
+# cars.sort() # a-z
 # print(cars)
 
 # # KATTA VA KICHIK HARF
