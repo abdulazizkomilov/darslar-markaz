@@ -17,17 +17,14 @@
 # print("Salom", name.title())
 
 
-# name = input("Ismingizni kiriting: ")
-# print("A.A F.", name, 'X.K')
-
 # age = int(input("Yoshingizni kiriting: "))
 # print(2023-age)
 
 # # + - / *  
 # son1 = 21
 # son2 = 6
-# # natija = son1 + son2
-# # print(natija)
+# natija = son1 + son2
+# print(natija)
 
 # son4 = son1 - son2
 # print(son1, "-", son2, "=", son4)
@@ -35,7 +32,7 @@
 # a = 10
 # b = 4
 # natija = a * b
-# print(natija / 2)
+# print(type(natija / 2))
 
 # a = int(input("a sonni kiriting:  "))
 # b = int(input("b sonni kiriting:  "))
@@ -55,14 +52,8 @@
 # print(a < b)
 
 
-# # float()
-# d = "salom"
-# o = True
-# g = 5
-# a = 5.3
-# b = 3.7
-# print(a -b)
- 
+
+
 
 # # ==, !=
 # son = 10 == 6
