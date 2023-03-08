@@ -69,12 +69,12 @@ matematika.add_student(talaba1)
 matematika.add_student(talaba2)
 matematika.add_student(talaba3)
 
-# print(matematika.talabalar_soni)
-# print(matematika.talabalar)
+print(matematika.talabalar_soni)
+print(matematika.talabalar)
 
 # #      # return [x.get_info() for x in self.talabalar]
 mat_talabalar = matematika.get_students()
-# print(mat_talabalar)
+print(mat_talabalar)
 
 
 # dir()    
@@ -89,8 +89,8 @@ def see_methods(klass):
     #     if method.startswith('__') is False:
     #         return method
 
-# print(see_methods(Talaba))
-# print(see_methods(talaba1))
+print(see_methods(Talaba))
+print(see_methods(talaba1))
 
 print(talaba1.__dict__)
 
