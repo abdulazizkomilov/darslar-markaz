@@ -16,14 +16,14 @@ import math
 # a = math.pi
 # print(a)
 
-# a = 9
-# b = 49
+a = 9
+b = 49
 
-# print(math.sqrt(b)) #ildizdan chiqaradi
+print(math.sqrt(b)) #ildizdan chiqaradi
 
-# print(math.ceil(45.6)) #katta yaqiniga
+print(math.ceil(45.6)) #katta yaqiniga
 
-# print(math.floor(45.67)) #kichik yaqiniga
+print(math.floor(45.67)) #kichik yaqiniga
 
 print(math.sin(90))  #sonning sin si
 
