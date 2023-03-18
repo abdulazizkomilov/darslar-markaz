@@ -1,13 +1,14 @@
 # for operatori: loop
 
 # mehmonlar = ['Ali','Vali','Hasan', 'Husan','Olim']
-# for mehmon in mehmonlar:
-#     print(f"Assalomu alaykum mehmon {mehmon} xush k.z")
+# for f in mehmonlar:
+#     print(f"Assalomu alaykum mehmon {f} xush k.z")
 # print("Dastur tugadi")
 
 # sonlar = [1, 2, 3, 4, 5]    
 # for a in sonlar:
 #     # print(a)
+    
 #     print(a, end=" ")
     
 # mehmonlar = ['ali','vali','hasan', 'husan','olim']
