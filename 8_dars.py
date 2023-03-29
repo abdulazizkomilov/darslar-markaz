@@ -1,13 +1,13 @@
 # avtolar = ['audi','bmw','volvo','kia','hyundai','bmw']
 # for k in avtolar: # avtolar ichidadi har bir avto uchun ...
-#     if k == 'bmw':  # ... agar avto bmw ga teng bo'lsa ...
+#     if k == 'bmw':  # ... agar avto = k bmw ga teng bo'lsa ...
 #         print(k.upper()) # avto nomini hamma harflarini katta bilan yoz.
 #     else: # aks holda ...
 #         print(k.title()) # avto nomini faqat birinchi harfini katta bilann yoz.
 
 
-# ism = input('Ismingiz nima?\n>>> ') # Foydalanuvchi ismini so'raymiz
-# if ism.lower() != 'ali': # Agar ism Aliga teng bo'lmasa ...
+# ism = input('Ismingiz nima?\n>>> ').lower() # Foydalanuvchi ismini so'raymiz
+# if ism != 'ali': # Agar ism Aliga teng bo'lmasa ...
 #     print(f"Uzr, {ism.title()} biz Alini kutayapmiz.") # quyidagi xabar chiqadi
 # else:
 #     print("Salom, Ali")
@@ -40,9 +40,9 @@
 #     print("Xush kelibsiz!")
 
 
-yosh = int(input("Yoshingiz nechida?>>>"))
-if yosh > 65:
-    print("Siz COVID-19 riks guruhida ekansiz")
+# yosh = int(input("Yoshingiz nechida?>>>"))
+# if yosh > 65:
+#     print("Siz COVID-19 riks guruhida ekansiz")
     
     
     
