@@ -26,21 +26,22 @@
 #     print('Kirish mumkin emas!')
 
 # login = input("Yangi login tanlang: ")
-# if len(login)<=5:
+# if len(login) <= 5:
 #     print("Login 5 harfdan ko'proq bo'lishi shart!")
 # else:
 #     print("Login qabul qilindi!")
     
-# yil = int(input("Tug'ilgan yilingizni kiriting:"))
-# if 2022-yil<18: # foydalanuvchi yoshini hisoblaymiz
-#     print(f"Yoshingiz {2022-yil}da ekan.")
+# yil = int(input("Tug'ilgan yilingizni kiriting: "))
+# yosh = 2023 - yil
+# if yosh < 18: # foydalanuvchi yoshini hisoblaymiz
+#     print(f"Yoshingiz {yosh}da ekan.")
 #     print("Kirish mumkin emas!")
 # else:
-#     print(f"Yoshingiz {2022-yil}da ekan.")
+#     print(f"Yoshingiz {yosh}da ekan.")
 #     print("Xush kelibsiz!")
 
 
-# yosh = int(input("Yoshingiz nechida?>>>"))
+# yosh = int(input("Yoshingiz nechida?>>> "))
 # if yosh > 65:
 #     print("Siz COVID-19 riks guruhida ekansiz")
     
