@@ -46,16 +46,16 @@
 #     fayl.write("2000")
 
 
-import pickle
+# import pickle
 
-talaba1 = {"ism": "hasan", "familiya": "husanov", "tyil": 2003, "kurs": 2}
+# talaba1 = {"ism": "hasan", "familiya": "husanov", "tyil": 2003, "kurs": 2}
 
-# datalarni yozish wr - write binary  // ko`rib bo`lmaydi editorda
-with open("info1", "wb") as file:
-    pickle.dump(talaba1, file)
+# # datalarni yozish wr - write binary  // ko`rib bo`lmaydi editorda
+# with open("info1", "wb") as file:
+#     pickle.dump(talaba1, file)
     
-# datani o`qish rb - read binary  // 2lik sanoq sistemada
-with open("info1", "rb") as file:
-    talaba_1 = pickle.load(file)
+# # datani o`qish rb - read binary  // 2lik sanoq sistemada
+# with open("info1", "rb") as file:
+#     talaba_1 = pickle.load(file)
 
-print(talaba_1)
+# print(talaba_1)
