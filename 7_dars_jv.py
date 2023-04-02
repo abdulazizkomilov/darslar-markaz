@@ -4,6 +4,43 @@
 # for ism in ismlar:
 #     print(f"Assalom alaykum, {ism}. Sahifamizga xush kelibsiz!")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # # # Yuoqirdagi tsikl tugaganidan so'ng,
 # # # ekranga "Kod n marta takrorlandi" degan xabar chiqaring
 # # (n o'rniga kod necha marta takrorlanganini yozing)
