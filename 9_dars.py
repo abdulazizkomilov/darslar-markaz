@@ -51,25 +51,19 @@
 # else:
 #     print('Bugun ish kuni.')
 
+
+
+
+
+
+
+
+
+
+
 # kun = input("Bugun nima kun?>>> ")
-# harorat = float(input("h kiriting: "))
-# kunlar = ["dushanba", 
-#           "seshanba", 
-#           "chorshanba",
-#           "payshanba", 
-#           "juma",
-#           "shanba",
-#           'yakshanba']
-# for i in kunlar:
-#     i
-#     if kun.lower() == i:
-#         if kun.lower() == kunlar[-1] and harorat >= 30:
-#             print("chom ....")
-#         else:
-#             print(f"{i} ish kuni")
-#     else:
-#         print("h k b k")       
-        
+# harorat = float(input("harorat kiriting: "))
+
 # if kun.lower()=='yakshanba' and harorat>=30:
 #     print("Cho'milgani ketdik!")
 # elif kun.lower()=='yakshanba' and harorat<30:
@@ -84,7 +78,7 @@
 # >>> """)
 
 # choy = True  #yes 1 | no 0
-# salat = True
+# salat = False
 # price = 15000
 # if choy and salat:
 #     price = price + 10000
@@ -93,12 +87,12 @@
 # print(f"Jami {price} so'm")
 
 
-# narh = 15000 # mijoz 15 so'mga ovqat oldi
-# choy = True  #  1
-# salat = True   # 0
-# non = True
-# kompot = True
-# assorti = True
+narh = 15000 # mijoz 15 so'mga ovqat oldi
+choy = True  #  1
+salat = False   # 0
+non = True
+kompot = True
+assorti = True
 
 # if choy:
 #     print("Mijoz choy oldi.")

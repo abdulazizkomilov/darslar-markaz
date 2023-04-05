@@ -8,24 +8,24 @@
 # with open("pi.txt") as file:
 #     pi = file.read()
     
-# # print(pi)
+# print(pi)
 
-# pi = pi.rstrip()  #yangi qatorni olib tashlaydi
+# # pi = pi.rstrip()  #yangi qatorni olib tashlaydi
 # pi = pi.replace('\n', "")  #o`rniga almashtiradi
 # pi = float(pi)
 # print(pi)
 
 
 # filename = "data/talabalar.txt"
-# with open(filename) as file:
-#     for line in file:
-#         print(line)
+# # with open(filename) as file:
+# #     for line in file:
+# #         print(line)
 
-# # ro`yxat ichiga saqlash
+# # # ro`yxat ichiga saqlash
 # with open(filename) as file:
 #     talabalar = file.readlines()
 
-# print(talabalar)
+# # print(talabalar)
 
 # talabalar = [talaba.rstrip() for talaba in talabalar]
 # print(talabalar)
@@ -33,14 +33,14 @@
 
 
 # # #yozish  "W" write ustidan yozib yuboradi
-# faylnomi = "new_file.txt"
-# ism = "Umar Hasanov"
-# tyil = 1999
-# with open(faylnomi, "w") as fayl:
-#     fayl.write(ism + '\n')
-#     fayl.write(str(tyil) + '\n')
+# faylnomi = "new_file2.txt"
+# # ism = "Umar Hasanov"
+# # tyil = 1999
+# # with open(faylnomi, "w") as fayl:
+# #     fayl.write(ism + '\n')
+# #     fayl.write(str(tyil) + '\n')
 
-#qo`shish yoki yangi yasash "a" append
+# # qo`shish yoki yangi yasash "a" append
 # with open(faylnomi, "a") as fayl:
 #     fayl.write("Alijon Valiyev\n")
 #     fayl.write("2000")
