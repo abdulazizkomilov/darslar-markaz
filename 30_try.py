@@ -1,5 +1,5 @@
 # # Xatolar
-# yosh = int(input("Yoshingizni kiriting: "))
+# yosh = input("Yoshingizni kiriting: ")
 # print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
 # # try-except
@@ -88,38 +88,38 @@
 
 # print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
-print("x/y hisoblovchi dastur")
-while True:
-    x = input("x ni kiriting: ")
-    if x.isdigit():
-        x = int(x)
-    else:
-        print("Bu son emas!")
-        continue
+# print("x/y hisoblovchi dastur")
+# while True:
+#     x = input("x ni kiriting: ")
+#     if x.isdigit():
+#         x = int(x)
+#     else:
+#         print("Bu son emas!")
+#         continue
 
-    y = input("y ni kiriting: ")
-    if y.isdigit():
-        y = int(y)
-    else:
-        print("Bu son emas!")
-        continue
+#     y = input("y ni kiriting: ")
+#     if y.isdigit():
+#         y = int(y)
+#     else:
+#         print("Bu son emas!")
+#         continue
 
-    if y == 0:
-        print("y 0 bo'lishi mumkin emas!")
-        continue
-    else:
-        print(x, "/", y, "=", x / y)
-        break
+#     if y == 0:
+#         print("y 0 bo'lishi mumkin emas!")
+#         continue
+#     else:
+#         print(x, "/", y, "=", x / y)
+#         break
 
-# try:
-#     x = int(input("son kiriting: "))
-#     y = int(input("yana son kiriting: "))
-#     print(x, "/", y, "=", x / y)
-# except ZeroDivisionError:
-#     print("0 ga bo'lib bo'lmaydi")
-# except ValueError:
-#     print("Bu son emas")
-# except:
-#     print("Xato yuz berdi!")
+# # try:
+# #     x = int(input("son kiriting: "))
+# #     y = int(input("yana son kiriting: "))
+# #     print(x, "/", y, "=", x / y)
+# # except ZeroDivisionError:
+# #     print("0 ga bo'lib bo'lmaydi")
+# # except ValueError:
+# #     print("Bu son emas")
+# # except:
+# #     print("Xato yuz berdi!")
 
 
