@@ -1,7 +1,7 @@
 # car = {
-#        "model": "ferrari", 
-#        "rang": "qizil",
-#        "yil": 2020,
+#         "model": "ferrari", 
+#         "rang": "qizil",
+#         "yil": 2020,
 # }
 # print(car["model"])
 # print(car["rang"])
@@ -27,7 +27,7 @@
 
 # # Yangi kalit so'z va qiymat qo'shish
 # talaba_0['kurs'] = 4
-# talaba_0['fakultet'] = 'informatika'
+# talaba_0['fakultet'] = 'informatika'  #key -- value
 # talaba_0['ism'] = 'abdulloh'
 # print(talaba_0)
 # print(f"{talaba_0['ism'].title()}, \
@@ -36,13 +36,13 @@
 #   {talaba_0['fakultet']} fakulteti,\
 #   {talaba_0['kurs']} kursda")
 
-# Bo'sh lug'at
+# # Bo'sh lug'at
 # talaba_1 = {}
 # talaba_1['ism'] = 'qobil rasulov'
 # talaba_1['kurs'] = 3
 # talaba_1['yosh'] = 20
-# print(talaba_1, "\n")
-# print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
+# # print(talaba_1, "\n")
+# # print(f"Talaba {talaba_1['ism'].title()} {talaba_1['kurs']}-kurs")
 
 # # Qiymatni yangilash
 # talaba_1['kurs'] = 4
@@ -77,15 +77,15 @@
 # phone = telefonlar.get('ali','Bunday ism mavjud emas')
 # print(phone)
 
-# phone = telefonlar.get('hasan', "hasan dict yuq")
+# phone = telefonlar.get('hasan')
 # print(phone)
 
-# sonlar = {}
-# a_1 = int(input("a>>>  "))
-# b_1 = int(input("b>>>  "))
-# sonlar["a"] = a_1
-# sonlar["b"] = b_1
-# print(sonlar)
+sonlar = {}
+a_1 = int(input("a>>>  "))
+b_1 = int(input("b>>>  "))
+sonlar["a"] = a_1
+sonlar["b"] = b_1
+print(sonlar)
 
 # sonlar = {}
 # key = input("keyni kiriting>>>  ").lower()
