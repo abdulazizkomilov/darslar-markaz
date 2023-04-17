@@ -28,7 +28,7 @@
 # b = 6
 # c = 'assalomu alaykum'
 
-# print(c)
+# print("c =",c)
 # print("b =",b)
 # print("a =",a)
 
