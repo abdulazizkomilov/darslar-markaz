@@ -8,11 +8,15 @@
 # # .upper() katta
 
 # a = 'abdulaziz komilov'
+# b = 'KLAJDsdfsadfJDFN'
+# c = 'lkasdfl;sakjdf'
 # print(a)
 # print(a.capitalize())
 # print(a.title())
+# print(c.upper())
+# print(b.lower())
 
-# name = input("Ismingizni kiriting: ")
+# name = input("Ismingizni kiriting: ").lower()
 
 # print("Salom", name.title())
 
@@ -24,7 +28,7 @@
 # son1 = 21
 # son2 = 6
 # natija = son1 + son2
-# print(natija)
+# # print(natija)
 
 # son4 = son1 - son2
 # print(son1, "-", son2, "=", son4)
@@ -32,7 +36,9 @@
 # a = 10
 # b = 4
 # natija = a * b
-# print(type(natija / 2))
+# print(natija)
+# print(type(natija))
+# f = 'lsa;kdflsa'
 
 # a = int(input("a sonni kiriting:  "))
 # b = int(input("b sonni kiriting:  "))
