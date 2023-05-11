@@ -1,9 +1,9 @@
 # # RANGE()
-# sonlar = list(range(1, 100))
+# sonlar = list(range(1, 10))
 # print(sonlar)
 
 # # RANGE VA QADAM          15, 35
-# juft_sonlar = list(range(0, 200, 2)) # 0 dan 20 gacha 2 qadam bilan
+# juft_sonlar = list(range(0, 20, 2)) # 0 dan 20 gacha 2 qadam bilan
 # print("Juft sonlar: ", juft_sonlar)
 
 
@@ -14,18 +14,18 @@
 # # RO'YXATNI KESISH
 # cars = ['bmw','mercedes benz', 'volvo', 
 #         'general motors', 'tesla', 'audi']
-# my_cars = cars[:3] # 0-indeskdan boshlab 3 ta element ajratib olamiz
-# print(cars)
-# print(my_cars)
+# my_cars = cars[:4] # 0-indeskdan boshlab 3 ta element ajratib olamiz
+# # print(cars)
+# # print(my_cars)
 # print(cars[2:5]) # 2-3-4-elementlarni ajratib olamiz
 # print(cars[:4]) # Ro'yxat boshidan 4-gacha kesadi (0,1,2,3)
 # print(cars[2:]) # 2-elementdan boshlab ro'yxat oxirigacha kesib oladi
-# print(cars)
+# # print(cars)
 
 # # RO'YXATDAN NUSXA OLISH
 # sonlar = [1, 2, 3, 4, 5] # donlar degan ro'yxat yaratamiz
-# sonlar2 = sonlar
-# # sonlar2 = sonlar[:] # sonlar2 degan ro'yxatni sonlar ga tenglaymiz
+# # sonlar2 = sonlar
+# sonlar2 = sonlar[:] # sonlar2 degan ro'yxatni sonlar ga tenglaymiz
 # sonlar2.append(6) # sonlar2 ga 6 sonini qo'shamiz
 # sonlar2.insert(0, 0) # sonlar2 ga 7 sonini qo'shamiz
 # print("Bu sonlar ro'yxati:", sonlar)
@@ -45,15 +45,15 @@
 # print(f"Bu numbers list: {numbers}\n")
 # print(f"Bu numbers_2 list: {sorted(numbers_2)}")
 
-son1 = [9, 0, 4, 5, 2]
+# son1 = [9, 0, 4, 5, 2]
 # son1.sort()
 # print(son1)
 # print(sorted(son1))
 
-# # TUPLES
+# TUPLES
 # tomonlar = (3.14, 30, 55.2)
-# # tomonlar.append(0)
-# # del tomonlar[30]
+# tomonlar.append(0)
+# del tomonlar[30]
 # print(tomonlar)
 
 # toys = ('bus','car','bear','dino','snake','lizard')
@@ -70,8 +70,10 @@ son1 = [9, 0, 4, 5, 2]
 # toys = ('bus','car','bear','dino','snake','lizard') # o'zgarmas ro'yxat
 # toys = list(toys) # o'zgarmas ro'yxatni oddiy ro'yxatga (List) aylantiramiz
 # # Ro'yxatga o'zgartirishlar kiritamiz
+# print(type(toys))
 # toys.append('dragon')
 # toys.remove('bus')
 # toys[1] = 'mcqueen'
 # toys = tuple(toys) # Ro'yxatni qaytadan o'zgarmas ro'yxatga (Tuple) aylantiramiz
+# print(type(toys))
 # print(toys)
