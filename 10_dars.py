@@ -1,15 +1,17 @@
 # # # SintaxError
-# # print("Hello World!")
+# print("Hello World!")
 # print('Hello World!')
-# print('Assalom alaykum!)
+# print('Assalom alaykum!')
 
 # # IndentationError
-#  print("Hello World!")
+#   print("Hello World!")
 
 # print("O'ngacha sanaymiz")
-# for n in range(10):
-# print(n+1)
+# for n in range(1, 11):
+# print(n)
 
+
+# # mantiqiy xato ... dastur tugri ishlaydi 
 # son = 50
 # if son <= 0:
 #     print("Musbat son")
@@ -28,7 +30,7 @@
 
 # # ValueError
 # son = int(input("Istalgan son kiriting: "))
-# if son>=0:
+# if son >= 0:
 #     print("Musbat son")
 # else:
 #     print("Manfiy son")
@@ -55,4 +57,12 @@
 # for meva in mevalar:
 #     print(meva)
 # print("Dastur tugadi")
-# print("0")
+
+
+# b = list(range(11))
+
+# for n in range(1, 11):
+#     for i in mevalar:
+#         print(i)
+#     print(f'son {n+1}')
+
