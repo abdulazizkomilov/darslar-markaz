@@ -54,9 +54,9 @@
 # sonlar = list(range(11)) # 0 dan 10 gacha sonlar ro'yxatini yaratamiz
 # sonlar_kvadrati = [] # bo'sh ro'yxat yaratamiz
 # for son in sonlar:  # sonlar dagi har bir son uchun
-#     # print(son)
+#     print(son)
 #     sonlar_kvadrati.append(son**2) # uning kv.ni hisoblab, sonlar_kvadrati ga yuklaymiz
-#     # print(sonlar_kvadrati)
+#     print(sonlar_kvadrati)
     
 # print(f"sonlar:          {sonlar}")
 # print(f"sonlar_kvadrati: {sonlar_kvadrati}")
