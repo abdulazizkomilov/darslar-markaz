@@ -28,7 +28,7 @@
 # else:
 #     print(f"{country.upper()}ning poytaxti {capital.title()} shahri")
     
-# menu = {
+# menu = {               # menu['osh']  =  20000
 #     "osh": 20000,
 #     "lag'mon": 22000,
 #     "non": 4000,
@@ -50,14 +50,16 @@
 #     else:
 #         print(f"Kechirasiz, bizda {buyurtma} yo'q.")
 # print(f"Jami: {narh}")
-savol = int(input("Nechta kitob q. i? "))
-kitob = {}
-for n in range(1, savol+1):
-    kalit = input(f"{n}-kitobni nomini kiriting: ").lower()
-    qiymat = int(input(f"{kalit}-kitobni narxini kiriting: "))
-    kitob[kalit] = qiymat
-print('\n\n')
-buyurtma = input("Qanaqa kitob sotib olmoqchisiz? ")
+
+
+# savol = int(input("Nechta kitob q. i? "))
+# kitob = {}
+# for n in range(1, savol+1):
+#     kalit = input(f"{n}-kitobni nomini kiriting: ").lower()
+#     qiymat = int(input(f"{kalit}-kitobni narxini kiriting: "))
+#     kitob[kalit] = qiymat
+# print('\n\n')
+# buyurtma = input("Qanaqa kitob sotib olmoqchisiz? ")
 
 
 
