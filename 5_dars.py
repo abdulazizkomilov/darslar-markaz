@@ -12,8 +12,8 @@
 # # TESKARI TARTIB z-a
 # cars = ['bmw','mercedes benz', 'volvo', 'general motors', 'tesla', 'audi']
 # print(cars)
-# cars.sort(reverse=True)   # z - a; asl ro`yxatni o`zgartirib yuboradi 
-# print(cars)
+# # cars.sort(reverse=True)   # z - a; asl ro`yxatni o`zgartirib yuboradi 
+# # print(cars)
 # print(sorted(cars))  # a -z; asl ro`yxatni o`zgartirmaydi 
 # print(cars)
 
@@ -26,7 +26,7 @@
 
 
 # # SONLI RO'YXATLAR
-# a = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981]
+# a = [12, 98, 34, 65, 34, 76, 11, 10.3, 23.32, 191_198_981_873]
 # # a.sort() # a - z
 # print(sorted(a))
 # print(sorted(a, reverse=True))
