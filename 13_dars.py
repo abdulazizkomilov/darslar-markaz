@@ -52,6 +52,7 @@
 # print(f"Jami: {narh}")
 
 
+
 # savol = int(input("Nechta kitob q. i? "))
 # kitob = {}
 # for n in range(1, savol+1):
