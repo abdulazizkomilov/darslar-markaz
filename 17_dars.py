@@ -1,4 +1,4 @@
-# def toliq_ism_yasa(ism, familiya): #args
+# def toliq_ism_yasa(ism, familiya): #args #kwargs
 #     """Toliq ism qaytaruvchi funksiya"""
 #     toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism
@@ -37,7 +37,8 @@
 
 # avto1 = avto_info("GM", "Malibu", "Qora", "Avtomat", 2018, 20000)
 # avto2 = avto_info("GM", "Gentra", "Oq", "Mexanika", 2016, 15000)
-# avtolar = [avto1, avto2]
+# avto3 = avto_info("GMs", "Gentras", "Oqs", "Mexanikas", 2016)
+# avtolar = [avto1, avto2, avto3]
 # print("Onlayn bozordagi mavjud avtomashinalar:")
 # for avto in avtolar:
 #     if avto["price"]:
