@@ -1,4 +1,4 @@
-print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
+# print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
 # ismlar = []
 # n = 1  # ismlarni sanash uchun o'zgaruvchi
 # while True:
@@ -9,6 +9,7 @@ print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
 #     n += 1
 #     if takrorlash != "ha":
 #         break
+    
 # print("Do'stlaringiz ro'yxati: ")
 # for ism in ismlar:
 #     print(ism.title())
@@ -33,29 +34,26 @@ print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
     
     
     
-# cars = ["lacetti", "nexia", "toyota", "nexia", "audi", "malibu", "nexia", "lacetti"]
-# car = "lacetti"
-# car2 = "nexia"
-# while car in cars:
-#     cars.remove(car)
-#     cars.remove(car2)
+cars = ["lacetti", "nexia", "toyota","nexia", "audi", "malibu", "nexia", "lacetti"]
+car = ["nexia", "lacetti"]
+
+while car: # 1ta, 1ta
     
-# print(cars)
+    i = car.pop()
+    
+    while i in cars:  # 3ta, 2ta
+        cars.remove(i)
+        
+print(cars)
 
 
-talabalar = ["hasan", "husan", "olim", "botir"]
-baholangan_talabalar = {}
-while talabalar:
-    talaba = talabalar.pop()
-    baho = input(f"{talaba.title()}ning bahosini kiriting: ")
-    print(f"{talaba.title()} baholandi")
-    baholangan_talabalar[talaba] = int(baho)
+# talabalar = ["hasan", "husan", "olim", "botir"]
+# baholangan_talabalar = {}
+# while talabalar:
+#     talaba = talabalar.pop()
+#     baho = input(f"{talaba.title()}ning bahosini kiriting: ")
+#     print(f"{talaba.title()} baholandi")
+#     baholangan_talabalar[talaba] = int(baho)
 
-
-
-# masala
-# talabalar1 = {
-#     'id12345': 'ali hakimov',
-#     }
 
 
