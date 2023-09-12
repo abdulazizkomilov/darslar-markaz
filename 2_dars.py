@@ -74,36 +74,36 @@
 # print(f"  ")   # f - string
 # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
 
-sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_000_0, 112.4]
-print(sonlar)
-print(sonlar[-1])
+# sonlar = [22, -58.2, 34.0, 67, 1983, 123_456_000_0, 112.4]
+# print(sonlar)
+# print(sonlar[-1])
 
-# Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
-sonlar[0] = sonlar[0] + sonlar[-1]
-sonlar[1] = -67.8
-sonlar[4] = sonlar[4] + 40
-sonlar[3] = 77
-print(sonlar)
-del sonlar[5]
-print(sonlar)
-del sonlar[0]
-print(sonlar)
+# # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
+# sonlar[0] = sonlar[0] + sonlar[-1]
+# sonlar[1] = -67.8
+# sonlar[4] = sonlar[4] + 40
+# sonlar[3] = 77
+# print(sonlar)
+# del sonlar[5]
+# print(sonlar)
+# del sonlar[0]
+# print(sonlar)
 
-t_shaxslar = ["amir temur", "Imom Buxoriy", "Napoleon"]
-z_shaxslar = ["Bill Gates", "Elon Musk", "Doasnald Trump"]
+# t_shaxslar = ["amir temur", "Imom Buxoriy", "Napoleon"]
+# z_shaxslar = ["Bill Gates", "Elon Musk", "Doasnald Trump"]
 
-# # # Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (.pop()), quyidagi ko'rinishda chiqaring:
-print(f"\nMen tarixiy shaxslardan {t_shaxslar.pop(0).title()} \n\
-bilan, zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan\n\
-suhbat qilishni istar edim\n")
+# # # # Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (.pop()), quyidagi ko'rinishda chiqaring:
+# print(f"\nMen tarixiy shaxslardan {t_shaxslar.pop(0).title()} \n\
+# bilan, zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan\n\
+# suhbat qilishni istar edim\n")
 
-print(f"""Men tarixiy shaxslardan {t_shaxslar.pop(1)} bilan,
-zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan
-suhbat qilishni istar edim""")
+# print(f"""Men tarixiy shaxslardan {t_shaxslar.pop(1)} bilan,
+# zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan
+# suhbat qilishni istar edim""")
 
 
 # friends nomli bo'sh ro'yxat tuzing va unga .append() yordamida 5-6 ta mehmonga 
-# chaqirmoqchi bo'lgan do'stlaringizni kiriting.
+# # chaqirmoqchi bo'lgan do'stlaringizni kiriting.
 # friends = []
 # friends.append("John")
 # friends.append("Alex")
@@ -112,20 +112,20 @@ suhbat qilishni istar edim""")
 # friends.append("Vanya")
 # print(f"To`liq list-{friends}")
 
-# # # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni .remove() metodi yordamida o'chrib tashlang.
+# # # # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni .remove() metodi yordamida o'chrib tashlang.
 # friends.remove("John")
 # friends.remove("Alex")
 # friends.remove("Vanya")
 # print(f"Kelganlar-{friends}")
 
 
-# friends = []
-# # # Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
-# friends.append("Hasan")
-# friends.insert(0, "Husan")
-# friends.insert(2, "Ivan")
-# friends.insert(3, "ali")
-# print(friends)
+talaba = ['jon', 'vaniya', 'kai']
+# # Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
+talaba.append("Hasan")
+talaba.insert(0, "Husan")
+talaba.insert(2, "Ivan")
+talaba.insert(3, "ali")
+print(talaba)
 
 # # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. 
 # # .pop() va .append() metodlari yordamida mehmonga kelgan 
