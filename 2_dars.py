@@ -119,13 +119,13 @@
 # print(f"Kelganlar-{friends}")
 
 
-talaba = ['jon', 'vaniya', 'kai']
-# # Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
-talaba.append("Hasan")
-talaba.insert(0, "Husan")
-talaba.insert(2, "Ivan")
-talaba.insert(3, "ali")
-print(talaba)
+# talaba = ['jon', 'vaniya', 'kai']
+# # # Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
+# talaba.append("Hasan")
+# talaba.insert(0, "Husan")
+# talaba.insert(2, "Ivan")
+# talaba.insert(3, "ali")
+# print(talaba)
 
 # # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. 
 # # .pop() va .append() metodlari yordamida mehmonga kelgan 

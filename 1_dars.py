@@ -1,5 +1,5 @@
-# print('Assalomu alaykum')
-# print(56)
+# print("Assalomu alaykum")
+# print(56+6)
 # print('56')
 
 
@@ -24,8 +24,8 @@
 
 # son1 = 10
 # son2 = 33
-# print("son1 = ",son1)
-# print("son2 = ",son2)
+# print("a = ",son1)
+# print("b = ",son2)
 
 # a = 5
 # b = 6
@@ -44,13 +44,13 @@
 
 
 # ism = input("Ismingizni kiriting>>>  ")
-# yosh = input("Yoshingni kiriting>>>  ")
-# print("Assalomu alaykum ",ism,"sizning yoshingiz ",2023-yosh,"da")
+# yosh = int(input("Yoshingni kiriting>>>  "))
+# print("Assalomu alaykum ",ism,"sizning tug'ulgan yilingiz ",2023-yosh,"-yil da")
 
 
-# a = 'olim hakimov'
+# a = "olim hakimov jamol o'g'li"
 # b = 'KLAJDsdfsadfJDFN'
-# c = 'lkasdfl;sakjdf'
+# c = 'lkasdflsaLJSADFkjdf'
 # print(a)
 # print(a.capitalize())
 # print(a.title())
@@ -74,8 +74,8 @@
 # son4 = a - b
 # print(a, "-", b, "=", son4)
 
-# a = 10
-# b = 4
+# a = 2
+# b = 3
 # natija = a * b
 # print(natija)
 
@@ -89,16 +89,24 @@
 # print(son1 / son2)
 # print(son1 % son2)
 # print(son1 // son2)
-# print(son2 ** 2)
+# print(son2 ** 3)
 
 # a = 22
 # b = 54
-# print(a > b)
-# print(a < b)
+# print(a > b) #xato
+# print(a < b) #tugri
+
+
+# # str() - string  {matnlar}
+# # int() - integir  {sonlar}
+# # float() - kasr sonlar
+# # bool() - True, False
+ 
 
 # # # ==, !=
 # son = 10 == 6
 # son2 = 27 != 26
+# son3 = 6 == 6
 # print(son)
 # print(son2)
 
