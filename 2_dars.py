@@ -3,7 +3,7 @@
 # type()
 # PI = 3.14
 # AS = 55.90
-# a = 3
+# A = 3
 
 
 # str() - string  {matnlar}
@@ -18,23 +18,23 @@
 # DM = 77
 
 
-# import math
+import math
 
 # a = math.pi
 # print(a)
 
-# a = 9
-# b = 49
+a = 9
+b = 49
 
 # print(math.sqrt(b)) #ildizdan chiqaradi
 
-# print(math.ceil(45.6)) #katta yaqiniga 46
+# print(math.ceil(45.6)) #katta yaqiniga 46 
 
 # print(math.floor(45.67)) #kichik yaqiniga 45
 
 # print(math.sin(90))  #sonning sin si
 
-# print(math.factorial(5))  #1*2*3*4*5
+# print(math.factorial(6))  #1*2*3*4*5
 
 # print(math.log(125, 5))  #(5*5*5) == 5**3
 
@@ -43,10 +43,10 @@
 
 
 
-# list -- ro'yxat
+# # list -- ro'yxat
 # #                 0      1      2           3            4           5 
 # qurulmalar = ["telfon", 'TV', 'wifi', 'sichqoncha', 'headphones', 'lamp']
-# print(qurulmalar[-1].lower())
+# print(qurulmalar[-3].lower())
 
 # # .upper()
 # # .lower()
