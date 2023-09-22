@@ -8,8 +8,14 @@
 
 # masalalar 
 # 1: friends nomli bo'sh list yarating va kamida 5ta do'stingizni ismini 
-kiriting (.append()) va malumotlarni consolda asosiy listni o'zgartizmasdan
+kiriting (.append()) va malumotlarni tartiblab
+consolda asosiy listni o'zgartizmasdan
 chiqaring
+
+
+# 1.1 
+7, 4, 1, 9, 5, 2, 3, 6, 8
+
 
 
 # 2: numbers deb nomlangan list yasang va range yordamida 22dan 68gacha 
