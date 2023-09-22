@@ -1,7 +1,9 @@
-# print("Assalomu alaykum")
+# print('Assalomu alaykum')
 # print(56+6)
-# print('56')
+# print(56)
+# a = 'olim'
 
+# print(a)
 
 # print('Hello world!')
 
@@ -83,13 +85,13 @@
 # b = int(input("b sonni kiriting:  "))
 # print(a, ":", b, "=", a / b)
 
-# % // **, <, >,
+# # % // **, <, >,
 # son1 = 10
-# son2 = 3
-# print(son1 / son2)
-# print(son1 % son2)
-# print(son1 // son2)
-# print(son2 ** 3)
+# son2 = 3              # 3,    1 q
+# print(son1 / son2)    # 3.3333
+# print(son1 % son2)    # 1
+# print(son1 // son2)   # 3
+# print(son2 ** 2)      # 9
 
 # a = 22
 # b = 54
@@ -104,22 +106,8 @@
  
 
 # # # ==, !=
-# son = 10 == 6
-# son2 = 27 != 26
-# son3 = 6 == 6
+# son = 10 == 6 # f
+# son2 = 27 != 26 # t
+# son3 = 6 == 6 # t
 # print(son)
 # print(son2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
