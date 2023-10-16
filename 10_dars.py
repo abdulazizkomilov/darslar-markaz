@@ -1,68 +1,85 @@
-# # # SintaxError
-# print("Hello World!")
-# print('Hello World!')
-# print('Assalom alaykum!')
+# def toliq_ism_yasa(ism, familiya): # args
+#     """Toliq ism qaytaruvchi funksiya"""
+#     toliq_ism = f"{ism.title()} {familiya.title()}"
+#     return toliq_ism
 
-# # IndentationError
-#   print("Hello World!")
-
-# print("O'ngacha sanaymiz")
-# for n in range(1, 11):
-# print(n)
+# talaba1 = toliq_ism_yasa("olim", "hakimov")
+# talaba2 = toliq_ism_yasa("hakim", "olimov")
+# print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+# print(f"{talaba1} darsga kechikib keldi")
 
 
-# # mantiqiy xato ... dastur tugri ishlaydi 
-# son = 50
-# if son <= 0:
-#     print("Musbat son")
-# else:
-#     print("Manfiy son")
+# def toliq_ism_yasa(ism, familiya, otasining_ismi=""):
+#     """Toliq ism va familiya qaytaruvchi funksiya"""
+#     if otasining_ismi:
+#         toliq_ism = f"{ism} {otasining_ismi} {familiya}"
+#     else:
+#         toliq_ism = f"{ism} {familiya}"
+#     return toliq_ism.title()
 
-# # TypeError
-# son = input("Istalgan son kiriting: ")
-# print(f"{son} ning kvadrati {son**2} ga teng")
-
-# #NameError
-# print("Hello World!")
-# mevalar = ['olma','uzum','nok','anor','anjir']
-# for meva in mevalar:
-#     print(meva)
-
-# # ValueError
-# son = int(input("Istalgan son kiriting: "))
-# if son >= 0:
-#     print("Musbat son")
-# else:
-#     print("Manfiy son")
-
-# #IndexError
-# mevalar = ['olma','anor','uzum']
-# print(mevalar[3])
-
-# # ZeroDivisionError
-# x, y = 50, 50
-# z = 250/(x-y)
-
-# # Mantiqiy xatolar
-# radius = 5
-# pi = 3.14
-# aylana_yuzi = pi*radius**2
-# print(aylana_yuzi)
-
-# son = float(input("Istalgan son kiriting: "))
-# ildiz = son**(1/2)
-# print(f"{son} ning ildizi {ildiz} ga teng")
-
-# mevalar = ['olma','uzum','nok','anor','anjir']
-# for meva in mevalar:
-#     print(meva)
-# print("Dastur tugadi")
+# talaba1 = toliq_ism_yasa("ali", "jamolov")
+# talaba2 = toliq_ism_yasa("hakim", "olimov", "abrorovich")
+# print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 
 
-# b = list(range(11))
 
-# for n in range(1, 11):
-#     for i in mevalar:
-#         print(i)
-#     print(f'son {n+1}')
+
+# def friends_list():
+#     """friends list"""
+#     print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
+#     ismlar = []
+#     n = 1  # ismlarni sanash uchun o'zgaruvchi
+#     while True:  # loop
+#         savol = f"{n}-do'stingiz ismini kiriting: "
+#         ism = input(savol)
+#         ismlar.append(ism)
+#         takrorlash = input("Yana ism qo'shasizmi? (ha/yo'q)")
+#         n += 1
+#         if takrorlash != "ha":
+#             break     
+#     print("Do'stlaringiz ro'yxati: ")
+#     for ism in ismlar:
+#         print(ism.title(), end=" ")
+        
+# while --- cheksiz davom etadi loop 
+# break --- for yoki while ni to'xtatadi    
+# for   --- loop yoki tsikl    
+# def   --- funksiya yasash uchun ishlatiladi
+
+
+
+# def friends_list_data():
+#     """friends list data"""    
+#     print("Do'stlaringiz yoshini saqlaymiz.")
+#     dostlar = {}
+#     ishora = True
+#     n = 1
+#     while ishora:
+#         ism = input(f"{n} - do'stingiz ismini kiriting: ")
+#         yosh = int(input(f"{ism.title()}ning yoshini kiriting: "))
+#         dostlar[ism] = yosh
+#         n+=1
+#         javob = input("Yana ma'lumot qo'shasizmi? (ha/yo'q)")
+#         if javob != "ha":
+#             ishora = False
+#     for ism, yosh in dostlar.items():
+#         print(f"{ism.title()} {yosh} yoshda")
+
+# friends_list_data()
+    
+    
+    
+# def set_ball():
+#     """set ball users"""
+#     talabalar = ["hasan", "husan", "olim", "botir"]
+#     baholangan_talabalar = {}
+#     while talabalar:
+#         talaba = talabalar.pop()
+#         baho = input(f"{talaba.title()}ning bahosini kiriting: ")
+#         print(f"{talaba.title()} baholandi")
+#         baholangan_talabalar[talaba] = int(baho)
+
+# set_ball()
+
+
 
