@@ -1,0 +1,66 @@
+# AMALIYOT
+
+# 1. Yangi cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia'] 
+degan ro'yxat tuzing, ro'yxat elementlarining birinchi 
+harfini katta qilib konsolga chqaring. 
+GM uchun ikkala harfni katta qiling.
+
+# 2. Foydalanuvchi login ismini so'rang. 
+Agar login admin bo'lsa, "Xush kelibsiz, 
+Admin. Foydalanuvchilar ro'yxatini ko'rasizmi?" 
+xabarini konsolga chiqaring. Aks holda, 
+"Xush kelibsiz, {foydalanuvchi_ismi}!"  
+matnini konsolga chiqaring.
+
+# 3. Foydalanuvchidan 2 ta son kiritishni so'rang. 
+Agar ikki son bir-biriga teng bo'lsa, 
+"Sonlar teng" ekan degan yozuvni konsolga chiqaring.
+
+
+# 4. Foydalanuvchidan istalgan son kiritishni so'rang.
+ Agar son manfiy bo'lsa konsolga "Manfiy son", 
+ agar musbat bo'lsa "Musbat son" degan xabarni chiqaring. 
+
+
+# 5. Foydalanuvchidan son kiritishni so'rang, 
+agar son musbat bo'lsa uning ildizini hisoblab 
+konsolga chiqaring. Agar son manfiy bo'lsa, 
+"Musbat son kiriting" degan xabarni chiqaring. 
+
+
+# 6. Foydalanuvchidan juft son kiritishni so'rang.
+ Agar foydalanuvchi juft son kiritsa "Rahmat!", 
+ agar toq son kiritsa "Bu son juft emas" degan 
+ xabarni chiqaring.
+
+
+# 7. mahsulotlar degan ro'yxat yarating va 
+kamida 10 ta turli mahsulotni kiriting. 
+Yangi, savat degan bo'sh ro'yxat yarating va 
+foydalanuvchidan savatga kamida 5 ta mahsulot 
+kiritishni so'rang. Savatdagi elementlarni, 
+mahsulotlar ro'yxati bilan solishtiring va 
+qaysi biri ro'yxatda bo'lsa "Mahsulot 
+do'konimizda bor" aks holda, "Mahsulot do'konimizda yo'q"
+ degan xabarlarni chiqaring.
+
+
+# 8. Yuqoridagi dasturni quyidagicha o'zgartiring:
+ foydalanuvchidan 5 ta mahsulot kiritishni so'rang. 
+ Foydalanuvchi so'ragan va do'konda bor 
+ mahsulotlarni yang, bor_mahsulotlar 
+ degan ro'yxatga, do'konda yo'q mahsulotlarni 
+ esa mavjud_emas degan ro'yxatga qo'shing.  
+ Agar mavjud_emas ro'yxati bo'sh bo'lsa, 
+ "Siz so'ragan barcha mahsulotlar do'konimizda bor" 
+ degan xabarni, aks holda esa "Quyidagi 
+ mahsulotlar do'konimizda yo'q: ....." 
+ degan xabarni chiqaring.
+
+
+# 9. Foydalanuvchidan biror butun son kiritishni 
+so'rang. Foydalanuvchi kiritgan sonni 2 da 
+10 gacha bo'lgan sonlardan qay biriga 
+qoldiqsiz bo'linishini konsolga chiqaring.
+
+
