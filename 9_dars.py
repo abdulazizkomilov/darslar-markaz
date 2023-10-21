@@ -1,168 +1,1 @@
-# yosh = int(input('Yoshingiz nechida? '))
-# if yosh <= 4:
-#     print('Sizga kirish bepul.')
-# elif yosh <= 12:
-#     print("Sizga kirish 5000 so'm")
-# elif yosh <= 18:
-#     print('Sizga kirish 8000 so`m')
-# else:
-#     print('Sizga kirish 10000 so\'m')
-
-
-# yosh = int(input('Yoshingiz nechida? '))
-# if yosh<=4:
-#     price = 0
-# elif yosh<=12:
-#     price = 5000
-# else:
-#     price = 10000
-# print(f"Sizga kirish {price} so'm")
-
-
-
-# yosh = int(input('Yoshingiz nechida? '))
-# if yosh<=4:
-#     price = 0
-# elif yosh<=12:
-#     price = 5000
-# elif yosh<65:
-#     price = 10000
-# else:
-#     price = 8000
-
-# print(f"Sizga kirish {price} so'm")
-
-
-# yosh = int(input('Yoshingiz nechida? '))
-# if yosh<=4:   # 0 -> 4
-#     price = 0
-# elif yosh<=12:  # 5 -> 12
-#     price = 5000
-# elif yosh<65:  # 65 ->
-#     price = 10000
-# elif yosh>=65: # <- 65
-#     price = 8000
-
-# print(f"Sizga kirish {price} so'm")
-
-# kun = input("Bugun nima kun?>>> ")
-# if kun.lower() == 'shanba' or kun.lower() == 'yakshanba':
-#     print('Bugun dam olish kuni.')
-# else:
-#     print('Bugun ish kuni.')
-
-
-
-
-
-
-
-
-
-
-
-# kun = input("Bugun nima kun?>>> ")
-# harorat = float(input("harorat kiriting: "))
-
-# if kun.lower()=='yakshanba' and harorat>=30:
-#     print("Cho'milgani ketdik!")
-# elif kun.lower()=='yakshanba' and harorat<30:
-#     print("Uyda dam olamiz!")
-# elif kun.lower()=='dushanba' or kun.lower()=='shanba':
-#     print("Ish kuni")
-# else:
-#     print("i h k b k")
-    
-# non = input("""Buyurtmachi non oldimi? 
-# Olgan bulsa '1' deb yozing
-# >>> """)
-
-# choy = True  #yes 1 | no 0
-# salat = False
-# price = 15000
-# if choy and salat:
-#     price = price + 10000
-# elif choy or salat:
-#     price = price + 5000
-# print(f"Jami {price} so'm")
-
-
-narh = 15000 # mijoz 15 so'mga ovqat oldi
-choy = True  #  1
-salat = False   # 0
-non = True
-kompot = True
-assorti = True
-
-# if choy:
-#     print("Mijoz choy oldi.")
-#     narh += 3000
-# if salat:
-#     print("Mijoz salat oldi.")
-#     narh += 5000
-# if non:
-#     print("Mijoz non oldi.")
-#     narh = narh + 2000
-# if kompot:
-#     print("Mijoz kompot oldi.")
-#     narh = narh + 5000
-# if assorti:
-#     print("Mijoz assorti oldi.")
-#     narh = narh + 15000
-
-# print(f"Jami {narh} so'm")
-
-# ism = input("Ta`laba ism va familyasini kiriting: ")
-# baho = int(input(f"{ism.title()} ni baholang>>> "))
-# if baho == 5:
-#     print("A`lo")
-# elif baho == 4:
-#     print("Yaxshi")
-# elif baho > 0 and baho < 4:
-#     print("Yomon")
-# elif baho < 0 or baho > 5:
-#     print("...")
-
-# menu = ['osh','qazonkabob','shashlik','norin','somsa']
-# ovqat = input('Nima ovqat yeysiz?>>> ')
-# if ovqat.lower() not in menu:
-#     print('Afsuski bizda bunday ovqat yo\'q')
-# else:
-#     print('Buyurtma qabul qilindi.')
-
-# menu = []
-# for son in range(1, 6):
-#     menu.append(input(f"{son}-ta`omni kiriting: "))
-# taom = input("Nima táom buyyrtma qilasiz: ")
-# if taom not in menu:
-#     print(f"Kechirasiz bizda {taom} yo`q! Bizdagi táomlar róyxati: ")
-#     for a in menu:
-#         print(a, end=("\n"))
-#     taom_2 = input("Iltimos quydagi táomlardan buyurtma qiling: ")
-#     print(f"{taom_2} qabul qilindi!")
-# else:
-#     print(f"{taom} qabul qilindi!")    
-
-
-
-# menu ga kamida 5ta táom qóshisin...
-
-
-# for a in menu:
-#     print(a, end=("\n"))
-
-
-# menu = ['osh','qozonkabob','shashlik','norin','somsa']
-# buyurtmalar = ["osh","somsa","manti", "shashlik"]
-
-# if buyurtmalar:
-#     for taom in buyurtmalar:
-#         if taom in menu:
-#             print(f"Menuda {taom} bor")
-#         else:
-#             print(f"Kechirasiz, menuda {taom} yo'q")
-# else:
-#     print("Savatchangiz bo'sh!")
-    
-    
-    
+# def salom_ber():#     """Salom beruvchi funksiya"""#     print("Assalomu alaykum!")# salom_ber()# def salom_ber(ism, familya): # args#     """Foydalanuvchi ismini qabul qilib,#     unga salom beruvchi funksiya"""#     print(f"Assalomu alaykum, hurmatli {ism.title()} {familya.title()}!")# salom_ber("hasan", "olimov")# salom_ber("olim", "hakimov")# salom_ber("ali", "alimov")# salom_ber('husan', 'jamalov')# salom_ber("zarnigor", "juraboyeva")# def toliq_ism(ism, familiya):#     """Foydalanuvchi ism va familiyasini jamlab chiqaruvchi funksiya"""#     print(#         f"Foydalanuvchi ismi: {ism.title()}\n"#         f"Foydalanuvchi familiyasi: {familiya.title()}"#     )# toliq_ism('olim','hakimov')# def yosh_hisobla(ism, tugilgan_yil):#     """Foydalanuvchi yoshini hisoblaydigan dastur"""#     print(f"{ism.title()} {2023-tugilgan_yil} yoshda")# # yosh_hisobla('olim', 1997)# # yosh_hisobla("ali", 2009)# yosh_hisobla(tugilgan_yil=1995, ism="ali")# yosh_hisobla(ism='olim', tugilgan_yil=2000)# def yosh_hisobla(tugilgan_yil, joriy_yil=2023):#     """Foydalanuvchi tug'ilgan yilidan uning yoshini hisoblaydi"""#     print(f"Siz {joriy_yil-tugilgan_yil} yoshdasiz")# yosh_hisobla(2008)# yosh_hisobla(2005,2022)# yosh_hisobla(1993, 2024)# tyil = int(input("Tug'ilgan yilingizni kiriting: "))# jyil = int(input("Joriy yilni kiriting: "))# yosh_hisobla(tyil, jyil)
