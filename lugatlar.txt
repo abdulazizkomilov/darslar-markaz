@@ -1,0 +1,13 @@
+lug'at  ---  dictionary
+
+  uz    ---      en
+  
+telfon  ---     phone
+talaba  ---    student
+  ...            ...
+  
+uz_en_dict = {
+    'telfon': 'phone',
+    "talaba": 'student',
+}
+
