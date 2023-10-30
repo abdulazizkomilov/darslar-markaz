@@ -1,4 +1,4 @@
-import math
+# import math
 
 # def nom(x):
 #     ifoda = x*x
@@ -34,7 +34,7 @@ import math
 
 
 
-from math import sqrt  # sqrt - kvadrat ildiz
+# from math import sqrt  # sqrt - kvadrat ildiz
 
 # sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 # ildizlar = list(map(sqrt,sonlar))
