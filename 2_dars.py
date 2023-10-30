@@ -1,65 +1,51 @@
-# PI
 # Constanta
 # type()
 # PI = 3.14
-# g = 9.81
+# G = 9.81
 # AS = 55.90
 # A = 3
 # OYLIK = 300_000
 
 
-# str() - string  {matnlar}
-# int() - integir  {sonlar}
-# float() - float {suzuvchi yani kasir sonlar (32.4, 8,1)}
-# bool() - boolen {True, False}
-
-# a = 10
-
-# PI = 3.14 
-
-# DM = 77
-
-
 # import math
 
-# # a = math.pi
-# # print(a)
+# print(math.pi)
 
 # a = 9
 # b = 49
 
-# print(math.sqrt(b)) #ildizdan chiqaradi
+# print(math.sqrt(b)) # ildizdan chiqaradi
 
-# print(math.ceil(45.6)) #katta yaqiniga 46 
+# print(math.ceil(45.6)) # katta yaqiniga 46 
 
-# print(math.floor(45.67)) #kichik yaqiniga 45
+# print(math.floor(45.67)) # kichik yaqiniga 45
 
 # print(math.sin(90))  #sonning sin si
 
-# print(math.factorial(5))  #1*2*3*4*5
+# print(math.factorial(5))  # 1*2*3*4
 
-# print(math.log(125, 5))  #(5*5*5) == 5**3
+# print(math.log(144, 5))  #(5*5*5) == 5**3
 
 # print(math.cos(180))
 
 
 
-# # # list -- ro'yxat
-# # #               0      1      2           3            4           5 
+# list -- ro'yxat
+#  index         0       1      2           3         4|-2          5|-1
+
 # qurulmalar = ["telfon", 'TV', 'wifi', 'sichqoncha', 'headphones', 'lamp']
-# print(qurulmalar[-3].lower())
+# print(qurulmalar[1].lower())
 
-# # .upper()
-# # .lower()
 
-# # # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
-# ismlar = ["ali", "olim", "vali"] 
 
-# # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
-# # print("Salom " + ismlar[0] + ismlar[1] + ismlar[-1] + " ishlaring yaxshimi?")
-# print(f"Salom {ismlar[0].upper()}, \
-# {ismlar[1].lower()}, {ismlar[-1]} \
-# ishlaring yaxshimi?")
+# # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
+ismlar = ["ali", "olim", "vali"] 
+
+# Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
+# print("Salom " + ismlar[0] + ismlar[1] + ismlar[-1] + " ishlaring yaxshimi?")
+print(f"Salom {ismlar[0].upper()}, \
+{ismlar[1].lower()}, {ismlar[-1]} \
+ishlaring yaxshimi?")
 
 
 # f_name = input("ism familya kiriting:  ")
@@ -91,16 +77,6 @@
 # print(sonlar)
 
 
-# # # # Yuqoridagi ro'yxatlarning har biridan bittadan qiymatni sug'urib olib (.pop()), quyidagi ko'rinishda chiqaring:
-# print(f"\nMen tarixiy shaxslardan {t_shaxslar.pop(0).title()} \n\
-# bilan, zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan\n\
-# suhbat qilishni istar edim\n")
-
-# print(f"""Men tarixiy shaxslardan {t_shaxslar.pop(1)} bilan,
-# zamonaviy shaxslardan esa {z_shaxslar.pop(0)} bilan
-# suhbat qilishni istar edim""")
-
-
 # friends nomli bo'sh ro'yxat tuzing va unga .append() yordamida 5-6 ta mehmonga 
 # # chaqirmoqchi bo'lgan do'stlaringizni kiriting.
 
@@ -130,20 +106,20 @@
 # .pop() va .append() metodlari yordamida mehmonga kelgan 
 # do'stlaringizning ismini friends ro'yxatidan sug'urib olib, mehmonlar ro'yxatiga qo'shing.
 
-friends = []
-friends.append("John")
-friends.append("Alex")
-friends.append("Danny")
-friends.append("Sobirjon")
-friends.append("Vanya")
-print(friends)
+# friends = []
+# friends.append("John")
+# friends.append("Alex")
+# friends.append("Danny")
+# friends.append("Sobirjon")
+# friends.append("Vanya")
+# print(friends)
 
-mehmonlar = []
-mehmonlar.append(friends.pop(1))
-mehmonlar.append(friends.pop(-1))
-mehmonlar.append(friends.pop(0))
-mehmonlar.insert(2, friends.pop(0))
-print("\nKelgan mehmonlar: ", mehmonlar)
+# mehmonlar = []
+# mehmonlar.append(friends.pop(1))
+# mehmonlar.append(friends.pop(-1))
+# mehmonlar.append(friends.pop(0))
+# mehmonlar.insert(2, friends.pop(0))
+# print("\nKelgan mehmonlar: ", mehmonlar)
 
 
 
