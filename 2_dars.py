@@ -39,13 +39,13 @@
 
 
 # # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
-ismlar = ["ali", "olim", "vali"] 
+# ismlar = ["ali", "olim", "vali"]
 
 # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
 # print("Salom " + ismlar[0] + ismlar[1] + ismlar[-1] + " ishlaring yaxshimi?")
-print(f"Salom {ismlar[0].upper()}, \
-{ismlar[1].lower()}, {ismlar[-1]} \
-ishlaring yaxshimi?")
+# print(f"Salom {ismlar[0].upper()}, \
+# {ismlar[1].lower()}, {ismlar[-1]} \
+# ishlaring yaxshimi?")
 
 
 # f_name = input("ism familya kiriting:  ")
@@ -65,14 +65,13 @@ ishlaring yaxshimi?")
 # print(sonlar)
 # print(sonlar[-1])
 
-# # Yuqoridagi ro'yxatdagi sonlar ustida turli arifmetik amallar bajarib ko'ring. Ro'yxatdagi ba'zi sonlarning qiymatini o'zgartiring, ba'zilarini esa almashtiring.
+
 # sonlar[0] = sonlar[0] + sonlar[-1]
 # sonlar[1] = -67.8
 # sonlar[4] = sonlar[4] + 40
 # sonlar[3] = 77
 # print(sonlar)
 # del sonlar[5]
-# print(sonlar)
 # del sonlar[0]
 # print(sonlar)
 
@@ -86,7 +85,8 @@ ishlaring yaxshimi?")
 # friends.append("Danny")
 # friends.append("Sobirjon")
 # friends.append("Vanya")
-# print(f"To`liq list-{friends}")
+# print(f"To`liq list: {friends}")
+
 
 # # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan odamlarni .remove() metodi yordamida o'chrib tashlang.
 # friends.remove("John")
@@ -96,11 +96,14 @@ ishlaring yaxshimi?")
 
 
 # talaba = ['jon', 'vaniya', 'kamol']
-# # # Ro'yxatning oxiriga, boshiga va o'rtasiga yangi ismlar qo'shing.
+# print(len(talaba))
 # talaba.append("Hasan")
 # talaba.insert(0, "Husan")
 # talaba.insert(2, "Ivan")
+
 # print(talaba)
+
+# print(len(talaba))
 
 # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. 
 # .pop() va .append() metodlari yordamida mehmonga kelgan 
