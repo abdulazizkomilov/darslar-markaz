@@ -1,14 +1,18 @@
-# import math
+import math
 
-# def nom(x):
-#     ifoda = x*x
+# def daraja(x):
+#     ifoda = x * x
 #     return ifoda
 
-# a = lambda x: x*x
 
 
-# uzunlik = lambda pi, r : 2*pi*r
+# daraja_2 = lambda x, y: x ** y  # nomsiz funksiya lambda
+# print(daraja_2(5, 3))
+
+
+# uzunlik = lambda pi, r: 2*pi*r
 # print(uzunlik(math.pi, 5))
+
 
 
 # def kbvadrat(x, y):
@@ -23,9 +27,14 @@
 
 # kvadrat = daraja(2)
 # kub = daraja(3)
+# turt = daraja(4)
+# on = daraja(10)
 
-# yuz = daraja(100)
-# print(yuz(1000))
+# print(kvadrat(6))
+# print(kub(3))
+# print(turt(8))
+# print(on(100))
+
 
 # # print(kvadrat(38))
 # besh_dj = daraja(5)
@@ -37,61 +46,89 @@
 # from math import sqrt  # sqrt - kvadrat ildiz
 
 # sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
-# ildizlar = list(map(sqrt,sonlar))
+# ildizlar = list(map(sqrt, sonlar)) 
+
+# # map(funksiya, qiymatlar) -- list(map()) qiymatlar ichidagi 
+# # har bir son uchun ishlaydi
+
 # print(ildizlar)
 
-# def daraja2(x):
-#     """Berilgan sonning kvadratini qaytaruvchi funksiya"""
+
+
+
+# def daraja(x):
+#     """Berilgan sonning kvadratini q f"""
 #     return x*x
 
-# print(list(map(daraja2,sonlar)))
+# sonlar = list(range(11))
+
+# print(list(map(daraja, sonlar)))
+
+
+
+# sonlar = list(range(11))
 
 # kvadratlar = list(map(lambda x: x * x, sonlar))
 # print(kvadratlar)
 
 
+
 # a = [4, 5, 6]
-# b = [7, 8, 9]       
+# b = [7, 8, 9]   
+    
 # a_plus_b = list(map(lambda x, y: x + y, a, b))
 # print(a_plus_b)
 
+
+
 # ismlar = ['hasan','husan','olim','umid']
-# print(list(map(lambda matn:matn.upper(),ismlar)))
+# print(list(map(lambda matn:matn.upper(), ismlar)))
+
+
+
+
+
 
 # import random as r
 
 # sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
 # print(sonlar)
 
-
 # def juftmi(x):
 #     """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
 #     return x % 2 == 0
 
-
-# juft_sonlar = list(filter(juftmi,sonlar))
+# juft_sonlar = list(filter(juftmi, sonlar))
 # print(juft_sonlar)
 
 # juft_sonlar = list(filter(lambda x: x % 2 == 0, sonlar))
 # print(juft_sonlar)
 
 
+
 # mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "banan"]
-# harf = "t"
-# mevalar_b = list(filter(lambda meva: meva.startswith(harf), mevalar))
-# print(mevalar_b)
+# # mevalar_b = list(filter(lambda meva: meva.startswith('a'), mevalar))
+# # print(mevalar_b)
+
 
 # mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar))
 # print(mevalar2)
 
 # print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar)))
 
+
+# import random as r
+
 # sonlar = r.sample(range(100),10)
 # juft = [son for son in sonlar if son%2==0]; print(juft)
 
+# # for son in sonlar:
+# #     if son%2==0:
+# #         son
 
 
-# import random as r # random modulini r deb chaqirayapmiz
+
+# import random as r 
 
 # son = r.randint(1,11) # 0 va 100 oralig'ida tasodifiy son
 # print(son)
