@@ -1,4 +1,4 @@
-# def toliq_ism_yasa(ism, familiya): # args
+# def toliq_ism_yasa(ism, familiya): # args - parms
 #     """Toliq ism qaytaruvchi funksiya"""
 #     toliq_ism = f"{ism.title()} {familiya.title()}"
 #     return toliq_ism
@@ -33,13 +33,14 @@
 #         savol = f"{n}-do'stingiz ismini kiriting: "
 #         ism = input(savol)
 #         ismlar.append(ism)
-#         takrorlash = input("Yana ism qo'shasizmi? (ha/yo'q)")
+#         takrorlash = input("ism qo'shasizmi? (ha/yo'q)")
 #         n += 1
 #         if takrorlash != "ha":
 #             break     
 #     print("Do'stlaringiz ro'yxati: ")
 #     for ism in ismlar:
 #         print(ism.title(), end=" ")
+        
         
 # while --- cheksiz davom etadi loop 
 # break --- for yoki while ni to'xtatadi    
@@ -65,7 +66,6 @@
 #     for ism, yosh in dostlar.items():
 #         print(f"{ism.title()} {yosh} yoshda")
 
-# friends_list_data()
     
     
     
@@ -78,8 +78,10 @@
 #         baho = input(f"{talaba.title()}ning bahosini kiriting: ")
 #         print(f"{talaba.title()} baholandi")
 #         baholangan_talabalar[talaba] = int(baho)
+        
+#     print(baholangan_talabalar)
 
-# set_ball()
+
 
 
 
