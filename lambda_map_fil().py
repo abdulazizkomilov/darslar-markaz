@@ -1,4 +1,4 @@
-import math
+# import math
 
 # def daraja(x):
 #     ifoda = x * x
