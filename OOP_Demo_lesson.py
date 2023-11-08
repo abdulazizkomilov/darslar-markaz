@@ -105,68 +105,68 @@ OOP (Object Oriented Programming)
 
     
 
-#       ---  Inheritance  --- 
+# #       ---  Inheritance  --- 
 
-from uuid import uuid4
+# from uuid import uuid4
 
-class Talaba:
-    def __init__(self, talaba_name, familya):
-        self.talaba_name           = talaba_name
-        self.familya  = familya
-        self.student_id   = uuid4()
+# class Talaba:
+#     def __init__(self, talaba_name, familya):
+#         self.talaba_name           = talaba_name
+#         self.familya  = familya
+#         self.student_id   = uuid4()
         
-    def get_name(self):
-        return f"Ta`laba {self.talaba_name} {self.familya}"
+#     def get_name(self):
+#         return f"Ta`laba {self.talaba_name} {self.familya}"
 
-class Group:
-    def __init__(self, name, duration_group):
-        self.name           = name
-        self.num_students   = 0
-        self.uuid           = uuid4()
-        self.students       = []
-        self.duration_group = duration_group
+# class Group:
+#     def __init__(self, name, duration_group):
+#         self.name           = name
+#         self.num_students   = 0
+#         self.uuid           = uuid4()
+#         self.students       = []
+#         self.duration_group = duration_group
         
-    def __repr__(self):
-        return f"{self.name} guruhi, ID: {self.uuid}."
+#     def __repr__(self):
+#         return f"{self.name} guruhi, ID: {self.uuid}."
     
-    def get_num_students(self):
-        return f'{self.name} guruhida {self.num_students} ta`laba mavjud.'
+#     def get_num_students(self):
+#         return f'{self.name} guruhida {self.num_students} ta`laba mavjud.'
     
-    def get_duration(self):
-        return f'Davomiyligi {self.duration_group} oy.'
+#     def get_duration(self):
+#         return f'Davomiyligi {self.duration_group} oy.'
     
-    def get_students(self):
-        """Fanga yozilgan talabalar haqida ma'lumot"""
-        pass
+#     def get_students(self):
+#         """Fanga yozilgan talabalar haqida ma'lumot"""
+#         pass
     
-class Math(Group):
-    def __init__(self, name, duration_group, teacher, talaba):
-        super().__init__(name, duration_group)
-        self.teacher  = teacher
+# class Math(Group):
+#     def __init__(self, name, duration_group, teacher, talaba):
+#         super().__init__(name, duration_group)
+#         self.teacher  = teacher
         
-    def about(self):
-        return f"{self.name} guruhi, ID: {self.uuid}, o`qituvchi: {self.teacher}"
+#     def about(self):
+#         return f"{self.name} guruhi, ID: {self.uuid}, o`qituvchi: {self.teacher}"
     
-    def add_students(self, student):
-        self.students.append(student)
-        self.num_students += 1
+#     def add_students(self, student):
+#         self.students.append(student)
+#         self.num_students += 1
         
-    def get_students(self):
-        """Fanga yozilgan talabalar haqida ma'lumot"""
-        return self.students
+#     def get_students(self):
+#         """Fanga yozilgan talabalar haqida ma'lumot"""
+#         return self.students
         
-t1 = Talaba("olin", "kamolov")
+# t1 = Talaba("olin", "kamolov")
 
-m1 = Math("Algebra", 8, "Umarov Aktam")
-m1.add_students('Ilhom')
-m1.add_students('Kamol')
-m1.add_students('G`olib')    
+# m1 = Math("Algebra", 8, "Umarov Aktam")
+# m1.add_students('Ilhom')
+# m1.add_students('Kamol')
+# m1.add_students('G`olib')    
 
-# m2 = Math("Basic Geometry", 4, "Azimov Rustam")
-# m2.add_students('Yusuf')
-# m2.add_students('Eldor')
-# m2.add_students('Husan')   
-# m2.add_students('Hasan')    
+# # m2 = Math("Basic Geometry", 4, "Azimov Rustam")
+# # m2.add_students('Yusuf')
+# # m2.add_students('Eldor')
+# # m2.add_students('Husan')   
+# # m2.add_students('Hasan')    
 
 
 
