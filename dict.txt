@@ -1,4 +1,4 @@
-lugat - dictionary: dict
+lugat - dictionary: dict()   lugat = {}
 
 uz - en;
 
@@ -9,8 +9,10 @@ uz_en = {
    # key  -- value     key - kalit, value - qiymat
     "salom": "hi",
     "olma": "apple",
+    "maktab": "school",
 }
 
+uz_en['mashina'] = 'car'
 
 
 

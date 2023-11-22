@@ -6,8 +6,8 @@
 
 
 
-# daraja_2 = lambda x, y: x ** y  # nomsiz funksiya lambda
-# print(daraja_2(5, 3))
+# daraja_2 = lambda x: x ** 2 
+# print(daraja_2(5))
 
 
 # uzunlik = lambda pi, r: 2*pi*r
@@ -24,16 +24,15 @@
 # def daraja(n):
 #     return lambda x: x ** n
 
-
 # kvadrat = daraja(2)
 # kub = daraja(3)
 # turt = daraja(4)
 # on = daraja(10)
 
-# print(kvadrat(6))
-# print(kub(3))
-# print(turt(8))
-# print(on(100))
+# print(kvadrat(4))
+# print(kub(5))
+# print(turt(16))
+# print(on(22))
 
 
 # # print(kvadrat(38))
@@ -48,10 +47,21 @@
 # sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 # ildizlar = list(map(sqrt, sonlar)) 
 
-# # map(funksiya, qiymatlar) -- list(map()) qiymatlar ichidagi 
-# # har bir son uchun ishlaydi
+
+# map(funksiya, qiymatlar) -- list(map()) 
+# qiymatlar ichidagi har bir son uchun 
+# ishlaydi
 
 # print(ildizlar)
+
+
+
+
+# names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
+
+# ismlar = ['hasan','husan','olim','umid']
+# print(list(map(lambda ism: ism.upper(), names)))
+
 
 
 
@@ -72,19 +82,12 @@
 # print(kvadratlar)
 
 
-
 # a = [4, 5, 6]
 # b = [7, 8, 9]   
-    
+# z = [3, 7, 2]
+
 # a_plus_b = list(map(lambda x, y: x + y, a, b))
 # print(a_plus_b)
-
-
-
-# ismlar = ['hasan','husan','olim','umid']
-# print(list(map(lambda matn:matn.upper(), ismlar)))
-
-
 
 
 
@@ -93,6 +96,7 @@
 
 # sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
 # print(sonlar)
+
 
 # def juftmi(x):
 #     """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
@@ -106,15 +110,20 @@
 
 
 
-# mevalar = ["olma", "anor", "anjir", "shaftoli", "o'rik", "tarvuz", "qovun", "banan"]
-# # mevalar_b = list(filter(lambda meva: meva.startswith('a'), mevalar))
-# # print(mevalar_b)
+# mevalar1 = ["olma", "anor", "anjir", 
+#            "shaftoli", "o'rik", "tarvuz", 
+#            "qovun", "banan", 'ananas']
 
+# mevalar = list(filter(lambda meva: meva.startswith('a'), mevalar1))
+# print(mevalar)
 
-# mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar))
+# mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar1))
 # print(mevalar2)
 
-# print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar)))
+# print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar1)))
+# print(list(filter(lambda meva: (meva.startswith("s") and len(meva) >= 5), mevalar1)))
+
+
 
 
 # import random as r
@@ -128,9 +137,9 @@
 
 
 
-# import random as r 
+import random as r 
 
-# son = r.randint(1,11) # 0 va 100 oralig'ida tasodifiy son
+# son = r.randint(1, 10) # 0 va 10 oralig'ida tasodifiy son
 # print(son)
 
 

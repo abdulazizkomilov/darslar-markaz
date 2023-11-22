@@ -7,7 +7,7 @@
 #         self.familiya = familiya
 #         self.tyil = tyil
 #         self.tel = tel
-    
+
 #     def get_f_name(self):
 #         return f"To`liq ism familiyam: {self.ism} {self.familiya}"
     
@@ -21,16 +21,18 @@
 
 # talaba1 = Talaba("Alijon", "Valiyev", 2000, 99893208399)
 # talaba2 = Talaba("Hasan", "Umarov", 1995, 9983737593)
+# talaba3 = Talaba("Zarnigor", "Juraboyiva", 2006, 938713909)
+# talaba4 = Talaba("Samandar", "Hazratqulov", 2008, 906862808)
+# talaba5 = Talaba("Sanjar", "Ismoilov", 2008, 932575708)
+
+
 
 # print(talaba1.ism)
 # print(talaba1.familiya)
-# talaba2.tanishtir()
+# talaba1.tanishtir()
 
-# talaba2 = Talaba("Olim","Hakimov", 2001, 901234567)
-# talaba2.tanishtir()
-# talaba3 = Talaba("Husan", "Akbarov", 2004, 234567890)
-# talaba4 = Talaba("Hasan", "Akbarov", 2004, 987654453)
-# talaba4.tanishtir()
+
+
 
 
 
@@ -62,30 +64,23 @@
 #     def tanishtir(self):
 #         print(f"Ismim {self.ism} {self.familiya} {self.tyil} yilda tu'gilganman")
 
-
 # talaba1 = Talaba("olim", "Hakimov", 2005)
 # print(talaba1.get_fullname())
 # print(talaba1.get_age(2023))
-
 # talaba1.tanishtir()
 
-class Talaba1():
+
+# class Shaxs:
     
-    def __init__(self, ism, familya, tyil):
-        pass
+#     def __init__(self, ism, familya, tyil):
+#         pass
     
-    def get_name(self):
-        pass
+#     def get_name(self):
+#         pass
     
-    def get_lastname(self):
-        pass
+#     def get_age(self):
+#         pass
     
-    def get_fullname(self):
-        pass
-    
-    def get_age(self):
-        pass
-    
-    def tanishtir(self):
-        pass
+#     def tanishtir(self):
+#         pass
 

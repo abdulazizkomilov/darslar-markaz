@@ -90,13 +90,17 @@
 # bu yerda 𝑎1 = 1 va 𝑎𝑛
 # = 𝑛 ga teng.
 
-a1 = int(input('a1 k.:  '))
-an = int(input('an k.: '))
-s = (a1+an) / 2 * an
-print(f"S = (𝑎1+𝑎𝑛) / 2 * 𝑛 ning a. p. {s}")
+# a1 = int(input('a1 k.:  '))
+# an = int(input('an k.: '))
+# s = (a1+an) / 2 * an
+# print(f"S = (𝑎1+𝑎𝑛) / 2 * 𝑛 ning a. p. {s}")
 
 
 # VAZIFA
 # 1.0
 # 2.7 >> 3.5
 
+
+
+
+# Amallardan birini tanlang va men sizga shu amalga doir 5ta misol beraman (+), (-), (x), (/) 
