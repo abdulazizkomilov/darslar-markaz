@@ -41,6 +41,7 @@
 #     for ism in ismlar:
 #         print(ism.title(), end=" ")
         
+# friends_list()
         
 # while --- cheksiz davom etadi loop 
 # break --- for yoki while ni to'xtatadi    
