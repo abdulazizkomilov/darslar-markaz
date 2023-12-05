@@ -1,9 +1,8 @@
-# import math
+import math
 
 # def daraja(x):
 #     ifoda = x * x
 #     return ifoda
-
 
 
 # daraja_2 = lambda x: x ** 2 
@@ -15,30 +14,31 @@
 
 
 
-# def kbvadrat(x, y):
+# # def kbvadrat(x, y):
 
-# kvadrat = lambda x, y : x ** y
+# kvadrat = lambda x, y: x ** y
 # print(kvadrat(3, 2))
 
 
-# def daraja(n):
-#     return lambda x: x ** n
+def daraja(n):
+    return lambda x: x ** n
 
-# kvadrat = daraja(2)
-# kub = daraja(3)
-# turt = daraja(4)
-# on = daraja(10)
+kvadrat = daraja(2)
+kub = daraja(3)
+turt = daraja(4)
+on = daraja(10)
 
 # print(kvadrat(4))
-# print(kub(5))
+# print(kvadrat(9))
+# print(kub(6))
 # print(turt(16))
 # print(on(22))
-
 
 # # print(kvadrat(38))
 # besh_dj = daraja(5)
 # print(besh_dj(38))
-# # print(f"3-ning kvadrati {kvadrat(3)} ga, " f"kubi {kub(3)} ga teng")
+print(f"3-ning kvadrati {kvadrat(3)} ga, " 
+      f"kubi {kub(3)} ga teng")
 
 
 

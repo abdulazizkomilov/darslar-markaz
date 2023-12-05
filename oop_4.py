@@ -1,4 +1,4 @@
-# # VORISLIK VA POLIMORFIZM
+# # # VORISLIK VA POLIMORFIZM
 
 class Shaxs:
     """Shaxslar haqida ma'lumot"""
@@ -19,6 +19,7 @@ class Shaxs:
     def get_age(self, yil):
         """Shaxsning yoshini qaytaruvchi metod"""
         return yil - self.tyil
+    
     
 class Talaba(Shaxs):
     """Talaba klassi"""
@@ -48,7 +49,7 @@ shaxs1 = Shaxs("olim", "karimov", "AB3457261", 1997)
 shaxs2 = Shaxs("vali", "kamolov", "BC7922639", 1980)
 
 talaba = Talaba("olim", "karimov", "AB3457261", 1997, "ID56782", "yangiyer")
-# talaba1 = Talaba("Valijon", "Aliyev", "FA112299", 2000, "0000012", "samarqand")
+talaba1 = Talaba("Valijon", "Aliyev", "FA112299", 2000, "0000012", "samarqand")
 
 class Manzil:
     """Manzil saqlash uchun klass"""
@@ -68,3 +69,34 @@ class Manzil:
 
 talaba1_manzil = Manzil(12, "Olmazor", "Bog'bon", "Samarqand")
 talaba1 = Talaba("Valijon", "Aliyev", "FA112299", 2000, "0000012", talaba1_manzil)
+
+
+
+
+# shaxs -- account
+
+# ---------- xususiyat -------
+# bank nomi  -  bank_nomi
+# bank id raqami bank_id
+# foydalanuvchi id raqami user_id
+# balance   12$
+# -------- methods ---------
+# add_money     balance += 10$
+# full_balance = 22$
+# withdraw  22$ - 5$
+# full_balance = 17$
+# self.balance = 0
+
+# -------- test qismi -----------
+# def add_balnace(self, kiritlgan_balance):
+#     self.balance += kiritlgan_balance
+
+# shaxs1.add_balance(10)
+# shaxs1.full_balance()
+
+
+
+
+
+
+

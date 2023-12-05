@@ -59,13 +59,13 @@ tamoyillari hisoblanadi.
 #         """Shaxsning yoshini qaytaruvchi metod"""
 #         return yil - self.tyil
     
-# # VORISLIK
+# # VORISLIK ota klassdan meros
 # class Talaba(Shaxs):
 #     """Talaba klassi"""
 
 #     def __init__(self, ism, familiya, passport, tyil, idraqam, manzil):
 #         """Talabaning xususiyatlari"""
-#         # Ota klasslarning __init__ metodlarini chaqirish
+#         # Ota klasslarning __init__ metodlarini chaqirish plomarfizm
 #         super().__init__(ism, familiya, passport, tyil)
 #         self.idraqam = idraqam
 #         self.bosqich = 1
@@ -85,20 +85,19 @@ tamoyillari hisoblanadi.
 #         info += f"{self.get_bosqich()}-bosqich. ID raqami: {self.idraqam}"
 #         return info
 
-# # shaxs1 = Shaxs("olim", "karimov", "AB3457261", 1997)
-# # shaxs2 = Shaxs("vali", "kamolov", "BC7922639", 1980)
-
 # talaba1 = Talaba("olim", "karimov", "AB3457261", 1997, "ID56782", "yangiyer")
+# shaxs1 = Shaxs("olim", "karimov", "AB3457261", 1997)
+# shaxs2 = Shaxs("vali", "kamolov", "BC7922639", 1980)
 
 
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def display_info(self):
-        print(f"Ismi: {self.name}, Yosh: {self.age}")
+#     def display_info(self):
+#         print(f"Ismi: {self.name}, Yosh: {self.age}")
 
 
 # class Occupation:

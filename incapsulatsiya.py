@@ -71,9 +71,5 @@ avto1 = Avto("GM","Malibu","Qora",2020,40000,1000)
 avto2 = Avto("GM","Malibu","matematika",2020,40000,1000)
 avto3 = Avto("GM","Malibu","Qora",2020,40000,1000)
 avto4 = Avto("GM","Malibu","matematika",2020,40000,1000)
-# class Bus:
-#     pass
 
 
-# class Train:
-#     pass

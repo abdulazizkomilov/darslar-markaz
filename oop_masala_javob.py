@@ -48,11 +48,6 @@ class Talaba(Shaxs):
         info += f"{self.get_bosqich()}-bosqich. ID raqami: {self.idraqam}"
         return info
 
-shaxs1 = Shaxs("olim", "karimov", "AB3457261", 1997)
-shaxs2 = Shaxs("vali", "kamolov", "BC7922639", 1980)
-
-talaba = Talaba("olim", "karimov", "AB3457261", 1997, "ID56782", "yangiyer")
-talaba1 = Talaba("Valijon", "Aliyev", "FA112299", 2000, "0000012", "samarqand")
 
 class Manzil:
     """Manzil saqlash uchun klass"""
@@ -76,8 +71,13 @@ class Manzil:
         return manzil
 
 talaba1_manzil = Manzil(12, "Olmazor", "Bog'bon", "Samarqand")
-talaba2 = Talaba("Valijon", "Aliyev", "FA112299", 2000, "0000012", talaba1_manzil)
+talaba1 = Talaba("Valijon", "Aliyev", "FA112299", 2000, "0000012", talaba1_manzil)
 
+talaba2_manzil = Manzil('11/2', "Bahor", "Yangiyo'l", "Tosklent")
+talaba2 = Talaba("Olim", "Karimov", "AB3457261", 1997, "023992", talaba2_manzil)
+
+talaba3_manzil = Manzil(134, "Samoviy", "Marhamat", "Andijon")
+talaba3 = Talaba("Sofiya", "Sofiyova", "AB112299", 1999, "000001", talaba3_manzil)
 
 
 
@@ -86,7 +86,6 @@ class University:
         """Manzil xususiyatlari"""
         self.name = name
         self.students_list = []
-        self.students_nums = 0
         
     def __repr__(self):
         return f"{self.name} universiteti"
@@ -110,6 +109,15 @@ class University:
             self.add_student(qiymat)
         else:
             print(f"Universitetga {type(qiymat)} qo`shib bo`lmaydi")
+            
+    def __lt__(self, uni2):
+        return self.get_students_num() < uni2.get_students_num()
+
+    def __ge__(self, uni2):
+        return self.get_students_num() >= uni2.get_students_num()
+    
+    def __eq__(self, uni2): 
+        return self.get_students_num() == uni2.get_students_num()
 
     def __call__(self, *param):
         if param:
@@ -128,6 +136,8 @@ class University:
     def get_list(self):
         return [student for student in self.students_list]
 
+    def get_students_num(self):
+        return len(self.students_list)
 
 
 
@@ -136,6 +146,6 @@ uni2 = University("SAMDU")
 uni3 = University("INHA")
 
 
-uni1.add_student(talaba, talaba1)
-uni2(talaba2)
+uni1.add_student(talaba1, talaba2)
+uni2(talaba3)
 

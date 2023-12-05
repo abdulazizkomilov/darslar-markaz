@@ -1,0 +1,20 @@
+shaxs 
+-- xususiyatlari: ism, familya, tyil, 
+    nomer, passport_id, manzil
+-- metodlar: get_full_name, get_id, __repr__
+   talaba manzil uchun manzil obyektni uzatish
+    
+manzil
+-- xususiyatlari: viloyat, tuman, mahalla, kocha,
+   uy
+-- metodlar: get_manzil, __repr__
+
+talaba(shaxs)
+-- talaba_id, kurs
+-- metodlar: get_info, get_kurs, get_student_id, __repr__
+
+Universitet
+-- xususiyatlari: uni_nomi, students_list
+-- metodlar: get_students, get_students_num, 
+   add_student, __add__, __setitem__, __getitem__,
+   __len__, __repr__, __call__, __gt__, __lt__

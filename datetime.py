@@ -1,6 +1,6 @@
 # docs.python.org/3/library
 
-# import datetime as dt
+import datetime as dt
 # # datetime()
 # hozir = dt.datetime.now()
 # print(hozir)
@@ -55,3 +55,44 @@
 
 # sana_vaqt = hozir.strftime("%d/%m/%Y, %H:%M")
 # print(sana_vaqt)
+
+
+from datetime import datetime, timedelta
+
+def get_first_day_of_next_month():
+    # Joriy sana
+    current_date = datetime.now()
+
+    # Keyingi oyning boshlanish kunini olish
+    if current_date.month == 12:
+        next_month_start = datetime(current_date.year + 1, 1, 1)
+    else:
+        next_month_start = datetime(current_date.year, current_date.month + 1, 1)
+
+    return next_month_start
+
+# Mavjud sana vaqtini olish
+next_month_start_date = get_first_day_of_next_month()
+
+
+
+
+current_date = dt.datetime.now()
+y = current_date.year
+m = current_date.month
+d = current_date.day
+
+
+if m == 12:
+    next_pay = datetime(y + 1, 1, d)
+else:
+    next_pay = datetime(y, m + 1, d)
+
+
+next_date = dt.datetime(2024,1,4)
+if next_date == next_pay:
+    print('tolov')
+else:
+    print("ok")
+
+
