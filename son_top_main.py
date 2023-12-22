@@ -1,23 +1,23 @@
 import random
 
 
-# def sontop(x=10):
-#     tasodifiy_son = random.randint(1, x)
-#     print(f"Men 1 dan {x} gacha son o'yladim. Topa olasizmi?", end="")
-#     taxminlar = 0
-#     while True:
-#         taxminlar += 1
-#         taxmin = int(input(">>>"))
-#         if taxmin < tasodifiy_son:
-#             print("Kattaroq son ayting:", end="")
-#         elif taxmin > tasodifiy_son:
-#             print("Kichikroq son ayting:", end="")
-#         else:
-#             print("Yutdingiz!")
-#             break
+def sontop(x=10):
+    tasodifiy_son = random.randint(1, x)
+    print(f"Men 1 dan {x} gacha son o'yladim. Topa olasizmi?", end="")
+    taxminlar = 0
+    while True:
+        taxminlar += 1
+        taxmin = int(input(">>>"))
+        if taxmin < tasodifiy_son:
+            print("Kattaroq son ayting:", end="")
+        elif taxmin > tasodifiy_son:
+            print("Kichikroq son ayting:", end="")
+        else:
+            print("Yutdingiz!")
+            break
 
-#     print(f"Tabriklayman. {taxminlar} ta taxmin bilan topdingiz!")
-#     return taxminlar
+    print(f"Tabriklayman. {taxminlar} ta taxmin bilan topdingiz!")
+    return taxminlar
 
 def sontop_computer(x=10):
     input(f"1 dan {x} gacha son o'ylang va istalgan tugmani bosing. Men topaman.")
@@ -45,40 +45,19 @@ def sontop_computer(x=10):
 
 
 
+def play(x=10):
+    yana = True
+    while yana:
+        taxminlar_pc = sontop_computer(x)
+        taxminlar_user = sontop(x)
 
+        if taxminlar_user > taxminlar_pc:
+            print(f"Men {taxminlar_pc} taxmin bilan topdim va  yutdim!")
+        elif taxminlar_user < taxminlar_pc:
+            print(f"Siz {taxminlar_user} taxmin bilan topdingiz va yutdingiz!")
+        else:
+            print("Durrang!")
+        yana = int(input("Yana o'ynaymizmi? Ha(1)/Yo'q(0):"))
 
-
-# def play(x=10):
-#     yana = True
-#     while yana:
-#         taxminlar_pc = sontop_computer(x)
-#         taxminlar_user = sontop(x)
-
-#         if taxminlar_user > taxminlar_pc:
-#             print(f"Men {taxminlar_pc} taxmin bilan topdim va  yutdim!")
-#         elif taxminlar_user < taxminlar_pc:
-#             print(f"Siz {taxminlar_user} taxmin bilan topdingiz va yutdingiz!")
-#         else:
-#             print("Durrang!")
-#         yana = int(input("Yana o'ynaymizmi? Ha(1)/Yo'q(0):"))
-
-
-# play()
-
-
-
-
-# array = ['ali', 'olim', 'vali']
-
-# def find_name(start, array):
-#     pass
-
-
-
-# find_name('z', array)
-
-
-
-
-
+play()
 

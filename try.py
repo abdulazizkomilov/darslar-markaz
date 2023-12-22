@@ -1,34 +1,44 @@
 # # Xatolar
 # yosh = int(input("Yoshingizni kiriting: "))
-# print(f"Siz {2021-yosh} yilda tug'ilgansiz")
+# print(f"Siz {2023-yosh} yilda tug'ilgansiz")
+# print('hi')
+
 
 # # try-except
 # yosh = input("Yoshingizni kiriting: ")
 # try:
 #     yosh = int(yosh)
-#     print(f"Siz {2022-yosh} yilda tug'ilgansiz")
-# except ValueError:
+#     print(f"Siz {2023-yosh} yilda tug'ilgansiz")
+# except: 
 #     print("Butun son kiritmadingiz")
+# print('hi')
 
 # # try-except-else
-# print("Dastur Tugadi!")
-
 # yosh = input("Yoshingizni kiriting: ")
 # try:
 #     yosh = int(yosh)
 # except ValueError:
 #     print("Butun son kiritmadingiz")
 # else:
-#     print(f"Siz {2021-yosh} yilda tug'ilgansiz")
+#     print(f"Siz {2023-yosh} yilda tug'ilgansiz")
+# print('dastur t')
+
 
 # x, y = 3, 10
 # try:
 #     print(y/(x-3))
 # except ZeroDivisionError:
 #     print("0 ga bo'lib bo'lmaydi")
+# # except Exception as e:
+# #     print(f"{e} 0 ga bo'lib bo'lmaydi")
+
+
 
 # mevalar = ['olma','anor','anjir','uzum']
-# a = int(input("index kiriting: "))
+# for ind, meva in enumerate(mevalar):
+#     print(f"{ind+1}: {meva}", end=' ')
+    
+# a = int(input("\nindex kiriting: "))
 # index = a - 1
 # try:
 #     if len(mevalar) <= index:
@@ -37,16 +47,23 @@
 #     print(f"Ro'yxatda {len(mevalar)} ta meva bor xolos")
 # else:
 #     print(mevalar[index])
-    
 
-# user = {"username":"sariqdev",
-#         "status":"admin",
-#         "email":"admin@sariq.dev",
+
+# data = {
+#         "ism": "ali",
+#         "familiya": "aliyev",
+#         "yosh": 20,
+#         }
+
+
+# data = {"username":"admin",
+#         "status":"owner",
+#         "email":"admin@uz.dev",
 #         "phone":"99897123456"}
 
 # key="phone"
 # try:
-#     print(f'Foydalanuvchi: {user[key]}')
+#     print(f'Foydalanuvchi: {data[key]}')
 # except KeyError:
 #     print("Bunday kalit mavjud emas")
 
@@ -64,7 +81,10 @@
 #     with open(filename) as f:
 #         text = f.read()
 # except FileNotFoundError:
-#     print(f"Kechirasiz, {filename} fayli mavjud emas. Bosh fayl tanlang.")
+#     print(f"Kechirasiz, {filename} fayli mavjud emas. Boshqa fayl tanlang.")
+# else:
+#     print(text)
+
 
 # n = input("Butun son kiriting: ")
 # n = int(n)
@@ -122,8 +142,6 @@
 # except ZeroDivisionError:
 #     print("0 ga bo'lib bo'lmaydi")
 # except ValueError:
-#     print("Bu son emas")
-# except:
-#     print("Xato yuz berdi!")
-
-
+#     print("Bu kasir son butun son k")
+# except Exception as error:
+#     print(f"{error} Xato yuz berdi!")

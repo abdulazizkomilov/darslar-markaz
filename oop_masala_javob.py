@@ -140,7 +140,6 @@ class University:
         return len(self.students_list)
 
 
-
 uni1 = University("TATU")
 uni2 = University("SAMDU")
 uni3 = University("INHA")

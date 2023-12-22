@@ -20,7 +20,8 @@ class Talaba:
         """Talabanining bosqichini 1taga ko'paytirish"""
         self.bosqich += 1
         
-talaba1 = Talaba("Alijon","Valiyev",2000)
+# talaba1 = Talaba("Alijon","Valiyev",2000)
+
 # print(talaba1.get_info())
 
 # talaba1.update_bosqich() # 1 bosqichga oshiramiz
@@ -71,6 +72,7 @@ matematika.add_student(talaba3)
 
 print(matematika.talabalar_soni)
 print(matematika.talabalar)
+print(matematika.get_students())
 
 # # return [x.get_info() for x in self.talabalar]
 # mat_talabalar = matematika.get_students()
@@ -84,9 +86,9 @@ print(matematika.talabalar)
 # def see_methods(klass):
 #     return [method for method in dir(klass) if method.startswith('__') is False]
     
-#     # for method in dir(klass):
-#     #     if method.startswith('__') is False:
-#     #         return method
+    # for method in dir(klass):
+    #     if method.startswith('__') is False:
+    #         return method
 
 # print(see_methods(Talaba))
 # print(see_methods(talaba1))

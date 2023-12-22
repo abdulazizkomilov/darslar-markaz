@@ -1,4 +1,7 @@
 import math
+mevalar1 = ["olma", "anor", "anjir", 
+            "shaftoli", "o'rik", "tarvuz", 
+            "qovun", "banan", 'ananas']
 
 # def daraja(x):
 #     ifoda = x * x
@@ -20,13 +23,13 @@ import math
 # print(kvadrat(3, 2))
 
 
-def daraja(n):
-    return lambda x: x ** n
+# def daraja(n):
+#     return lambda x: x ** n
 
-kvadrat = daraja(2)
-kub = daraja(3)
-turt = daraja(4)
-on = daraja(10)
+# kvadrat = daraja(2)
+# kub = daraja(3)
+# turt = daraja(4)
+# on = daraja(10)
 
 # print(kvadrat(4))
 # print(kvadrat(9))
@@ -37,8 +40,8 @@ on = daraja(10)
 # # print(kvadrat(38))
 # besh_dj = daraja(5)
 # print(besh_dj(38))
-print(f"3-ning kvadrati {kvadrat(3)} ga, " 
-      f"kubi {kub(3)} ga teng")
+# print(f"3-ning kvadrati {kvadrat(3)} ga, " 
+#       f"kubi {kub(3)} ga teng")
 
 
 
@@ -48,19 +51,19 @@ print(f"3-ning kvadrati {kvadrat(3)} ga, "
 # ildizlar = list(map(sqrt, sonlar)) 
 
 
-# map(funksiya, qiymatlar) -- list(map()) 
-# qiymatlar ichidagi har bir son uchun 
-# ishlaydi
+# # map(funksiya, qiymatlar) -- list(map()) 
+# # qiymatlar ichidagi har bir son uchun 
+# # ishlaydi
 
 # print(ildizlar)
 
 
-
-
 # names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
 
-# ismlar = ['hasan','husan','olim','umid']
+
 # print(list(map(lambda ism: ism.upper(), names)))
+
+
 
 
 
@@ -74,6 +77,15 @@ print(f"3-ning kvadrati {kvadrat(3)} ga, "
 
 # print(list(map(daraja, sonlar)))
 
+# sonlar = list(range(11))
+
+# def son_t(x):
+#     if x % 2 == 1:
+#         return x
+
+
+# print(list(map(son_t, sonlar)))
+
 
 
 # sonlar = list(range(11))
@@ -84,7 +96,7 @@ print(f"3-ning kvadrati {kvadrat(3)} ga, "
 
 # a = [4, 5, 6]
 # b = [7, 8, 9]   
-# z = [3, 7, 2]
+# # z = [3, 7, 2]
 
 # a_plus_b = list(map(lambda x, y: x + y, a, b))
 # print(a_plus_b)
@@ -95,8 +107,7 @@ print(f"3-ning kvadrati {kvadrat(3)} ga, "
 # import random as r
 
 # sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-# print(sonlar)
-
+# # print(sonlar)
 
 # def juftmi(x):
 #     """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
@@ -105,24 +116,21 @@ print(f"3-ning kvadrati {kvadrat(3)} ga, "
 # juft_sonlar = list(filter(juftmi, sonlar))
 # print(juft_sonlar)
 
-# juft_sonlar = list(filter(lambda x: x % 2 == 0, sonlar))
+# juft_sonlar = list(filter(lambda x: x % 2 == 1, sonlar))
 # print(juft_sonlar)
 
 
 
-# mevalar1 = ["olma", "anor", "anjir", 
-#            "shaftoli", "o'rik", "tarvuz", 
-#            "qovun", "banan", 'ananas']
 
 # mevalar = list(filter(lambda meva: meva.startswith('a'), mevalar1))
 # print(mevalar)
+
 
 # mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar1))
 # print(mevalar2)
 
 # print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar1)))
 # print(list(filter(lambda meva: (meva.startswith("s") and len(meva) >= 5), mevalar1)))
-
 
 
 
@@ -137,9 +145,9 @@ print(f"3-ning kvadrati {kvadrat(3)} ga, "
 
 
 
-import random as r 
+# import random as r 
 
-# son = r.randint(1, 10) # 0 va 10 oralig'ida tasodifiy son
+# son = r.randint(0, 100) # 0 va 10 oralig'ida tasodifiy son
 # print(son)
 
 
@@ -154,9 +162,23 @@ import random as r
 # print(r.choice(x))
 
 
+# import random as r
+
 # x = list(range(11))   # x ichidagi elementlarni tasodifiy tartibda qaytaruvchi funksiya
 # print(x)
 # r.shuffle(x)
 # print(x)
 
+
+import random as r
+
+son1 =r.randint(0, 10)
+son2 =r.randint(5, 15)
+son3 =r.randint(20, 30)
+natija = int(input(f"Hisoblang:\n{son1} + {son2} + {son3} = "))
+n = son1+son2+son3
+if natija == n:
+    print(f"To'g'ri. Javob: {n}")
+else:
+    print(f"Noto'g'ri. Javob: {n}")
 
