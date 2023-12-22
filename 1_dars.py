@@ -1,11 +1,14 @@
-# print('Assalomu alaykum')
+# print('Hello world!')
+
 # print("HI")
+
 # print(56 + 6)
+
 # print(56)
+
+
 # a = 'olim'
 # print(a)
-# print('77 + 2')
-# print('Hello world!')
 # b = 5
 # c = 16
 # d = 9
@@ -38,8 +41,12 @@
 # son1 = 10
 # son2 = 33
 # print("a = ", son1)
-# print("son2 ning qiymati", son2)
+# print("b = ", son2)
  
+# t_yil = int(input("t y k:  "))
+# print("sizning yoshingiz ", 2023 - t_yil, "da")
+
+
 
 # a = 5
 # b = 6
@@ -111,9 +118,9 @@
 # print(a, ":", b, "=", a / b)
 
 
-# % // **, <, >,
-son1 = 10
-son2 = 3              # 3,    1 q
+# # % // **, <, >,
+# son1 = 10
+# son2 = 3              # 3,    1 q
 
 # print(son1 / son2)    # 3.3333
 # print(son1 % son2)    # 1  
@@ -130,22 +137,23 @@ son2 = 3              # 3,    1 q
 
 # butun_q = son1 // son2
 # qoldiq_q = son1 % son2
+# # f " " - f string
 # print(f"{son1} : {son2} = {butun_q} butun qismi, {qoldiq_q}, qoldiq qismi.")
 
 
-# a = 22
-# b = 54
-# print(a > b) #xato -- False
-# print(a < b) #tugri - True
+a = 22
+b = 54
+print(a > b) #xato -- False
+print(a < b) #tugri - True
 
 # # str() - string  {matnlar}
 # # int() - integir  {sonlar}
 # # float() - kasr sonlar  7.6, 6.09
 # # bool() - True, False
- 
-# # # ==, !=
-# son = 10 == 6 # f
-# son2 = 27 != 26 # t
-# son3 = 6 == 6 # t
-# print(son)
-# print(son2)
+
+# # ==, !=
+son = 10 == 6 # f
+son2 = 27 != 26 # t
+son3 = 6 == 6 # t
+print(son)
+print(son2)
