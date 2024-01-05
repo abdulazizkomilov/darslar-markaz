@@ -50,7 +50,7 @@ tamoyillari hisoblanadi.
 #         self.tyil = tyil
 
 #     def get_info(self):
-#         """Shaxs haqida ma'lumot"""
+#         """Shaxs haqida ma'lumot"
 #         info = f"{self.ism} {self.familiya}. "
 #         info += f"Passport:{self.passport}, {self.tyil}-yilda tug`ilgan"
 #         return info
@@ -58,6 +58,7 @@ tamoyillari hisoblanadi.
 #     def get_age(self, yil):
 #         """Shaxsning yoshini qaytaruvchi metod"""
 #         return yil - self.tyil
+    
     
 # # VORISLIK ota klassdan meros
 # class Talaba(Shaxs):
@@ -91,37 +92,63 @@ tamoyillari hisoblanadi.
 
 
 
-# class Person:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
-
-#     def display_info(self):
-#         print(f"Ismi: {self.name}, Yosh: {self.age}")
 
 
-# class Occupation:
-#     def __init__(self, occupation):
-#         self.occupation = occupation
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-#     def display_occupation(self):
-#         print(f"Kasbi: {self.occupation}")
+    def display_info(self):
+        print(f"Ismi: {self.name}, Yosh: {self.age}")
 
 
-# class Student(Person, Occupation):
-#     def __init__(self, name, age, student_id, occupation):
-#         # Ota klasslarning __init__ metodlarini chaqirish
-#         Person.__init__(self, name, age)
-#         Occupation.__init__(self, occupation)
-#         self.student_id = student_id
+class Occupation:
+    def __init__(self, occupation):
+        self.occupation = occupation
 
-#     def display_info(self):
-#         # Ota klasslarning display_info metodlarini chaqirish
-#         Person.display_info(self)
-#         # Bu sinfning xususiy metodini qo'shish
-#         print(f"Talaba ID: {self.student_id}")
+    def display_occupation(self):
+        print(f"Kasbi: {self.occupation}")
 
-# # Test qismi
-# student = Student("Alice Smith", 20, "S12345", "IT Specialist")
-# student.display_info()
-# student.display_occupation()
+
+class Student(Person, Occupation):
+    def __init__(self, name, age, student_id, occupation):
+        # Ota klasslarning __init__ metodlarini chaqirish
+        Person.__init__(self, name, age)
+        Occupation.__init__(self, occupation)
+        self.student_id = student_id
+
+    def display_info(self):
+        # Ota klasslarning display_info metodlarini chaqirish
+        Person.display_info(self)
+        # Bu sinfning xususiy metodini qo'shish
+        print(f"Talaba ID: {self.student_id}")
+
+# Test qismi
+student = Student("Alice Smith", 20, "S12345", "IT Specialist")
+student.display_info()
+student.display_occupation()
+
+
+
+# # # dir()    
+# dir(Talaba)
+
+# Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
+
+# def see_methods(klass):
+#     return [method for method in dir(klass) if method.startswith('__') is False]
+    
+    # for method in dir(klass):
+    #     if method.startswith('__') is False:
+    #         return method
+
+# print(see_methods(Talaba))
+# print(see_methods(talaba1))
+# print(see_methods(matematika))
+
+
+# print(talaba1.__dict__)
+
+# print(talaba1.__dict__.keys())
+# print(talaba1.__dict__.values())
