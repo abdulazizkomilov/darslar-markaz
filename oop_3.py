@@ -106,6 +106,7 @@ class Person:
 class Occupation:
     def __init__(self, occupation):
         self.occupation = occupation
+    
 
     def display_occupation(self):
         print(f"Kasbi: {self.occupation}")
@@ -125,27 +126,26 @@ class Student(Person, Occupation):
         print(f"Talaba ID: {self.student_id}")
 
 # Test qismi
-student = Student("Alice Smith", 20, "S12345", "IT Specialist")
-student.display_info()
-student.display_occupation()
+# student = Student("Alice Smith", 20, "S12345", "IT Specialist")
+# student.display_info()
+# student.display_occupation()
 
 
 
 # # # dir()    
-# dir(Talaba)
+# print(dir(Person))
 
 # Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
 
-# def see_methods(klass):
-#     return [method for method in dir(klass) if method.startswith('__') is False]
+def see_methods(klass):
+    return [method for method in dir(klass) if method.startswith('__') is False]
     
     # for method in dir(klass):
     #     if method.startswith('__') is False:
     #         return method
 
-# print(see_methods(Talaba))
-# print(see_methods(talaba1))
-# print(see_methods(matematika))
+print(see_methods(Occupation))
+print(see_methods(Student))
 
 
 # print(talaba1.__dict__)
