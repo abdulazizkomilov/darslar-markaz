@@ -6,3 +6,4 @@ gd
 {'as': 'as'}
 {'ali': ['1kitob', '2kitob', ....]}
 {'fsad': 'fasdfas'}
+{'ali': 'fasdf'}
