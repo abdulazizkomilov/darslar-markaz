@@ -14,6 +14,7 @@ class Avto:
     @classmethod
     def get_num_avto(cls):
         return cls.__num_avto
+
     
     def get_km(self):
         return self.__km
@@ -60,37 +61,39 @@ avto6 = Avto("Honda","Accord","Oq",2017,42000)
 
 
 
-# class AvtoSalon:
-#     """Avtosalon klassi"""
+class AvtoSalon:
+    """Avtosalon klassi"""
 
-#     def __init__(self, name):
-#         self.name = name
-#         self.avtolar = []
+    def __init__(self, name):
+        self.name = name
+        self.avtolar = []
 
-#     def __repr__(self):
-#         return f"{self.name} avto saloni"
+    def __repr__(self):
+        return f"{self.name} avto saloni"
 
-#     def __getitem__(self, index):    # salon1[2]  index kurish uchun
-#         return self.avtolar[index]
+    def __getitem__(self, index):    # salon1[2]  index kurish uchun
+        return self.avtolar[index]
 
-#     def __setitem__(self, index, value):   # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
-#         if isinstance(value, Avto):
-#             self.avtolar[index] = value
+    def __setitem__(self, index, value):   # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
+        if isinstance(value, Avto):
+            self.avtolar[index] = value
+            
+    def __len__(self):
+        return len(self.avtolar)
 
-#     def add_avto(self, *qiymat):  # *args, # **kwargs == *key, *value
-#         for avto in qiymat:
-#             if isinstance(avto, Avto):
-#                 self.avtolar.append(avto)
-#             else:
-#                 print("Avto obyketini kiriting")
+    def add_avto(self, *qiymat):  # *args, # **kwargs == *key, *value
+        for avto in qiymat:
+            if isinstance(avto, Avto):
+                self.avtolar.append(avto)
+            else:
+                print("Avto obyketini kiriting")
+salon1 = AvtoSalon("MaxAvto")
+salon2 = AvtoSalon("Avto Lider")
+salon3 = AvtoSalon("Sam Avto")
 
-# salon1 = AvtoSalon("MaxAvto")
-# salon2 = AvtoSalon("Avto Lider")
-# salon3 = AvtoSalon("Sam Avto")
-
-# salon1.add_avto(avto1, avto2, avto3)
-# salon2.add_avto(avto4, avto5, avto6)
-# salon3.add_avto(avto)
+salon1.add_avto(avto1, avto2, avto3)
+salon2.add_avto(avto4, avto5, avto6)
+salon3.add_avto(avto)
 
 # salon1[1] / salon3[5] / salon2[:]
 # salon1[0] = Avto("Volva","K7","Oq",2017,50000)

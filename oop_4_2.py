@@ -67,7 +67,7 @@ class AvtoSalon:
         if isinstance(value, Avto):
             self.avtolar[index] = value
 
-    def __add__(self, qiymat):     # salon3 = salon1 + salon2 / salon1 + avto6
+    def __add__(self, qiymat):     # salon3 = salon1 + salon2  /  salon1 + avto6
         if isinstance(qiymat, AvtoSalon):
             yangi_salon = AvtoSalon(f"{self.name} {qiymat.name}")
             yangi_salon.avtolar = self.avtolar + qiymat.avtolar
@@ -77,9 +77,9 @@ class AvtoSalon:
         else:
             print(f"AvtoSalon ga {type(qiymat)} qo`shib bo`lmaydi")
 
-    def __call__(self, *param):   # salon1() obyekt haqida malumot / salon1(avto1, avto2) qabulqilsin
-        if param:
-            for avto in param:
+    def __call__(self, *args):   # salon1() obyekt haqida malumot / salon1(avto1, avto2) qabulqilsin
+        if args:
+            for avto in args: 
                 self.add_avto(avto)
         else:
             return [avto for avto in self.avtolar]
@@ -98,6 +98,5 @@ salon1 = AvtoSalon("MaxAvto")
 salon2 = AvtoSalon("Avto Lider")
 salon3 = AvtoSalon("Sam Avto")
 salon1.add_avto(avto1, avto2, avto3)
-salon2(avto4, avto5, avto6, avto7)
 
-    
+salon2(avto4, avto5, avto6, avto7)
