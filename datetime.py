@@ -1,7 +1,8 @@
 # docs.python.org/3/library
 
 import datetime as dt
-# # # datetime()
+
+# # datetime()
 # hozir = dt.datetime.now()
 # print(hozir)
 # # sanani ajratib olish
@@ -18,9 +19,9 @@ import datetime as dt
 # # date()
 # bugun = dt.date.today()
 # print(f"Bugungi sana: {bugun}")
-# ertaga = dt.date(2023, 12, 14)
+# ertaga = dt.date(2024, 1, 17)
 # print(f"Ertangi sana: {ertaga}")
-# print(ertaga-bugun)
+# print(ertaga - bugun)
 
 
 # # time()
@@ -33,15 +34,14 @@ import datetime as dt
 
 # # Sanalar orasida farq
 # bugun = dt.date.today()
-# tatil = dt.date(2023, 12, 24)
+# tatil = dt.date(2024, 3, 24)
 # farq = tatil - bugun
-# # print(farq)
 # print(f"Ta`tilga {farq.days} kun qoldi")
 
 
 # # Soatlar orasida farq
 # hozir = dt.datetime.now()
-# futbol = dt.datetime(2023, 12, 19, 00, 00, 00)
+# futbol = dt.datetime(2024, 2, 1, 00, 00, 00)
 # farq = futbol - hozir
 # sekundlar = farq.seconds
 # minutlar = int(sekundlar / 60)
@@ -49,34 +49,39 @@ import datetime as dt
 # print(f"""Futbol tugashiga {farq.days} kunu
 # {soatlar} soat qoldi""")
 
-# Vatqni formatlash
-hozir = dt.datetime.now()
-vaqt = hozir.strftime("%H:%M:%S")
-print(f"Hozir soat: {vaqt}")
-
-sana = hozir.strftime("%d-%m-%Y")
-print(f"Bugun sana: {sana}")
-
-hozir = dt.datetime.now()
-sana_vaqt = hozir.strftime("%d/%m/%Y, %H:%M")
-print(sana_vaqt)
 
 
-# from datetime import datetime, timedelta
+# # Vatqni formatlash
+# hozir = dt.datetime.now()
+# vaqt = hozir.strftime("%H:%M:%S")
+# print(f"Hozir soat: {vaqt}")
 
-# def get_first_day_of_next_month():
-#     # Joriy sana
-#     current_date = datetime.now()
+# sana = hozir.strftime("%d-%m-%Y")
+# print(f"Bugun sana: {sana}")
 
-#     # Keyingi oyning boshlanish kunini olish
-#     if current_date.month == 12:
-#         next_month_start = datetime(current_date.year + 1, 1, 1)
-#     else:
-#         next_month_start = datetime(current_date.year, current_date.month + 1, 1)
 
-#     return next_month_start
 
-# # Mavjud sana vaqtini olish
-# next_month_start_date = get_first_day_of_next_month()
+# hozir = dt.datetime.now()
+# sana_vaqt = hozir.strftime("%d/%m/%Y, %H:%M")
+# print(sana_vaqt)
 
+
+
+from datetime import datetime, timedelta
+
+def get_first_day_of_next_month():
+    # Joriy sana
+    current_date = datetime.now()
+
+    # Keyingi oyning boshlanish kunini olish
+    if current_date.month == 12:
+        next_month_start = datetime(current_date.year + 1, 1, 1)
+    else:
+        next_month_start = datetime(current_date.year, current_date.month + 1, 1)
+
+    return next_month_start
+
+# Mavjud sana vaqtini olish
+next_month_start_date = get_first_day_of_next_month()
+print(next_month_start_date)
 

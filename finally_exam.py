@@ -1,4 +1,4 @@
-# 16:05 dan 18:05 gacha menga tgdan ```javob.py ```
+# 14:03 dan 16:05 gacha menga tgdan ```javob.py ```
 # file kurinishida qabul qilaman
 
 # 10: ball
@@ -29,7 +29,7 @@
 #    (__str__) qatnashsin.
 
 
-# 5. **Vererlik (Inheritance):**
+# 5. **Vorislik (Inheritance):**
 #    Savol: `Talaba` deb nomlangan yangi bir klass yarating, 
 #    `Shaxs` klassidan meros olgan. `Talaba` klassiga 
 #    qo'shimcha atributlar qo'shing.
@@ -40,16 +40,18 @@
 #    Savol: `Cart` klassini yarating. Uning ichiga 
 #    mahsulotlarni saqlash uchun bo'sh ro'yxat qo'shing. 
 #    Mahsulot qo'shish, olib tashlash va savatdagi umumiy 
-#    narxni hisoblash uchun metodlar qo'shing.
+#    narxni hisoblash uchun metodlar qo'shing. user_id
 
 
 #    ```Foydalanish
-#    cart = Cart()
+#    cart = Cart(user_id, mahsulaotlar_list)
 #    mahsulot1 = Mahsulot("Telefon", 1500)
 #    mahsulot2 = Mahsulot("Kompyuter", 2500)
 
 #    cart.mahsulot_qo'shish(mahsulot1)
 #    cart.mahsulot_qo'shish(mahsulot2)
+
+#    cart.remove('fsad')
 #    print("Umumiy narx:", cart.umumiy_narx())
 #    ```
 

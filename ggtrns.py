@@ -15,5 +15,3 @@ til3 = tarjimon.detect('Tiu frazo estas skribita en Esperanto.')
 print(til1)
 print(til2)
 print(til3)
-
-

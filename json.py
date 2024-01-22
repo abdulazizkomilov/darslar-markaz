@@ -1,15 +1,15 @@
-import json
-# JSON (JavaScript Object Notation).
+# import json
+# # JSON (JavaScript Object Notation).
 
  # indent=4
-x = 10
-x_json = json.dumps(x)
+# x = 10
+# x_json = json.dumps(x)
 
-y = 5.5
-y_json = json.dumps(y)
+# y = 5.5
+# y_json = json.dumps(y)
 
-m = True
-m_json = json.dumps(m)
+# m = True
+# m_json = json.dumps(m)
 
 # # ism = "anvar"
 # # ism_json = json.dumps(ism)

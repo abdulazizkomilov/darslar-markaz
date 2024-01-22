@@ -1,14 +1,20 @@
 # print('Hello world!')
 
-# print("HI")
+
+# print("Salom")
+
 
 # print(56 + 6)
-
 # print(56)
+
+                 
+# ism = input("Isminginzi kiriting: ")
+# print(f"Salom {ism}")
 
 
 # a = 'olim'
 # print(a)
+
 # b = 5
 # c = 16
 # d = 9
@@ -18,17 +24,27 @@
 # print(bulinma)
 
 
-# str() - string  {matnlar}
-# int() - integir  {sonlar}
+
+# str() - string  {matn}
+# int() - integir  {son}
 
 # ism = input("Ismingizni kiriting:  ")
 # print("Xush kelibsiz -", ism)
 
 
 
+
 # a = int(input("a kirit "))
 # b = int(input("kiyingi sonni kiriting "))
 # print(a, '+', b, '=', a + b)
+
+# a = int(input("a kirit "))
+# b = int(input("b kirit "))
+# c = int(input("c kirit "))
+# a_b = a + b
+# nat = a_b - c
+# print(a_b)
+# print(nat)
 
 
 
@@ -43,8 +59,11 @@
 # print("a = ", son1)
 # print("b = ", son2)
  
-# t_yil = int(input("t y k:  "))
-# print("sizning yoshingiz ", 2023 - t_yil, "da")
+
+
+
+# t_yil = int(input("tugulgan yilingizni k:  "))
+# print("sizning yoshingiz ", 2024 - t_yil, "da")
 
 
 
@@ -69,25 +88,18 @@
 # print(ism, "sizning tug'ulgan yilingiz ", 2023 - yosh, "-yil da")
 
 
+# str() - string  {matn}
+# int() - integir  {son}
+
 # a = "olim hakimov jamol o'g'li"
-
-# b = 'KLAJDsdfsadfJDFN'
-
+# b = 'KLAJDsdfsadfJDFdfsdadfN'
 # c = 'lkasdflsaLJSADFkjdf'
 
 # print(a)
-
 # print(a.capitalize())
-
 # print(a.title())
-
 # print(b.upper())
-
-# print(b.lower())
-
-
-
-
+# print(c.lower())
 
 # name = input("Ismingizni kiriting: ").lower()
 
@@ -95,7 +107,8 @@
 
 
 # age = int(input("Yoshingizni kiriting: "))
-# print(2023-age)
+# print(2024 - age)
+
 
 
 
@@ -113,9 +126,16 @@
 # natija = a * b
 # print(natija)
 
+
+
 # a = int(input('a sonni kiriting:  '))
 # b = int(input("b sonni kiriting:  "))
 # print(a, ":", b, "=", a / b)
+
+
+x = int(input('x k: '))
+a = ((x + 4)*(3 - x)/(x - 2)**2)>0
+
 
 
 # # % // **, <, >,
@@ -141,19 +161,19 @@
 # print(f"{son1} : {son2} = {butun_q} butun qismi, {qoldiq_q}, qoldiq qismi.")
 
 
-a = 22
-b = 54
-print(a > b) #xato -- False
-print(a < b) #tugri - True
+# a = 22
+# b = 54
+# print(a > b) #xato -- False
+# print(a < b) #tugri - True
 
 # # str() - string  {matnlar}
 # # int() - integir  {sonlar}
 # # float() - kasr sonlar  7.6, 6.09
 # # bool() - True, False
 
-# # ==, !=
-son = 10 == 6 # f
-son2 = 27 != 26 # t
-son3 = 6 == 6 # t
-print(son)
-print(son2)
+# # # ==, !=
+# son = 10 == 6 # f
+# son2 = 27 != 26 # t
+# son3 = 6 == 6 # t
+# print(son)
+# print(son2)
