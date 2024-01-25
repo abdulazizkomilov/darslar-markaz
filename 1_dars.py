@@ -8,8 +8,8 @@
 # print(56)
 
                  
-# ism = input("Isminginzi kiriting: ")
-# print(f"Salom {ism}")
+# ism = input('Isminginzi kiriting: ')
+# print(f'Salom {ism}')
 
 
 # a = 'olim'
@@ -38,9 +38,9 @@
 # b = int(input("kiyingi sonni kiriting "))
 # print(a, '+', b, '=', a + b)
 
-# a = int(input("a kirit "))
-# b = int(input("b kirit "))
-# c = int(input("c kirit "))
+# a = int(input("a kirit>>> "))
+# b = int(input("b kirit>>> "))
+# c = int(input("c kirit>>> "))
 # a_b = a + b
 # nat = a_b - c
 # print(a_b)
@@ -112,11 +112,12 @@
 
 
 
-# + - / *
+# # + - / *
 # a = 21
 # b = 6
 # natija = a + b
 # print(a, '+', b, '=', natija)
+
 
 # son4 = a - b
 # print(a, "-", b, "=", son4)
@@ -124,7 +125,7 @@
 # a = 2
 # b = 3
 # natija = a * b
-# print(natija)
+# print(a, "x", b, "=", natija)
 
 
 
@@ -132,13 +133,7 @@
 # b = int(input("b sonni kiriting:  "))
 # print(a, ":", b, "=", a / b)
 
-
-x = int(input('x k: '))
-a = ((x + 4)*(3 - x)/(x - 2)**2)>0
-
-
-
-# # % // **, <, >,
+# % // **, <, >,
 # son1 = 10
 # son2 = 3              # 3,    1 q
 
@@ -147,9 +142,11 @@ a = ((x + 4)*(3 - x)/(x - 2)**2)>0
 # print(son1 // son2)   # 3
 # print(son2 ** 2)      # 9
 
-# print(son1, ':', son2, '=',son1//son2,'butun qismi, ', son1%son2, 'qoldiq qismi.')
+# print(son1, ':', son2, '=',son1//son2,\
+#       'butun qismi, ', son1%son2, 'qoldiq qismi.')
 
-
+    
+    
 # f" ..., {son1+son2}  ...? {son2} "
 
 # son1 = 10
@@ -166,10 +163,10 @@ a = ((x + 4)*(3 - x)/(x - 2)**2)>0
 # print(a > b) #xato -- False
 # print(a < b) #tugri - True
 
-# # str() - string  {matnlar}
-# # int() - integir  {sonlar}
-# # float() - kasr sonlar  7.6, 6.09
-# # bool() - True, False
+# str() - string  {matnlar} 1, 2, 4, 6
+# int() - integir  {sonlar}
+# float() - kasr sonlar  7.6, 6.09, 54,25
+# bool() - True, False
 
 # # # ==, !=
 # son = 10 == 6 # f
