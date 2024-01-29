@@ -85,7 +85,7 @@
 
 # ism = input("Ismingizni kiriting>>>  ")
 # yosh = int(input("Yoshingni kiriting>>>  "))
-# print(ism, "sizning tug'ulgan yilingiz ", 2023 - yosh, "-yil da")
+# print(ism, "sizning tug'ulgan yilingiz ", 2024 - yosh, "-yil da")
 
 
 # str() - string  {matn}
@@ -102,8 +102,9 @@
 # print(c.lower())
 
 # name = input("Ismingizni kiriting: ").lower()
-
 # print("Salom", name.title())
+
+
 
 
 # age = int(input("Yoshingizni kiriting: "))
