@@ -6,10 +6,10 @@
 # OYLIK = 300_000
 
 
-import math
+# import math
 
-a = 9
-b = 49
+# a = 9
+# b = 49
 
 # print(math.pi)
 
@@ -49,14 +49,14 @@ b = 49
 # ishlaring yaxshimi?""")
 
 
-f_name = input("ism familya kiriting:  ")
-year = int(input("tug yil kiriting:  "))
-address = input("manzil:  ")
-phone = int(input("tel:  "))
-print(f"""Salom {f_name.title()}, 
-sizning yoshingiz {2024-year}da siz, 
-manzil: {address.capitalize()},
-tel: {phone}""")
+# f_name = input("ism familya kiriting:  ")
+# year = int(input("tug yil kiriting:  "))
+# address = input("manzil:  ")
+# phone = int(input("tel:  "))
+# print(f"""Salom {f_name.title()}, 
+# sizning yoshingiz {2024-year}da siz, 
+# manzil: {address.capitalize()},
+# tel: {phone}""")
 
 
 
@@ -77,11 +77,11 @@ tel: {phone}""")
 # del sonlar[0]
 # print(sonlar)
 
-
 # friends nomli bo'sh ro'yxat tuzing va unga .append() yordamida 5-6 ta mehmonga 
 # # chaqirmoqchi bo'lgan do'stlaringizni kiriting.
 
 # friends = []
+# print(friends)
 # friends.append("John")
 # friends.append("Alex")
 # friends.append("Danny")
@@ -98,12 +98,13 @@ tel: {phone}""")
 
 # talaba = ['jon', 'vaniya', 'kamol']
 # print(talaba)
-# talaba.append("Hasan")
-# talaba.insert(1, "Husan")
-# talaba.insert(2, "Ivan")
+# talaba.append("Hasan") #oxiridan qosshish
+# talaba.insert(0, "Husan")
+# talaba.insert(2, "Ivan") #indexga qosshish
 
 # print(talaba)
-# print(len(talaba), "ta talaba") # uz - matn, py - string, en - text, ru - text
+# print(len(talaba), "ta talaba") # uzunlik
+# uz - matn, py - string, en - text, ru - text
 
 
 # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. 
