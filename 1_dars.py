@@ -1,15 +1,26 @@
-# print('Hello world!')
+# PYTHON 3.12
 
 
-# print("Salom")
+# print("Hello world! ")
+
+
+# print('Salom')
 
 
 # print(56 + 6)
 # print(56)
 
+
+
+# input() foydalanuvchidan m s
                  
 # ism = input('Isminginzi kiriting: ')
 # print(f'Salom {ism}')
+
+# yosh = int(input("Yoshingizni k>>>  "))
+# print(f"Sizning yoshingiz: {yosh} da")
+
+# print(2024 - yosh)
 
 
 # a = 'olim'
@@ -24,27 +35,30 @@
 # print(bulinma)
 
 
-
+# input() - {foydalanuvchidan m s}
+# input() doim string {matn q q}
 # str() - string  {matn}
 # int() - integir  {son}
+# float() - float  {kasr sonlar}
+
+
+
 
 # ism = input("Ismingizni kiriting:  ")
 # print("Xush kelibsiz -", ism)
+ 
 
-
-
-
-# a = int(input("a kirit "))
+# a = int(input("a sonni kirit "))
 # b = int(input("kiyingi sonni kiriting "))
 # print(a, '+', b, '=', a + b)
 
-# a = int(input("a kirit>>> "))
-# b = int(input("b kirit>>> "))
-# c = int(input("c kirit>>> "))
+# a = int(input("a sonni kirit>>> "))
+# b = int(input("b sonni kirit>>> "))
+# c = int(input("c sonni kirit>>> "))
 # a_b = a + b
-# nat = a_b - c
+# natija = a_b - c
 # print(a_b)
-# print(nat)
+# print(natija)
 
 
 
@@ -164,6 +178,7 @@
 # print(a > b) #xato -- False
 # print(a < b) #tugri - True
 
+# data_type - malumotlar turi
 # str() - string  {matnlar} 1, 2, 4, 6
 # int() - integir  {sonlar}
 # float() - kasr sonlar  7.6, 6.09, 54,25
