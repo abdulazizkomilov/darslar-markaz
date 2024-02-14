@@ -29,34 +29,46 @@
 # print(math.cos(180))
 
 
+# son = int(input("Istalgan son k: "))
+# print(math.sqrt(son))
+
+
+# son = int(input("Istalgan son k: "))
+# print(f"{son}ning factoriali {math.factorial(son)} ga teng")
+
+# a = 8
+# b = 2
 
 # list -- ro'yxat
-#  index         0       1      2           3         4|-2          5|-1
-
-# qurulmalar = ["telfon", 'TV', 'wifi', 
-#               'sichqoncha', 
-#               'headphones', 'lamp']
+#   index         0       1      2           3         4|-2          5|-1
+# qurulmalar = ["telfon", 'TV', 'wifi', 'sichqoncha', 'headphones', 'lamp']
 # print(qurulmalar[0])
 # print(qurulmalar[-1])
 
 
-# # # # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
+# # # ismlar degan ro'yxat yarating va kamida 3 ta yaqin do'stingizning ismini kiriting
 # ismlar = ["ali", "olim", "vali"]
 
-# # # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
+# # Ro'yxatdagi har bir do'stingizga qisqa xabar yozib konsolga chiqaring:
 # print(f"""Salom {ismlar[0].upper()}, 
 # {ismlar[1].title()}, {ismlar[-1].title()} 
 # ishlaring yaxshimi?""")
+
+# malumot nomli list yasab f_name, year,
+# address, phone larni list ichiga yozib qo'shing 
+# va consolga listni chiqaring
 
 
 # f_name = input("ism familya kiriting:  ")
 # year = int(input("tug yil kiriting:  "))
 # address = input("manzil:  ")
 # phone = int(input("tel:  "))
-# print(f"""Salom {f_name.title()}, 
-# sizning yoshingiz {2024-year}da siz, 
-# manzil: {address.capitalize()},
-# tel: {phone}""")
+
+# malumot = [f_name, year, address, phone]
+# print(malumot)
+
+
+
 
 
 
@@ -104,7 +116,15 @@
 
 # print(talaba)
 # print(len(talaba), "ta talaba") # uzunlik
-# uz - matn, py - string, en - text, ru - text
+# # uz - matn, py - string, en - text, ru - text
+
+
+
+full_name = 'ali olimov'
+
+print(len(full_name))
+
+
 
 
 # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. 
