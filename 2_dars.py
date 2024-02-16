@@ -22,9 +22,9 @@
 
 # print(math.sin(90))  #sonning sin si
 
-# print(math.factorial(5))  # 1*2*3*4*5
+# print(math.factorial(x))  # 1*2*3*4*5
 
-# print(math.log(144, 5))  #(5*5*5) == 5**3
+# print(math.log(125, 5))  #(5*5*5) == 5**3
 
 # print(math.cos(180))
 
@@ -120,9 +120,9 @@
 
 
 
-full_name = 'ali olimov'
+# full_name = 'ali olimov'
 
-print(len(full_name))
+# print(len(full_name))
 
 
 
