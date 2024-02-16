@@ -1,4 +1,4 @@
-# PYTHON 3.12
+# PYTHON 3
 
 
 # print("Hello world! ")
@@ -12,15 +12,19 @@
 
 
 
-# input() foydalanuvchidan m s
+# input() foydalanuvchidan malimot so'rash
                  
 # ism = input('Isminginzi kiriting: ')
 # print(f'Salom {ism}')
+
+
 
 # yosh = int(input("Yoshingizni k>>>  "))
 # print(f"Sizning yoshingiz: {yosh} da")
 
 # print(2024 - yosh)
+
+
 
 
 # a = 'olim'
@@ -35,11 +39,13 @@
 # print(bulinma)
 
 
+
 # input() - {foydalanuvchidan m s}
 # input() doim string {matn q q}
 # str() - string  {matn}
 # int() - integir  {son}
 # float() - float  {kasr sonlar}
+# type(x) - qaysi dataga tegishliligini aniq
 
 
 
@@ -51,6 +57,8 @@
 # a = int(input("a sonni kirit "))
 # b = int(input("kiyingi sonni kiriting "))
 # print(a, '+', b, '=', a + b)
+
+
 
 # a = int(input("a sonni kirit>>> "))
 # b = int(input("b sonni kirit>>> "))
@@ -115,7 +123,25 @@
 # print(b.upper())
 # print(c.lower())
 
+# .capitalize() - bitta so'zni bosh harfini
+# .title() - har bir so'zni bosh harfini 
+# .upper() - barcha harflarni katta qiladi
+# .lower() - barcha harflarni kichik qiladi
+
+# input("Ismingizni kiriting:  ")
+# foydalanuvchidan consolda malumot 
+# so'raydi va doim input() matn str()
+# qabul qiladi  
+
+# input() ni songa aylantirish uchun oldiga
+# int(input()) qo'yiladi
+
+
+
+
+
 # name = input("Ismingizni kiriting: ").lower()
+# print(name)
 # print("Salom", name.title())
 
 
@@ -127,7 +153,8 @@
 
 
 
-# # + - / *
+
+# + - / *
 # a = 21
 # b = 6
 # natija = a + b
@@ -148,14 +175,16 @@
 # b = int(input("b sonni kiriting:  "))
 # print(a, ":", b, "=", a / b)
 
+
 # % // **, <, >,
 # son1 = 10
 # son2 = 3              # 3,    1 q
 
 # print(son1 / son2)    # 3.3333
-# print(son1 % son2)    # 1  
-# print(son1 // son2)   # 3
-# print(son2 ** 2)      # 9
+# print(son1 % son2)    # 1 qoldiq
+# print(son1 // son2)   # 3 butun qismi
+# print(son2 ** 2)      # 9 darajasi
+
 
 # print(son1, ':', son2, '=',son1//son2,\
 #       'butun qismi, ', son1%son2, 'qoldiq qismi.')
