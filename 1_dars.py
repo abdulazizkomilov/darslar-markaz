@@ -1,21 +1,57 @@
 # PYTHON 3
 
 
-# print("Hello world! ")
+# print("Hello world!")
 
 
-# print('Salom')
+# print('Salom!')
+
+# print("Assalomu alaykum.")
+
 
 
 # print(56 + 6)
-# print(56)
+
+# print(877)
 
 
 
-# input() foydalanuvchidan malimot so'rash
+
+
+
+
+
+# input() foydalanuvchidan malumot so'rash
                  
-# ism = input('Isminginzi kiriting: ')
-# print(f'Salom {ism}')
+# name = input('Isminginzi kiriting: ')
+# print(f'Salom {name}')
+
+# yosh = input("Yoshingizni kiriting>>>  ")
+# print(f"Sizning yoshingiz {yosh} da")
+
+# yosh = int(input("Yoshingizni kiriting>>>  "))
+# print(f"{2024 - yosh} da")
+
+
+
+
+
+# data types - malumotlar turi
+
+
+# a = 'salom'     # matn - string  - str()
+# b = 45          # son  - integir - int()
+
+# # type(x) - malumot qaysi data typega te..
+
+# print(type(a))
+# print(type(b))
+
+# pydroid3
+
+
+
+
 
 
 
@@ -56,8 +92,8 @@
 
 # a = int(input("a sonni kirit "))
 # b = int(input("kiyingi sonni kiriting "))
-# print(a, '+', b, '=', a + b)
 
+# print(f"{a} + {b} = {a + b}")
 
 
 # a = int(input("a sonni kirit>>> "))
@@ -68,7 +104,8 @@
 # print(a_b)
 # print(natija)
 
-
+# pydroid3 
+# sypder
 
 
 # name = input("Assalomu alaykum foydalanuvchi isminzgizni kiriting: ")
@@ -116,7 +153,6 @@
 # a = "olim hakimov jamol o'g'li"
 # b = 'KLAJDsdfsadfJDFdfsdadfN'
 # c = 'lkasdflsaLJSADFkjdf'
-
 # print(a)
 # print(a.capitalize())
 # print(a.title())
@@ -127,6 +163,7 @@
 # .title() - har bir so'zni bosh harfini 
 # .upper() - barcha harflarni katta qiladi
 # .lower() - barcha harflarni kichik qiladi
+
 
 # input("Ismingizni kiriting:  ")
 # foydalanuvchidan consolda malumot 
@@ -143,7 +180,6 @@
 # name = input("Ismingizni kiriting: ").lower()
 # print(name)
 # print("Salom", name.title())
-
 
 
 
