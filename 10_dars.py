@@ -9,16 +9,16 @@
 # print(f"{talaba1} darsga kechikib keldi")
 
 
-# def toliq_ism_yasa(ism, familiya, otasining_ismi=""):
+# def toliq_ism_yasa(ism, familiya, otasining_ismi="", yosh=0):
 #     """Toliq ism va familiya qaytaruvchi funksiya"""
-#     if otasining_ismi:
-#         toliq_ism = f"{ism} {otasining_ismi} {familiya}"
+#     if otasining_ismi and yosh:
+#         toliq_ism = f"{ism} {otasining_ismi} {familiya} yosh: {yosh}da"
 #     else:
 #         toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism.title()
 
 # talaba1 = toliq_ism_yasa("ali", "jamolov")
-# talaba2 = toliq_ism_yasa("hakim", "olimov", "abrorovich")
+# talaba2 = toliq_ism_yasa("hakim", "olimov", "abrorovich", 37)
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 
 
@@ -43,9 +43,26 @@
         
 # friends_list()
         
+
+
+# 1 - kitob:  grokking
+# grokking narxi: 40000
+
+# ...
+
+# ...
+
+
+# Kitoblar:
+#     1. grokking - 40000
+#     2. ........ - 39000
+
+
+
+
 # while --- cheksiz davom etadi loop 
 # break --- for yoki while ni to'xtatadi    
-# for   --- loop yoki tsikl    
+# for   --- loop yoki tsikl
 # def   --- funksiya yasash uchun ishlatiladi
 
 
@@ -66,10 +83,9 @@
 #             ishora = False
 #     for ism, yosh in dostlar.items():
 #         print(f"{ism.title()} {yosh} yoshda")
+# friends_list_data()
 
-    
-    
-    
+
 # def set_ball():
 #     """set ball users"""
 #     talabalar = ["hasan", "husan", "olim", "botir"]
