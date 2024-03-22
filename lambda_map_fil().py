@@ -1,15 +1,13 @@
 import math
-mevalar1 = ["olma", "anor", "anjir", 
-            "shaftoli", "o'rik", "tarvuz", 
-            "qovun", "banan", 'ananas']
+
 
 # def daraja(x):
 #     ifoda = x * x
 #     return ifoda
 
 
-# daraja_2 = lambda x: x ** 2 
-# print(daraja_2(5))
+# daraja_2 = lambda x, y: x ** y
+# print(daraja_2(2, 5))
 
 
 # uzunlik = lambda pi, r: 2*pi*r
@@ -28,13 +26,13 @@ mevalar1 = ["olma", "anor", "anjir",
 
 # kvadrat = daraja(2)
 # kub = daraja(3)
-# turt = daraja(4)
+# four = daraja(4)
 # on = daraja(10)
 
 # print(kvadrat(4))
 # print(kvadrat(9))
 # print(kub(6))
-# print(turt(16))
+# print(four(16))
 # print(on(22))
 
 # # print(kvadrat(38))
@@ -51,15 +49,21 @@ mevalar1 = ["olma", "anor", "anjir",
 # ildizlar = list(map(sqrt, sonlar)) 
 
 
-# # map(funksiya, qiymatlar) -- list(map()) 
-# # qiymatlar ichidagi har bir son uchun 
-# # ishlaydi
+# # # map(funksiya, qiymatlar) -- list(map()) 
+# # # qiymatlar ichidagi har bir son uchun 
+# # # ishlaydi
 
 # print(ildizlar)
 
 
 # names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
 
+# # def ism_upper(arr):
+# #     ismlar = []
+# #     for ism in names:
+# #         ismlar.append(ism.upper())
+# #     return ismlar
+# # print(ism_upper(names))
 
 # print(list(map(lambda ism: ism.upper(), names)))
 
@@ -75,7 +79,9 @@ mevalar1 = ["olma", "anor", "anjir",
 
 # sonlar = list(range(11))
 
-# print(list(map(daraja, sonlar)))
+# print(list(map(lambda x: x*x, sonlar)))
+
+
 
 # sonlar = list(range(11))
 
@@ -107,22 +113,27 @@ mevalar1 = ["olma", "anor", "anjir",
 # import random as r
 
 # sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-# # print(sonlar)
+# print(sonlar)
 
 # def juftmi(x):
 #     """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
 #     return x % 2 == 0
 
-# juft_sonlar = list(filter(juftmi, sonlar))
+# juft_sonlar = list(filter(lambda x: x % 2 == 0, sonlar))
 # print(juft_sonlar)
+
 
 # juft_sonlar = list(filter(lambda x: x % 2 == 1, sonlar))
 # print(juft_sonlar)
 
 
+# import random as r
 
 
-# mevalar = list(filter(lambda meva: meva.startswith('a'), mevalar1))
+# mevalar1 = ["olma", "limon", "sabzi", 
+#             "kivi", "olcha", "olxuri", "sarimsoq", "sads"]
+
+# mevalar = list(filter(lambda meva: meva.startswith('o'), mevalar1))
 # print(mevalar)
 
 
@@ -130,24 +141,33 @@ mevalar1 = ["olma", "anor", "anjir",
 # print(mevalar2)
 
 # print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar1)))
+
+
 # print(list(filter(lambda meva: (meva.startswith("s") and len(meva) >= 5), mevalar1)))
 
 
 
 # import random as r
 
-# sonlar = r.sample(range(100),10)
+# sonlar = r.sample(range(100), 10)
+
+# print(sonlar)
+
 # juft = [son for son in sonlar if son%2==0]; print(juft)
 
-# # for son in sonlar:
-# #     if son%2==0:
-# #         son
+# toq = [son for son in sonlar if son%2!=0]; print(toq)
+
+# for son in sonlar:
+#     if son%2==0:
+#         print(son)
+
+
 
 
 
 # import random as r 
 
-# son = r.randint(0, 100) # 0 va 10 oralig'ida tasodifiy son
+# son = r.randint(0, 100) # 0 va 100 oralig'ida tasodifiy son
 # print(son)
 
 
@@ -168,17 +188,33 @@ mevalar1 = ["olma", "anor", "anjir",
 # print(x)
 # r.shuffle(x)
 # print(x)
+# r.shuffle(x)
+# print(x)
 
 
-import random as r
 
-son1 =r.randint(0, 10)
-son2 =r.randint(5, 15)
-son3 =r.randint(20, 30)
-natija = int(input(f"Hisoblang:\n{son1} + {son2} + {son3} = "))
-n = son1+son2+son3
-if natija == n:
-    print(f"To'g'ri. Javob: {n}")
-else:
-    print(f"Noto'g'ri. Javob: {n}")
+# import random as r
+
+# son1 =r.randint(0, 10)
+# son2 =r.randint(5, 15)
+# son3 =r.randint(20, 30)
+# natija = int(input(f"Hisoblang:\n{son1} + {son2} + {son3} = "))
+# n = son1+son2+son3
+# if natija == n:
+#     print(f"To'g'ri. Javob: {n}")
+# else:
+#     print(f"Noto'g'ri. Javob: {n}")
+
+
+
+# Amallardan birini tanlang: " + | - | x | : "
+# >>> x
+
+
+
+
+
+
+
+
 
