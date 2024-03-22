@@ -98,7 +98,5 @@
         
 #     print(baholangan_talabalar)
 
-
-
-
+# set_ball()
 
