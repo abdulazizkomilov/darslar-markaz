@@ -3,11 +3,8 @@
 
 # print("Hello world!")
 
-
 # print('Salom!')
-
 # print("Assalomu alaykum.")
-
 
 
 # print(56 + 6)
@@ -23,11 +20,12 @@
 
 # input() foydalanuvchidan malumot so'rash
                  
-# name = input('Isminginzi kiriting: ')
-# print(f'Salom {name}')
+# name = input('Ism kiriting: ')
+# print(f"Salom {name}")
 
-# yosh = input("Yoshingizni kiriting>>>  ")
+# yosh = input("Yosh kiriting>>>  ")
 # print(f"Sizning yoshingiz {yosh} da")
+
 
 # yosh = int(input("Yoshingizni kiriting>>>  "))
 # print(f"{2024 - yosh} da")
@@ -35,19 +33,17 @@
 
 
 
-
 # data types - malumotlar turi
-
 
 # a = 'salom'     # matn - string  - str()
 # b = 45          # son  - integir - int()
-
-# # type(x) - malumot qaysi data typega te..
-
+# c = '45'
+# print(type(c))
 # print(type(a))
 # print(type(b))
 
-# pydroid3
+# type(x) - malumot qaysi data typega te..
+
 
 
 
@@ -76,6 +72,7 @@
 
 
 
+
 # input() - {foydalanuvchidan m s}
 # input() doim string {matn q q}
 # str() - string  {matn}
@@ -96,16 +93,25 @@
 # print(f"{a} + {b} = {a + b}")
 
 
-# a = int(input("a sonni kirit>>> "))
-# b = int(input("b sonni kirit>>> "))
-# c = int(input("c sonni kirit>>> "))
+
+# son = int(input("istalgan son kiriting: "))
+# print(f"{son}ning kv {son**2}ga teng")
+
+
+
+
+
+
+
+# a = int(input("son kirit>>> "))
+# b = int(input("sonni kirit>>> "))
+# c = int(input("son kiriting>>> "))
 # a_b = a + b
 # natija = a_b - c
-# print(a_b)
+# print(f"{a} + {b} = {a_b}")
 # print(natija)
 
-# pydroid3 
-# sypder
+
 
 
 # name = input("Assalomu alaykum foydalanuvchi isminzgizni kiriting: ")
@@ -137,55 +143,54 @@
 # name = "Ali Olimov"
 # age = 20
 
-
 # print(name, "yoshim", age, "da", )
 
 
 
 # ism = input("Ismingizni kiriting>>>  ")
 # yosh = int(input("Yoshingni kiriting>>>  "))
-# print(ism, "sizning tug'ulgan yilingiz ", 2024 - yosh, "-yil da")
-
+# print(ism, "s t yilingiz ", 2024 - yosh, "-yil da")
+#          # sizning tugulgan
 
 # str() - string  {matn}
 # int() - integir  {son}
 
-# a = "olim hakimov jamol o'g'li"
-# b = 'KLAJDsdfsadfJDFdfsdadfN'
-# c = 'lkasdflsaLJSADFkjdf'
+# a = "olim hakimov jamol ogli"
+# b = 'KLdfJDFdadfNsadfsaLKJHHKLJK'
+
 # print(a)
 # print(a.capitalize())
 # print(a.title())
 # print(b.upper())
-# print(c.lower())
+# print(b.lower())
+# # .capitalize() - bitta so'zni bosh harfini
+# # .title() - har bir so'zni bosh harfini 
+# # .upper() - barcha harflarni katta qiladi
+# # .lower() - barcha harflarni kichik qiladi
 
-# .capitalize() - bitta so'zni bosh harfini
-# .title() - har bir so'zni bosh harfini 
-# .upper() - barcha harflarni katta qiladi
-# .lower() - barcha harflarni kichik qiladi
+# ism = "ali jamolov"
+
+# print(ism.upper())
 
 
-# input("Ismingizni kiriting:  ")
+
+
+
+# Example: input("Ismingizni kiriting:  ")
 # foydalanuvchidan consolda malumot 
-# so'raydi va doim input() matn str()
+# so'raydi va doim input() matn-str()
 # qabul qiladi  
 
 # input() ni songa aylantirish uchun oldiga
-# int(input()) qo'yiladi
+# int(input("...")) qo'yiladi. int() - bu son
 
-
-
-
-
-# name = input("Ismingizni kiriting: ").lower()
+# name = input("Ismingizni kiriting: ")
 # print(name)
 # print("Salom", name.title())
 
 
-
 # age = int(input("Yoshingizni kiriting: "))
-# print(2024 - age)
-
+# print("Sizning tugulgan yilingiz", 2024 - age)
 
 
 
@@ -196,7 +201,6 @@
 # natija = a + b
 # print(a, '+', b, '=', natija)
 
-
 # son4 = a - b
 # print(a, "-", b, "=", son4)
 
@@ -206,13 +210,13 @@
 # print(a, "x", b, "=", natija)
 
 
-
 # a = int(input('a sonni kiriting:  '))
 # b = int(input("b sonni kiriting:  "))
 # print(a, ":", b, "=", a / b)
 
 
-# % // **, <, >,
+
+# # % // **, <, >,
 # son1 = 10
 # son2 = 3              # 3,    1 q
 
@@ -222,8 +226,6 @@
 # print(son2 ** 2)      # 9 darajasi
 
 
-# print(son1, ':', son2, '=',son1//son2,\
-#       'butun qismi, ', son1%son2, 'qoldiq qismi.')
 
     
     
@@ -244,10 +246,20 @@
 # print(a < b) #tugri - True
 
 # data_type - malumotlar turi
-# str() - string  {matnlar} 1, 2, 4, 6
-# int() - integir  {sonlar}
-# float() - kasr sonlar  7.6, 6.09, 54,25
+# str() - string  {matnlar} 'salom', "hi" 
+# int() - integir  {sonlar}  1, 2, 4, 6, 0, -1, -654
+# float() - kasr sonlar  7.6, 6.09, 54.25
 # bool() - True, False
+# input() - {foydalanuvchidan malumot suraydi}
+# input() doim string {matn qabul qilmoq}
+# type(x) - qaysi dataga tegishliligini aniq
+# .capitalize() - bitta so'zni bosh harfini
+# .title() - har bir so'zni bosh harfini 
+# .upper() - barcha harflarni katta qiladi
+# .lower() - barcha harflarni kichik qiladi
+
+
+
 
 # # # ==, !=
 # son = 10 == 6 # f

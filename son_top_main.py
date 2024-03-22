@@ -19,6 +19,9 @@ def sontop(x=10):
     print(f"Tabriklayman. {taxminlar} ta taxmin bilan topdingiz!")
     return taxminlar
 
+
+
+
 def sontop_computer(x=10):
     input(f"1 dan {x} gacha son o'ylang va istalgan tugmani bosing. Men topaman.")
     quyi = 1
@@ -42,6 +45,8 @@ def sontop_computer(x=10):
             break
     print(f"Men {taxminlar} ta taxmin bilan topdim!")
     return taxminlar
+
+
 
 
 
