@@ -85,8 +85,7 @@
 # malumot = [f_name, year, address, phone]
 # print(malumot)
 
-# FAANG
-# MAANG
+
 
 
 
@@ -121,7 +120,7 @@
 
 # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
 
-# sonlar = [22, -58.2, 34.0, 67, 1983, 123_450_001, 112.4]
+# sonlar = [22, -58.2, 34.0, 67, 112.4]
 # print(sonlar)
 # print(sonlar[-1])
 
@@ -152,8 +151,8 @@
 # friends.append("Vanya")
 # print(f"To`liq list: {friends}")
 
-# # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan 
-# # odamlarni .remove() metodi yordamida o'chrib tashlang.
+# # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan 
+# # # odamlarni .remove() metodi yordamida o'chrib tashlang.
 # friends.remove("John")
 # friends.remove("Alex")
 # del friends[-1]
@@ -168,9 +167,10 @@
 # talaba.append("Hasan") 
 # talaba.insert(0, "Husan")
 # talaba.insert(2, "Ivan") #indexga qosshish
-
+# talaba.append("test")
 # print(talaba)
 # print(len(talaba), "ta talaba") # uzunlik
+
 
 
 
@@ -179,8 +179,10 @@
 
 
 # full_name = 'ali olimov'
+# uzunlik = len(full_name)
+# print(uzunlik - 1)
 
-# print(len(full_name) - 1)
+
 
 
 # Yangi mehmonlar deb nomlangan bo'sh ro'yxat yarating. 
