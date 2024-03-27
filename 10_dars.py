@@ -1,31 +1,35 @@
 # def toliq_ism_yasa(ism, familiya): # args - parms
-#     """Toliq ism qaytaruvchi funksiya"""
+#     """..."""
 #     toliq_ism = f"{ism.title()} {familiya.title()}"
 #     return toliq_ism
 
-# talaba1 = toliq_ism_yasa("olim", "hakimov")
-# talaba2 = toliq_ism_yasa("hakim", "olimov")
+# talaba1 = toliq_ism_yasa("husan", "hakimov")
+# talaba2 = toliq_ism_yasa("hakim", "husanov")
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 # print(f"{talaba1} darsga kechikib keldi")
 
 
-# def toliq_ism_yasa(ism, familiya, otasining_ismi="", yosh=0):
-#     """Toliq ism va familiya qaytaruvchi funksiya"""
-#     if otasining_ismi and yosh:
-#         toliq_ism = f"{ism} {otasining_ismi} {familiya} yosh: {yosh}da"
+
+
+# def toliq_ism_yasa(ism, familiya, o_ismi="", yosh=0):
+#     """..."""
+#     if o_ismi and yosh:
+#         toliq_ism = f"{ism} {o_ismi} {familiya}, {yosh}-yosh da"
 #     else:
 #         toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism.title()
 
-# talaba1 = toliq_ism_yasa("ali", "jamolov")
-# talaba2 = toliq_ism_yasa("hakim", "olimov", "abrorovich", 37)
+# talaba1 = toliq_ism_yasa("g`ani", "jamolov")
+# talaba2 = toliq_ism_yasa("hakim", "kamolov", "abrorovich", 37)
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+
+
 
 
 
 
 # def friends_list():
-#     """friends list"""
+#     """..."""
 #     print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
 #     ismlar = []
 #     n = 1  # ismlarni sanash uchun o'zgaruvchi
@@ -40,7 +44,6 @@
 #     print("Do'stlaringiz ro'yxati: ")
 #     for ism in ismlar:
 #         print(ism.title(), end=" ")
-        
 # friends_list()
         
 
