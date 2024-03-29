@@ -11,16 +11,16 @@
 
 
 
-# def toliq_ism_yasa(ism, familiya, o_ismi="", yosh=0):
-#     """..."""
-#     if o_ismi and yosh:
-#         toliq_ism = f"{ism} {o_ismi} {familiya}, {yosh}-yosh da"
+# def toliq_ism_yasa(ism, familiya, o_ismi=""):
+#     if o_ismi:
+#         toliq_ism = f"{ism} {o_ismi} {familiya}."
 #     else:
 #         toliq_ism = f"{ism} {familiya}"
-#     return toliq_ism.title()
+#     return toliq_ism
 
-# talaba1 = toliq_ism_yasa("g`ani", "jamolov")
-# talaba2 = toliq_ism_yasa("hakim", "kamolov", "abrorovich", 37)
+# talaba1 = toliq_ism_yasa("husan", "jamolov")
+# talaba2 = toliq_ism_yasa("hakim", "kamolov", "abrorovich")
+
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
 
 
@@ -28,23 +28,22 @@
 
 
 
-# def friends_list():
-#     """..."""
-#     print("Yaqin do'stlaringiz ro'yxatini tuzamiz.")
-#     ismlar = []
-#     n = 1  # ismlarni sanash uchun o'zgaruvchi
-#     while True:  # loop
-#         savol = f"{n}-do'stingiz ismini kiriting: "
-#         ism = input(savol)
-#         ismlar.append(ism)
-#         takrorlash = input("ism qo'shasizmi? (ha/yo'q)")
-#         n += 1
-#         if takrorlash != "ha":
-#             break     
-#     print("Do'stlaringiz ro'yxati: ")
-#     for ism in ismlar:
-#         print(ism.title(), end=" ")
-# friends_list()
+def friends_list():
+    print("Ismlar ro'yxatini tuzamiz.")
+    ismlar = []
+    n = 1
+    while True:
+        savol = f"{n}-ismini kiriting: "
+        ism = input(savol)
+        ismlar.append(ism)
+        takrorlash = input("ism qo'shasizmi? (ha/yo'q)")
+        n += 1
+        if takrorlash != "ha":
+            break     
+    print("Ismlar: ")
+    for ism in ismlar:
+        print(ism.title(), end=" ")
+friends_list()
         
 
 
