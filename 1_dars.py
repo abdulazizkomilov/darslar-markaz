@@ -19,7 +19,7 @@
 
 
 # input() foydalanuvchidan malumot so'rash
-                 
+
 # name = input('Ism kiriting: ')
 # print(f"Salom {name}")
 
