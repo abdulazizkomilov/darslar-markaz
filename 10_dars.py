@@ -28,22 +28,22 @@
 
 
 
-def friends_list():
-    print("Ismlar ro'yxatini tuzamiz.")
-    ismlar = []
-    n = 1
-    while True:
-        savol = f"{n}-ismini kiriting: "
-        ism = input(savol)
-        ismlar.append(ism)
-        takrorlash = input("ism qo'shasizmi? (ha/yo'q)")
-        n += 1
-        if takrorlash != "ha":
-            break     
-    print("Ismlar: ")
-    for ism in ismlar:
-        print(ism.title(), end=" ")
-friends_list()
+# def friends_list():
+#     print("Ismlar ro'yxatini tuzamiz.")
+#     ismlar = []
+#     n = 1
+#     while True:
+#         savol = f"{n}-ismini kiriting: "
+#         ism = input(savol)
+#         ismlar.append(ism)
+#         takrorlash = input("ism qo'shasizmi? (ha/yo'q)")
+#         n += 1
+#         if takrorlash != "ha":
+#             break     
+#     print("Ismlar: ")
+#     for ism in ismlar:
+#         print(ism.title(), end=" ")
+# friends_list()
         
 
 
