@@ -13,6 +13,9 @@ osonlashtiradi.
 """
 Xususiyat    -----  malumotlari
 Metod        -----  funksiya
+
+obyekt       ----- malumotlarni bor
+class        ----- malumotlarni yuq
 """
 
 # class Xodim:
@@ -22,13 +25,15 @@ Metod        -----  funksiya
 #         self.yosh = yosh
     
 #     def tanishtir(self):
-#         return f"Xodimning ismi: {self.ism.title()}, familiyasi: {self.familiya.title()}, yoshi: {self.yosh}"
+#         return f"""Xodimning ismi: {self.ism.title()},
+# familiyasi: {self.familiya.title()}, yoshi: {self.yosh}"""
         
 #     def t_yil(self):
 #         return f"Xodimning tugulgan yili: {2024 - self.yosh}"
 
 # xodim1 = Xodim("temur", "nosirov", 13)
-
+# xodim2 = Xodim("salim", "karimov", 13)
+# xodim3 = Xodim("asadbek", "baxtiyorov", 14)
 
 
 
