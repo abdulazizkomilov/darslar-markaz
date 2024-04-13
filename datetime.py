@@ -16,12 +16,16 @@ import datetime as dt
 # # # sekundni ajratib olish
 # print(hozir.second)
 
-# # date()
+
+# # date()           yil   oy kun
+# tugulgan = dt.date(2007, 6, 18)
+# print(f"tugulgan sana: {tugulgan}")
 # bugun = dt.date.today()
 # print(f"Bugungi sana: {bugun}")
-# ertaga = dt.date(2024, 1, 17)
-# print(f"Ertangi sana: {ertaga}")
-# print(ertaga - bugun)
+# print(bugun - tugulgan)
+
+
+
 
 
 # # time()
@@ -32,22 +36,26 @@ import datetime as dt
 # print(vaqtKeyin)
 
 
+
+
 # # Sanalar orasida farq
 # bugun = dt.date.today()
-# tatil = dt.date(2024, 3, 24)
+# tatil = dt.date(2024, 5, 25)
 # farq = tatil - bugun
 # print(f"Ta`tilga {farq.days} kun qoldi")
 
 
 # # Soatlar orasida farq
 # hozir = dt.datetime.now()
-# futbol = dt.datetime(2024, 2, 1, 00, 00, 00)
-# farq = futbol - hozir
+# #                      yil   oy kun  h  m   s
+# tugulgan = dt.datetime(2007, 10, 28, 2, 00, 00)
+# farq = hozir - tugulgan
 # sekundlar = farq.seconds
 # minutlar = int(sekundlar / 60)
 # soatlar = int(minutlar / 60)
-# print(f"""Futbol tugashiga {farq.days} kunu
-# {soatlar} soat qoldi""")
+# print(f"Yashagan vaqt: {farq.days} kunu {soatlar} soat")
+
+
 
 
 
@@ -60,28 +68,28 @@ import datetime as dt
 # print(f"Bugun sana: {sana}")
 
 
-
 # hozir = dt.datetime.now()
 # sana_vaqt = hozir.strftime("%d/%m/%Y, %H:%M")
 # print(sana_vaqt)
 
 
 
-from datetime import datetime, timedelta
 
-def get_first_day_of_next_month():
-    # Joriy sana
-    current_date = datetime.now()
+# from datetime import datetime, timedelta
 
-    # Keyingi oyning boshlanish kunini olish
-    if current_date.month == 12:
-        next_month_start = datetime(current_date.year + 1, 1, 1)
-    else:
-        next_month_start = datetime(current_date.year, current_date.month + 1, 1)
+# def get_first_day_of_next_month():
+#     # Joriy sana
+#     current_date = datetime.now()
 
-    return next_month_start
+#     # Keyingi oyning boshlanish kunini olish
+#     if current_date.month == 12:
+#         next_month_start = datetime(current_date.year + 1, 1, 1)
+#     else:
+#         next_month_start = datetime(current_date.year, current_date.month + 1, 1)
 
-# Mavjud sana vaqtini olish
-next_month_start_date = get_first_day_of_next_month()
-print(next_month_start_date)
+#     return next_month_start
+
+# # Mavjud sana vaqtini olish
+# next_month_start_date = get_first_day_of_next_month()
+# print(next_month_start_date)
 
