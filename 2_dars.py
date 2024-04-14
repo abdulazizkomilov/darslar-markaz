@@ -120,27 +120,23 @@
 
 # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
 
-# sonlar = [22, -58.2, 34.0, 67, 112.4]
-# print(sonlar)
-# print(sonlar[-1])
+sonlar = [22, -58.2, 34.0, 67, 112.4]
+print(sonlar)
+print(sonlar[-1])
+sonlar[0] = sonlar[0] + sonlar[-1]
+sonlar[1] = -67.8
+sonlar[4] = sonlar[4] + 41
+sonlar[3] = 77
+print(sonlar)
+del sonlar[4]  # delete - o'chirish
+del sonlar[0]
+print(sonlar)
 
 
-
-
-# sonlar[0] = sonlar[0] + sonlar[-1]
-# sonlar[1] = -67.8
-# sonlar[4] = sonlar[4] + 41
-# sonlar[3] = 77
-# print(sonlar)
-# del sonlar[5]  # delete - o'chirish
-# del sonlar[0]
-# print(sonlar)
 
 # friends nomli bo'sh ro'yxat tuzing va unga .append() 
 # yordamida 5-6 ta mehmonga 
 # # chaqirmoqchi bo'lgan do'stlaringizni kiriting.
-
-
 
 # friends = []
 # print(friends)
@@ -150,9 +146,8 @@
 # friends.append("Sobirjon")
 # friends.append("Vanya")
 # print(f"To`liq list: {friends}")
-
-# # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan 
-# # # odamlarni .remove() metodi yordamida o'chrib tashlang.
+# # # # Yuqoridagi ro'yxatdan mehmonga kela olmaydigan 
+# # # # odamlarni .remove() metodi yordamida o'chrib tashlang.
 # friends.remove("John")
 # friends.remove("Alex")
 # del friends[-1]
@@ -162,14 +157,16 @@
 
 
 
+
+
 # talaba = ['jon', 'vaniya', 'kamol']
 # print(talaba)
 # talaba.append("Hasan") 
 # talaba.insert(0, "Husan")
-# talaba.insert(2, "Ivan") #indexga qosshish
-# talaba.append("test")
+# talaba.insert(2, "Ivan")      #indexga qosshish
 # print(talaba)
-# print(len(talaba), "ta talaba") # uzunlik
+# print(len(talaba), "ta talaba")    # uzunlik
+
 
 
 
