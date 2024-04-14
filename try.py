@@ -1,20 +1,34 @@
 # try-except
 
-# l = [2, 3, 4, 5, 6, 7]
+
+
+# list_1 = [2, 3, 4, 5, 6, 7]
+
 # try:
-#     print(l(8))
+#     son = int(input("son: "))
+#     print(list_1[son])
 # except IndexError:
 #     print('Index xatoligi')
 # except TypeError:
 #     print('Murojat qilish xatoligi')
 # except AttributeError:
 #     print('AttributeError qilish xatoligi')
+# except ValueError:
+#     print("Notugri malumot kiritildi")
 
+# print('hi')
+
+
+
+# list_1 = [2, 3, 4, 5, 6, 7]
 # try:
-#     print(l(8))
+#     print(list_1(8))
 # except:
 #     print('Xatolig')
 # print('dsadfasd ')
+
+
+
 
 # # Xatolar
 # yosh = int(input("Yoshingizni kiriting: "))
@@ -22,14 +36,19 @@
 # print('hi')
 
 
+
+
 # # try-except
 # yosh = input("Yoshingizni kiriting: ")
 # try:
 #     yosh = int(yosh)
-#     print(f"Siz {2023-yosh} yilda tug'ilgansiz")
+#     print(f"Siz {2024-yosh} yilda tug'ilgansiz")
 # except: 
 #     print("Butun son kiritmadingiz")
 # print('hi')
+
+
+
 
 
 # # try-except-else
@@ -45,13 +64,17 @@
 
 
 
+
+
 # x, y = 3, 10
 # try:
 #     print(y/(x-3))
 # except ZeroDivisionError:
 #     print("0 ga bo'lib bo'lmaydi")
-# # except Exception as e:
-# #     print(f"{e}")
+# except Exception as e:
+#     print(f"{e}")
+
+
 
 
 
@@ -68,6 +91,8 @@
 #     print(f"Ro'yxatda {len(mevalar)} ta meva bor xolos")
 # else:
 #     print(mevalar[index])
+
+
 
 
 # data = {
@@ -139,26 +164,26 @@
 # print(f"Siz {2021-yosh} yilda tug'ilgansiz")
 
 
-print("x/y hisoblovchi dastur")
-while True:
-    x = input("x ni kiriting: ")
-    if x.isdigit():
-        x = int(x)
-    else:
-        print("Bu son emas!")
-        continue
-    y = input("y ni kiriting: ")
-    if y.isdigit():
-        y = int(y)
-    else:
-        print("Bu son emas!")
-        continue
-    if y == 0:
-        print("y 0 bo'lishi mumkin emas!")
-        continue
-    else:
-        print(x, "/", y, "=", x / y)
-        break
+# print("x/y hisoblovchi dastur")
+# while True:
+#     x = input("x ni kiriting: ")
+#     if x.isdigit():
+#         x = int(x)
+#     else:
+#         print("Bu son emas!")
+#         continue
+#     y = input("y ni kiriting: ")
+#     if y.isdigit():
+#         y = int(y)
+#     else:
+#         print("Bu son emas!")
+#         continue
+#     if y == 0:
+#         print("y 0 bo'lishi mumkin emas!")
+#         continue
+#     else:
+#         print(x, "/", y, "=", x / y)
+#         break
 
 
 
