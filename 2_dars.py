@@ -120,17 +120,17 @@
 
 # sonlar deb nomlangan ro'yxat yarating va ichiga turli sonlarni yuklang (musbat, manfiy, butun, o'nlik).
 
-sonlar = [22, -58.2, 34.0, 67, 112.4]
-print(sonlar)
-print(sonlar[-1])
-sonlar[0] = sonlar[0] + sonlar[-1]
-sonlar[1] = -67.8
-sonlar[4] = sonlar[4] + 41
-sonlar[3] = 77
-print(sonlar)
-del sonlar[4]  # delete - o'chirish
-del sonlar[0]
-print(sonlar)
+# sonlar = [22, -58.2, 34.0, 67, 112.4]
+# print(sonlar)
+# print(sonlar[-1])
+# sonlar[0] = sonlar[0] + sonlar[-1]
+# sonlar[1] = -67.8
+# sonlar[4] = sonlar[4] + 41
+# sonlar[3] = 77
+# print(sonlar)
+# del sonlar[4]  # delete - o'chirish
+# del sonlar[0]
+# print(sonlar)
 
 
 
