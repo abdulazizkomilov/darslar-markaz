@@ -5,7 +5,7 @@
 
 
 # # yopilishi
-# with open("pi.txt") as file:
+# with open("pi-son.txt") as file:
 #     pi = file.read()   
 # print(pi)
 
@@ -13,6 +13,8 @@
 # pi = pi.rstrip()  #yangi qatorni olib tashlaydi
 # pi = pi.replace('\n', "")  #o`rniga almashtiradi
 # pi = str(pi)
+# print(pi)
+# pi = pi.replace('140', "777")
 # print(pi)
 
 
@@ -23,12 +25,12 @@
 #     for line in file:
 #         print(line)
 
-
+# filename = "pi-son.txt"
 # # # ro`yxat ichiga saqlash
 # with open(filename) as file:
 #     talabalar = file.readlines()
 
-# # print(talabalar)
+# print(talabalar)
 
 # talabalar = [talaba.replace('\n', "") for talaba in talabalar]
 # print(talabalar)
@@ -41,10 +43,12 @@
 # ism = "Umar Hasanov"
 # t_yil = 1999
 # address = 'yangiyer'
+# phone = 2345678
 # with open(faylnomi, "w") as fayl:
 #     fayl.write(ism + '\n')
 #     fayl.write(str(t_yil) + '\n')
 #     fayl.write(address + '\n')
+#     fayl.write(str(phone) + '\n')
 
 
 

@@ -1,26 +1,25 @@
-# class Talaba:
-#     """Talaba nomli klass yaratamiz"""
-#     def __init__(self, ism, familiya, tyil):
-#         """Talabaning xususiyatlari"""
-#         self.ism = ism
-#         self.familiya = familiya
-#         self.tyil = tyil
-#         self.bosqich = 1
+class Talaba:
+    """Talaba nomli klass yaratamiz"""
+    def __init__(self, ism, familiya, tyil):
+        """Talabaning xususiyatlari"""
+        self.ism = ism
+        self.familiya = familiya
+        self.tyil = tyil
+        self.bosqich = 1
     
-#     def get_info(self):
-#         """Talaba haqida ma'lumot"""
-#         return f"""{self.ism} {self.familiya} {self.tyil} da tug`ulgan.
-# {self.bosqich}-bosqich talabasi"""
+    def get_info(self):
+        return f"""{self.ism} {self.familiya} 
+{self.tyil} da tug`ulgan. 
+{self.bosqich}-bosqich talabasi"""
     
-#     def set_bosqich(self, qiymat):
-#         """Talabaning kursini yangilovchi metod"""
-#         self.bosqich = qiymat
+    def set_bosqich(self, qiymat):
+        self.bosqich = qiymat
         
-#     def update_bosqich(self):
-#         """Talabanining bosqichini 1taga ko'paytirish"""
-#         self.bosqich += 1
-        
-# talaba1 = Talaba("Alijon","Valiyev",2000)
+    def update_bosqich(self):
+        self.bosqich += 1
+# talaba1 = Talaba("Alijon", "Valiyev", 2000)
+
+# talaba_2 = Talaba("Abror", "Muminboyev", 2010)
 
 # print(talaba1.get_info())
 
@@ -31,39 +30,32 @@
 # print(talaba1.get_info())
 
 
-# class Fan:
-#     """Fan nomli klass"""
-#     def __init__(self,nomi):
-#         self.nomi = nomi
-#         self.talabalar_soni = 0
-#         self.talabalar = []
+class Fan:
+    def __init__(self,nomi):
+        self.nomi = nomi
+        self.talabalar_soni = 0
+        self.talabalar = []
     
-#     def add_student(self, talaba):
-#         """Fanga talabalar qo'shish"""
-#         self.talabalar.append(talaba)
-#         self.talabalar_soni += 1
+    def add_student(self, talaba):
+        self.talabalar.append(talaba)
+        self.talabalar_soni += 1
     
-#     def get_name(self):
-#         """Fan nomi"""
-#         return self.nomi
+    def get_name(self):
+        return self.nomi
     
-#     def get_students(self):
-#         """Fanga yozilgan talabalar haqida ma'lumot"""
-#         return [x.get_info() for x in self.talabalar]
+    def get_students(self):
+        return [x.get_info() for x in self.talabalar]
       
-#     def get_students_num(self):
-#         """Fanga yozilgan talabalar soni"""
-#         return self.talabalar_soni
-        
-# # ma'lomotlar 
-# matematika = Fan("Oliy Matematika")
+    def get_students_num(self):
+        """Fanga yozilgan talabalar soni"""
+        return self.talabalar_soni
+ 
+matematika = Fan("Oliy Matematika")
+english = Fan("English")
+
 # talaba1 = Talaba("Alijon","Valiyev",2000)
 # talaba2 = Talaba("Hasan","Alimov",2001)
 # talaba3 = Talaba("Akrom","Boriyev",2001)
-
-# talaba1.update_bosqich() 
-# talaba2.update_bosqich()
-# talaba2.update_bosqich()
 
 # # # talaba qo`shamiz
 # matematika.add_student(talaba1)
@@ -71,7 +63,6 @@
 # matematika.add_student(talaba3)
 
 # print(matematika.talabalar_soni)
-# print(matematika.talabalar)
 # print(matematika.get_students())
 
 # # return [x.get_info() for x in self.talabalar]
@@ -99,3 +90,52 @@
 
 # print(talaba1.__dict__.keys())
 # print(talaba1.__dict__.values())
+
+class Sinf:
+    def __init__(self, nomi, kurs, raxbar, xona):
+        self.nomi = nomi
+        self.kurs = kurs
+        self.talabalar = []
+        self.talabalar_soni = 0
+        self.raxbar = raxbar
+        self.xona = xona
+        self.fanlar = []
+        
+    def add_student(self, talaba):
+        self.talabalar.append(talaba)
+        self.talabalar_soni += 1
+    
+    def get_name(self):
+        return self.nomi
+    
+    def get_students(self):
+        return [x.get_info() for x in self.talabalar]
+      
+    def get_students_num(self):
+        """Fanga yozilgan talabalar soni"""
+        return self.talabalar_soni
+    
+        
+
+talaba1 = Talaba("Aziz","Valiyev",2000)
+talaba2 = Talaba("Isfandiyor","Alimov",2001)
+talaba3 = Talaba("Jamshid","Boriyev",2001)
+        
+sinf_10_i = Sinf('I', 10, 'KKK', 12)
+
+sinf_10_i.add_student(talaba1)
+sinf_10_i.add_student(talaba2)
+sinf_10_i.add_student(talaba3)
+
+
+
+
+
+
+
+
+
+
+
+
+

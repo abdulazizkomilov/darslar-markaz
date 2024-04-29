@@ -1,28 +1,30 @@
 # docs.python.org/3/library
 
-import datetime as dt
+# import datetime as dt
 
-# # datetime()
+# # # datetime()
 # hozir = dt.datetime.now()
 # print(hozir)
-# # sanani ajratib olish
+# # # sanani ajratib olish
 # print(hozir.date())
-# # vaqtni ajratib olish
+# # # vaqtni ajratib olish
 # print(hozir.time())
-# # soatni ajratib olish
+# # # soatni ajratib olish
 # print(hozir.hour)
-# # minutni ajratib olish
+# # # minutni ajratib olish
 # print(hozir.minute)
-# # # sekundni ajratib olish
+# # # # sekundni ajratib olish
 # print(hozir.second)
 
 
 # # date()           yil   oy kun
-# tugulgan = dt.date(2007, 6, 18)
+# tugulgan = dt.date(2008, 1, 1)
 # print(f"tugulgan sana: {tugulgan}")
 # bugun = dt.date.today()
 # print(f"Bugungi sana: {bugun}")
 # print(bugun - tugulgan)
+
+
 
 
 
@@ -38,11 +40,16 @@ import datetime as dt
 
 
 
+
+
 # # Sanalar orasida farq
 # bugun = dt.date.today()
 # tatil = dt.date(2024, 5, 25)
 # farq = tatil - bugun
 # print(f"Ta`tilga {farq.days} kun qoldi")
+
+
+
 
 
 # # Soatlar orasida farq
@@ -63,6 +70,7 @@ import datetime as dt
 # hozir = dt.datetime.now()
 # vaqt = hozir.strftime("%H:%M:%S")
 # print(f"Hozir soat: {vaqt}")
+
 
 # sana = hozir.strftime("%d-%m-%Y")
 # print(f"Bugun sana: {sana}")

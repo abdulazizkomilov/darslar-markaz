@@ -10,19 +10,23 @@ prinsiplari bilan solishtirishni
 osonlashtiradi.
 """
 
-"""
-Xususiyat    -----  malumotlari
-Metod        -----  funksiya
+# """
+# Xususiyat    -----  malumotlari
+# Metod        -----  funksiya
 
-obyekt       ----- malumotlarni bor
-class        ----- malumotlarni yuq
-"""
+# obyekt       ----- malumotlarni bor
+# class        ----- malumotlarni yuq
+# """
+ 
 
 # class Xodim:
 #     def __init__(self, ism, familiya, yosh):
 #         self.ism = ism
 #         self.familiya = familiya
 #         self.yosh = yosh
+        
+#     def __repr__(self):
+#         return f"""Xodimning ismi: {self.ism.title()}"""
     
 #     def tanishtir(self):
 #         return f"""Xodimning ismi: {self.ism.title()},
@@ -32,8 +36,9 @@ class        ----- malumotlarni yuq
 #         return f"Xodimning tugulgan yili: {2024 - self.yosh}"
 
 # xodim1 = Xodim("temur", "nosirov", 13)
+
 # xodim2 = Xodim("salim", "karimov", 13)
-# xodim3 = Xodim("asadbek", "baxtiyorov", 14)
+# xodima3 = Xodim("asadbek", "baxtiyorov", 14)
 
 
 
@@ -44,14 +49,12 @@ class        ----- malumotlarni yuq
 #         self.narx = narx
 #         self.xotira = 64
         
-#     def __repr__(self):
-#         return f"Telfon: {self.model}, {self.narx}$"
-        
-#     def xotira_qolganini_korsat(self):
+#     def see_memory(self):
 #         return f"{self.model} telefonida {self.xotira} GB xotira qolgan." 
  
 #     def narxni_ozgartir(self, yangi_narx):
 #         self.narx = yangi_narx
+
 
 # telefon1 = Telefon("iPhone", 1200)
 # telefon2 = Telefon("Samsung1", 800)
@@ -142,17 +145,17 @@ class        ----- malumotlarni yuq
 # talaba1.tanishtir()
 
 
-class Shaxs:
+# class Shaxs:
     
-    def __init__(self, ism, familya, tyil):
-        pass
+#     def __init__(self, ism, familya, tyil):
+#         pass
     
-    def get_name(self):
-        pass
+#     def get_name(self):
+#         pass
     
-    def get_age(self):
-        pass
+#     def get_age(self):
+#         pass
     
-    def tanishtir(self):
-        pass
+#     def tanishtir(self):
+#         pass
 

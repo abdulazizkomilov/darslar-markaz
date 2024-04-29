@@ -1,12 +1,10 @@
 # try-except
 
-
-
 # list_1 = [2, 3, 4, 5, 6, 7]
 
 # try:
 #     son = int(input("son: "))
-#     print(list_1[son])
+#     print(list_1(son))
 # except IndexError:
 #     print('Index xatoligi')
 # except TypeError:
@@ -15,6 +13,7 @@
 #     print('AttributeError qilish xatoligi')
 # except ValueError:
 #     print("Notugri malumot kiritildi")
+
 
 # print('hi')
 
@@ -32,8 +31,11 @@
 
 # # Xatolar
 # yosh = int(input("Yoshingizni kiriting: "))
-# print(f"Siz {2023-yosh} yilda tug'ilgansiz")
+# print(f"Siz {2024-yosh} yilda tug'ilgansiz")
 # print('hi')
+
+
+
 
 
 
@@ -96,10 +98,19 @@
 
 
 # data = {
-#         "ism": "ali",
-#         "familiya": "aliyev",
-#         "yosh": 20,
 #         }
+
+# kalit = input("kalit k: ")
+# qiymat = input("qiymat k: ")
+# data[kalit] = qiymat
+
+# print(data)
+
+
+
+
+
+
 
 
 # data = {"username":"admin",
@@ -118,6 +129,11 @@
 #     print("Bunday kalit mavjud emas")
 
 
+# sonlar2 = [99,5,4,7,8,0,1,2,3,9,33]
+
+# sonlar = [9,2,5,7,4,6]
+# OUT:
+#     [2,4,5,6,7,9]
 
 
 # filename = "data.txt" # bunday fayl mavjud emas
@@ -126,14 +142,16 @@
 
 
 
-# filename = "data.txt" # bunday fayl mavjud emas
-# try:
-#     with open(filename) as f:
-#         text = f.read()
-# except FileNotFoundError:
-#     print(f"Kechirasiz, {filename} fayli mavjud emas. Boshqa fayl tanlang.")
-# else:
-#     print(text)
+filename = "data.txt" # bunday fayl mavjud emas
+try:
+    with open(filename) as f:
+        text = f.read()
+except FileNotFoundError:
+    print(f"Kechirasiz, {filename} fayli mavjud emas. Boshqa fayl tanlang.")
+else:
+    print(text)
+
+
 
 
 # n = input("Butun son kiriting: ")

@@ -5,7 +5,7 @@ Vorislik (Encapsulation) va polimorfizm, obyektiv dasturlash
 (object-oriented programming) ning asosiy 
 tamoyillari hisoblanadi.
 
-1. Vorislik (Encapsulation):
+1. Vorislik:
     
    - Vorislik, ma'lumotlarni va funksiyalarni 
    bir obyekt ichida yig'ib olish va ularga 
@@ -40,8 +40,6 @@ tamoyillari hisoblanadi.
 """
 
 # class Shaxs:
-#     """Shaxslar haqida ma'lumot"""
-
 #     def __init__(self, ism, familiya, passport, tyil):
 #         """Shaxsning xususiyatlari"""
 #         self.ism = ism
@@ -50,7 +48,7 @@ tamoyillari hisoblanadi.
 #         self.tyil = tyil
 
 #     def get_info(self):
-#         """Shaxs haqida ma'lumot"
+#         """Shaxs haqida ma'lumot"""
 #         info = f"{self.ism} {self.familiya}. "
 #         info += f"Passport:{self.passport}, {self.tyil}-yilda tug`ilgan"
 #         return info
@@ -58,12 +56,9 @@ tamoyillari hisoblanadi.
 #     def get_age(self, yil):
 #         """Shaxsning yoshini qaytaruvchi metod"""
 #         return yil - self.tyil
-    
-    
+     
 # # VORISLIK ota klassdan meros
 # class Talaba(Shaxs):
-#     """Talaba klassi"""
-
 #     def __init__(self, ism, familiya, passport, tyil, idraqam, manzil):
 #         """Talabaning xususiyatlari"""
 #         # Ota klasslarning __init__ metodlarini chaqirish plomarfizm
@@ -102,47 +97,41 @@ class Person:
     def display_info(self):
         print(f"Ismi: {self.name}, Yosh: {self.age}")
 
-
 class Occupation:
     def __init__(self, occupation):
         self.occupation = occupation
     
-
     def display_occupation(self):
         print(f"Kasbi: {self.occupation}")
 
-
 class Student(Person, Occupation):
     def __init__(self, name, age, student_id, occupation):
-        # Ota klasslarning __init__ metodlarini chaqirish
         Person.__init__(self, name, age)
         Occupation.__init__(self, occupation)
         self.student_id = student_id
 
     def display_info(self):
-        # Ota klasslarning display_info metodlarini chaqirish
         Person.display_info(self)
-        # Bu sinfning xususiy metodini qo'shish
         print(f"Talaba ID: {self.student_id}")
 
-# Test qismi
-# student = Student("Alice Smith", 20, "S12345", "IT Specialist")
-# student.display_info()
-# student.display_occupation()
+
+student = Student("Alice Smith", 20, "S12345", "IT Specialist")
+student.display_info()
+student.display_occupation()
 
 
 
-# # # dir()    
-# print(dir(Person))
+# # dir()    
+print(dir(Person))
 
 # Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
 
 def see_methods(klass):
-    return [method for method in dir(klass) if method.startswith('__') is False]
+    # return [method for method in dir(klass) if method.startswith('__') is False]
     
-    # for method in dir(klass):
-    #     if method.startswith('__') is False:
-    #         return method
+    for method in dir(klass):
+        if method.startswith('__') is False:
+            return method
 
 print(see_methods(Occupation))
 print(see_methods(Student))

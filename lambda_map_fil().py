@@ -45,10 +45,10 @@
 
 
 
-# from math import sqrt, factorial  # sqrt - kvadrat ildiz
+from math import sqrt, factorial  # sqrt - kvadrat ildiz
 
 # sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
-# ildizlar = list(map(factorial, sonlar)) 
+# ildizlar = list(map(sqrt, sonlar)) 
 # print(ildizlar)
 
 
@@ -60,8 +60,7 @@
 # print(ildizlar)
 
 
-names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
-
+# names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
 # def ism_upper(arr):
 #     ismlar = []
 #     for ism in names:
@@ -87,7 +86,7 @@ names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
 
 
 
-sonlar = list(range(11))
+# sonlar = list(range(11))
 
 # def son_t(x):
 #     if x % 2 == 1:
@@ -109,8 +108,8 @@ sonlar = list(range(11))
 # a = [4, 5, 6]
 # b = [7, 8, 9]   
 
-# # # c = [3, 7, 2]
-# # # a+b+c
+# c = [3, 7, 2]
+# a+b+c
 
 # a_plus_b = list(map(lambda x, y: x + y, a, b))
 # print(a_plus_b)
@@ -118,14 +117,13 @@ sonlar = list(range(11))
 
 
 
-import random as r
+# import random as r
 
-sonlar = r.sample(range(100), 10)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-print(sonlar)
+# sonlar = r.sample(range(100), 5)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
+# print(sonlar)
 
 
 # def juftmi(x):
-#     """x juft bo'lsa True, aks holda False qaytaruvchu funksiya"""
 #     return x % 2 == 0
 
 
@@ -138,24 +136,23 @@ print(sonlar)
 # print(juft_sonlar)
 
 
-import random as r
+# import random as r
 
-mevalar1 = ["olma", "limon", "sabzi", 
-            "kivi", "olcha", "olxuri", 
-            "sarimsoq", "salim"]
+# mevalar1 = ["olma", "limon", "sabzi", 
+#             "kivi", "olcha", "olxuri", 
+#             "sarimsoq"]
 
-# filtered_fruits = list(filter(lambda meva: meva.startswith('s'), mevalar1))
+# filtered_fruits = list(filter(lambda meva: meva.startswith('o'), mevalar1))
 # print(filtered_fruits)
 
 
 
 
 
-
-# mevalar2 = list(filter(lambda meva: len(meva) <= 5, mevalar1))
+# mevalar2 = list(filter(lambda meva: len(meva) >= 5, mevalar1))
 # print(mevalar2)
 
-# print(list(filter(lambda meva: (meva.startswith("s") and meva.endswith("i")), mevalar1)))
+# print(list(filter(lambda meva: (meva.startswith("o") and meva.endswith("a")), mevalar1)))
 
 
 

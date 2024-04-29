@@ -1,4 +1,33 @@
-text = "Hello, world!"
-encoded_text = text.encode("utf-8")
-print(encoded_text)
-
+import turtle
+def home(t, color):
+	for side in range(1):
+		t.color(color)
+		t.left(90)
+		t.forward(50)
+		t.left(90)
+		t.forward(10)
+		t.right(45)
+		t.forward(30)
+		t.left(90)
+		t.forward(30)
+		t.right(45)
+		t.forward(10)
+		t.left(90)
+		t.forward(50)
+		t.left(90)
+		t.forward(60)
+	
+t = turtle.Turtle()
+t.penup()
+t.back(150)
+t.pendown()
+home(t, "red")
+t.penup()
+t.home()
+t.pendown()
+home(t, "pink")
+t.penup()
+t.home()
+t.forward(150)
+t.pendown()
+home(t, "purple")
