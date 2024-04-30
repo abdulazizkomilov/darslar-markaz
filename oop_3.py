@@ -89,52 +89,52 @@ tamoyillari hisoblanadi.
 
 
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def display_info(self):
-        print(f"Ismi: {self.name}, Yosh: {self.age}")
+#     def display_info(self):
+#         print(f"Ismi: {self.name}, Yosh: {self.age}")
 
-class Occupation:
-    def __init__(self, occupation):
-        self.occupation = occupation
+# class Occupation:
+#     def __init__(self, occupation):
+#         self.occupation = occupation
     
-    def display_occupation(self):
-        print(f"Kasbi: {self.occupation}")
+#     def display_occupation(self):
+#         print(f"Kasbi: {self.occupation}")
 
-class Student(Person, Occupation):
-    def __init__(self, name, age, student_id, occupation):
-        Person.__init__(self, name, age)
-        Occupation.__init__(self, occupation)
-        self.student_id = student_id
+# class Student(Person, Occupation):
+#     def __init__(self, name, age, student_id, occupation):
+#         Person.__init__(self, name, age)
+#         Occupation.__init__(self, occupation)
+#         self.student_id = student_id
 
-    def display_info(self):
-        Person.display_info(self)
-        print(f"Talaba ID: {self.student_id}")
-
-
-student = Student("Alice Smith", 20, "S12345", "IT Specialist")
-student.display_info()
-student.display_occupation()
+#     def display_info(self):
+#         Person.display_info(self)
+#         print(f"Talaba ID: {self.student_id}")
 
 
+# student = Student("Alice Smith", 20, "S12345", "IT Specialist")
+# student.display_info()
+# student.display_occupation()
 
-# # dir()    
-print(dir(Person))
 
-# Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
 
-def see_methods(klass):
-    # return [method for method in dir(klass) if method.startswith('__') is False]
+# # # dir()    
+# print(dir(Person))
+
+# # Dunder — double underscore (ikki pastki chiziq) so'zlarining qisqartmasi.
+
+# def see_methods(klass):
+#     # return [method for method in dir(klass) if method.startswith('__') is False]
     
-    for method in dir(klass):
-        if method.startswith('__') is False:
-            return method
+#     for method in dir(klass):
+#         if method.startswith('__') is False:
+#             return method
 
-print(see_methods(Occupation))
-print(see_methods(Student))
+# print(see_methods(Occupation))
+# print(see_methods(Student))
 
 
 # print(talaba1.__dict__)
