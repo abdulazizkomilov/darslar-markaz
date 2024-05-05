@@ -1,12 +1,15 @@
 # def toliq_ism_yasa(ism, familiya): # args - parms
-#     """..."""
-#     toliq_ism = f"{ism.title()} {familiya.title()}"
+#     toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism
 
 # talaba1 = toliq_ism_yasa("husan", "hakimov")
 # talaba2 = toliq_ism_yasa("hakim", "husanov")
-# print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+
+# print(f"Darsga kelmagan talabalar: {talaba1}"
+#       f"va {talaba2}")
 # print(f"{talaba1} darsga kechikib keldi")
+
+
 
 
 
@@ -22,6 +25,8 @@
 # talaba2 = toliq_ism_yasa("hakim", "kamolov", "abrorovich")
 
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+
+
 
 
 
