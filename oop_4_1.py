@@ -54,8 +54,6 @@
 
 
 # class AvtoSalon:
-#     """Avtosalon klassi"""
-
 #     def __init__(self, name):
 #         self.name = name
 #         self.avtolar = []
@@ -85,7 +83,7 @@
 
 # salon1.add_avto(avto1, avto2, avto3)
 # salon2.add_avto(avto4, avto5, avto6)
-# salon3.add_avto(avto)
+
 
 # salon1[1] / salon3[5] / salon2[:]
 # salon1[0] = Avto("Volva","K7","Oq",2017,50000)
