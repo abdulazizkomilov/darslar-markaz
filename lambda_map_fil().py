@@ -45,7 +45,7 @@
 
 
 
-from math import sqrt, factorial  # sqrt - kvadrat ildiz
+# from math import sqrt, factorial  # sqrt - kvadrat ildiz
 
 # sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
 # ildizlar = list(map(sqrt, sonlar)) 
