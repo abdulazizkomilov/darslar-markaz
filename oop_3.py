@@ -39,49 +39,49 @@ tamoyillari hisoblanadi.
 
 """
 
-# class Shaxs:
-#     def __init__(self, ism, familiya, passport, tyil):
-#         """Shaxsning xususiyatlari"""
-#         self.ism = ism
-#         self.familiya = familiya
-#         self.passport = passport
-#         self.tyil = tyil
+class Shaxs:
+    def __init__(self, ism, familiya, passport, tyil):
+        """Shaxsning xususiyatlari"""
+        self.ism = ism
+        self.familiya = familiya
+        self.passport = passport
+        self.tyil = tyil
 
-#     def get_info(self):
-#         """Shaxs haqida ma'lumot"""
-#         info = f"{self.ism} {self.familiya}. "
-#         info += f"Passport:{self.passport}, {self.tyil}-yilda tug`ilgan"
-#         return info
+    def get_info(self):
+        """Shaxs haqida ma'lumot"""
+        info = f"{self.ism} {self.familiya}. "
+        info += f"Passport:{self.passport}, {self.tyil}-yilda tug`ilgan"
+        return info
 
-#     def get_age(self, yil):
-#         """Shaxsning yoshini qaytaruvchi metod"""
-#         return yil - self.tyil
+    def get_age(self, yil):
+        """Shaxsning yoshini qaytaruvchi metod"""
+        return yil - self.tyil
      
-# # VORISLIK ota klassdan meros
-# class Talaba(Shaxs):
-#     def __init__(self, ism, familiya, passport, tyil, idraqam, manzil):
-#         """Talabaning xususiyatlari"""
-#         # Ota klasslarning __init__ metodlarini chaqirish plomarfizm
-#         super().__init__(ism, familiya, passport, tyil)
-#         self.idraqam = idraqam
-#         self.bosqich = 1
-#         self.manzil = manzil
+# VORISLIK ota klassdan meros
+class Talaba(Shaxs):
+    def __init__(self, ism, familiya, passport, tyil, idraqam, manzil):
+        """Talabaning xususiyatlari"""
+        # Ota klasslarning __init__ metodlarini chaqirish plomarfizm
+        super().__init__(ism, familiya, passport, tyil)
+        self.idraqam = idraqam
+        self.bosqich = 1
+        self.manzil = manzil
 
-#     def get_id(self):
-#         """Talabaning ID raqami"""
-#         return self.idraqam
+    def get_id(self):
+        """Talabaning ID raqami"""
+        return self.idraqam
 
-#     def get_bosqich(self):
-#         """Talabaning o'qish bosqichi"""
-#         return self.bosqich
+    def get_bosqich(self):
+        """Talabaning o'qish bosqichi"""
+        return self.bosqich
     
-#     def get_info(self):
-#         """Talaba haqida ma'lumot"""
-#         info = f"{self.ism} {self.familiya}. Manzil: {self.manzil} "
-#         info += f"{self.get_bosqich()}-bosqich. ID raqami: {self.idraqam}"
-#         return info
+    def get_info(self):
+        """Talaba haqida ma'lumot"""
+        info = f"{self.ism} {self.familiya}. Manzil: {self.manzil} "
+        info += f"{self.get_bosqich()}-bosqich. ID raqami: {self.idraqam}"
+        return info
 
-# talaba1 = Talaba("olim", "karimov", "AB3457261", 1997, "ID56782", "yangiyer")
+talaba1 = Talaba("olim", "karimov", "AB3457261", 1997, "ID56782", "yangiyer")
 # shaxs1 = Shaxs("olim", "karimov", "AB3457261", 1997)
 # shaxs2 = Shaxs("vali", "kamolov", "BC7922639", 1980)
 
