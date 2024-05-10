@@ -8,7 +8,7 @@
 #         taxminlar += 1
 #         taxmin = int(input(">>>"))
 #         if taxmin < tasodifiy_son:
-#             print("Kat-taroq son ayting:", end="")
+#             print("Kattaroq son ayting:", end="")
 #         elif taxmin > tasodifiy_son:
 #             print("Kichikroq son ayting:", end="")
 #         else:
@@ -30,7 +30,7 @@
 
 
 
-
+# import random
 
 # def sontop_computer(x=10):
 #     input(f"1 dan {x} gacha son o'ylang va istalgan tugmani bosing. Men topaman.")
