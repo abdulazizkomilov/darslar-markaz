@@ -22,15 +22,9 @@
 #     return toliq_ism
 
 # talaba1 = toliq_ism_yasa("husan", "jamolov")
-# talaba2 = toliq_ism_yasa("hakim", "kamolov", "abrorovich")
+# talaba2 = toliq_ism_yasa("hakim", "kamolov")
 
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
-
-
-
-
-
-
 
 
 # def friends_list():
@@ -52,17 +46,32 @@
         
 
 
+# []  {"grokking": 40000}
 # 1 - kitob:  grokking
 # grokking narxi: 40000
-
-# ...
-
-# ...
-
 
 # Kitoblar:
 #     1. grokking - 40000
 #     2. ........ - 39000
+
+# dic = {'grokking': 1000}
+# dic[name] = price
+
+
+
+
+def books_list():
+    print("Enter books: ")
+#     books = {}
+#     while True:
+#         name = input("enter name: ")
+#         price = int(input(f"{name} price: "))
+#         books[name] = price
+#         takrorlash = input("kitob qo'shasizmi? (ha/yo'q)")
+#         if takrorlash != "ha":
+#             return books 
+
+# print(books_list())
 
 
 
