@@ -36,9 +36,8 @@ osonlashtiradi.
 #         return f"Xodimning tugulgan yili: {2024 - self.yosh}"
 
 # xodim1 = Xodim("temur", "nosirov", 13)
-
 # xodim2 = Xodim("salim", "karimov", 13)
-# xodima3 = Xodim("asadbek", "baxtiyorov", 14)
+# xodim3 = Xodim("asadbek", "baxtiyorov", 14)
 
 
 
