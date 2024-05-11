@@ -69,41 +69,41 @@
 #     Javob:
 #     ```python
 
-class Savatcha:
-    def __init__(self, nomi):
-        self.nomi = nomi
-        self.mahsulotlar = []
+# class Savatcha:
+#     def __init__(self, nomi):
+#         self.nomi = nomi
+#         self.mahsulotlar = []
         
-    def __repr__(self):
-        return self.nomi    
+#     def __repr__(self):
+#         return self.nomi    
     
-    def mahsulot_qoshish(self, mahsulot):
-        self.mahsulotlar.append(mahsulot)
+#     def mahsulot_qoshish(self, mahsulot):
+#         self.mahsulotlar.append(mahsulot)
 
-    def mahsulot_olib_tashlash(self, mahsulot):
-        self.mahsulotlar.remove(mahsulot)
+#     def mahsulot_olib_tashlash(self, mahsulot):
+#         self.mahsulotlar.remove(mahsulot)
 
-    def umumiy_narx(self):
-        return sum([mahsulot.narx for mahsulot in self.mahsulotlar])
+#     def umumiy_narx(self):
+#         return sum([mahsulot.narx for mahsulot in self.mahsulotlar])
 
 
-class Mahsulot:
-    def __init__(self, nom, narx):
-        self.nom = nom
-        self.narx = narx
+# class Mahsulot:
+#     def __init__(self, nom, narx):
+#         self.nom = nom
+#         self.narx = narx
         
-    def __repr__(self):
-        return self.nom
+#     def __repr__(self):
+#         return self.nom
 
 
-# Foydalanish
-savat = Savatcha("sariq savat")
-mahsulot1 = Mahsulot("Telefon", 1500)
-mahsulot2 = Mahsulot("Kompyuter", 2500)
+# # Foydalanish
+# savat = Savatcha("sariq savat")
+# mahsulot1 = Mahsulot("Telefon", 1500)
+# mahsulot2 = Mahsulot("Kompyuter", 2500)
 
-savat.mahsulot_qoshish(mahsulot1)
-savat.mahsulot_qoshish(mahsulot2)
-print("Umumiy narx:", savat.umumiy_narx())
+# savat.mahsulot_qoshish(mahsulot1)
+# savat.mahsulot_qoshish(mahsulot2)
+# print("Umumiy narx:", savat.umumiy_narx())
 #     ```
     
     
