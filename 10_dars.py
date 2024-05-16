@@ -14,8 +14,8 @@
 
 
 
-# def toliq_ism_yasa(ism, familiya, o_ismi=""):
-#     if o_ismi:
+# def toliq_ism_yasa(ism, familiya, o_ismi=""):     # args - parms
+#     if o_ismi: 
 #         toliq_ism = f"{ism} {o_ismi} {familiya}."
 #     else:
 #         toliq_ism = f"{ism} {familiya}"
@@ -60,8 +60,8 @@
 
 
 
-def books_list():
-    print("Enter books: ")
+# def books_list():
+#     print("Enter books: ")
 #     books = {}
 #     while True:
 #         name = input("enter name: ")
@@ -102,17 +102,21 @@ def books_list():
 # friends_list_data()
 
 
+
+
 # def set_ball():
 #     """set ball users"""
 #     talabalar = ["hasan", "husan", "olim", "botir"]
 #     baholangan_talabalar = {}
 #     while talabalar:
 #         talaba = talabalar.pop()
-#         baho = input(f"{talaba.title()}ning bahosini kiriting: ")
+#         baho = input(f"{talaba.title()}ni baholang: ")
 #         print(f"{talaba.title()} baholandi")
 #         baholangan_talabalar[talaba] = int(baho)
         
 #     print(baholangan_talabalar)
 
 # set_ball()
+
+
 
