@@ -1,4 +1,4 @@
-data = 1
+data = 5
 print("Yan:")
 print(" Sun Mon Tue Wed Thu Fri Sat")
 for week in range(4):
