@@ -48,8 +48,11 @@ osonlashtiradi.
 #         self.narx = narx
 #         self.xotira = 64
         
+#     def __repr__(self):
+#         return f"{self.model} telefon, narxi: {self.narx}$. Xotira: {self.xotira} GB"
+        
 #     def see_memory(self):
-#         return f"{self.model} telefonida {self.xotira} GB xotira qolgan." 
+#         return f"{self.model} telefonida {self.xotira} GB xotira bor." 
  
 #     def narxni_ozgartir(self, yangi_narx):
 #         self.narx = yangi_narx
@@ -57,8 +60,6 @@ osonlashtiradi.
 
 # telefon1 = Telefon("iPhone", 1200)
 # telefon2 = Telefon("Samsung1", 800)
-
-
 
 # print(f"{telefon1.model}: {telefon1.narx}")
 
