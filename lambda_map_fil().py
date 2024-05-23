@@ -1,4 +1,4 @@
-# import math
+import math
 
 # def daraja(x):
 #     ifoda = x * x
@@ -7,8 +7,12 @@
 # daraja_2 = lambda x: x * x
 # print(daraja_2(5))
 
+
 # uzunlik = lambda pi, r: 2*pi*r
 # print(uzunlik(math.pi, 5))
+
+
+
 
 # sonlar_3 = lambda x, y, z: x * y * z
 
@@ -17,25 +21,27 @@
 
 
 
-# # def kbvadrat(x, y):
+# # # def kbvadrat(x, y):
 
 # kvadrat = lambda x, y: x ** y
-# print(kvadrat(9, 8))
+# print(kvadrat(2, 3))
+
 
 
 # def daraja(n):
 #     return lambda x: x ** n
 
-# kvadrat = daraja(2)
+# kv = daraja(2)
 # kub = daraja(3)
 # four = daraja(4)
-# on = daraja(10)
 
-# print(kvadrat(4))
-# print(kvadrat(9))
+# print(kv(4))
+# print(kv(9))
 # print(kub(6))
 # print(four(16))
-# print(on(22))
+
+
+
 
 # # print(kvadrat(38))
 # besh_dj = daraja(5)
@@ -47,20 +53,22 @@
 
 # from math import sqrt, factorial  # sqrt - kvadrat ildiz
 
-# sonlar = list(range(11))  # 0 dan 10 gacha sonlar ro'yxati
-# ildizlar = list(map(sqrt, sonlar)) 
-# print(ildizlar)
 
+# print(list(map(sqrt, list(range(11)))))
 
 
 # map(funksiya, qiymatlar) -- list(map()) 
 # qiymatlar ichidagi har bir son uchun 
 # ishlaydi
 
+
+
+
 # print(ildizlar)
 
 
 # names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
+
 # def ism_upper(arr):
 #     ismlar = []
 #     for ism in names:
@@ -68,7 +76,7 @@
 #     return ismlar
 # print(ism_upper(names))
 
-# print(list(map(lambda ism: ism.upper(), names)))
+# print(list(map(lambda x: x.upper(), names)))
 
 
 
@@ -117,17 +125,17 @@
 
 
 
-# import random as r
+import random as r
 
-# sonlar = r.sample(range(100), 5)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-# print(sonlar)
+sonlar = r.sample(range(100), 5)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
+print(sonlar)
 
 
 # def juftmi(x):
 #     return x % 2 == 0
 
 
-# print(list(filter(juftmi, sonlar)))
+print(list(filter(lambda x: x % 2 == 0, sonlar)))
 
 
 
