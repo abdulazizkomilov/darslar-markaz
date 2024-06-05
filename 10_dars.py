@@ -16,21 +16,23 @@
 
 # def toliq_ism_yasa(ism, familiya, o_ismi=""):     # args - parms
 #     if o_ismi: 
-#         toliq_ism = f"{ism} {o_ismi} {familiya}."
+#         toliq_ism = f"{ism} {familiya} {o_ismi} ."
 #     else:
 #         toliq_ism = f"{ism} {familiya}"
 #     return toliq_ism
 
 # talaba1 = toliq_ism_yasa("husan", "jamolov")
-# talaba2 = toliq_ism_yasa("hakim", "kamolov")
+# talaba2 = toliq_ism_yasa("hakim", "kamolov", "olim o'g'li")
 
 # print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+
+
 
 
 # def friends_list():
 #     print("Ismlar ro'yxatini tuzamiz.")
 #     ismlar = []
-#     n = 1
+#     n = 1 
 #     while True:
 #         savol = f"{n}-ismini kiriting: "
 #         ism = input(savol)
@@ -105,7 +107,6 @@
 
 
 # def set_ball():
-#     """set ball users"""
 #     talabalar = ["hasan", "husan", "olim", "botir"]
 #     baholangan_talabalar = {}
 #     while talabalar:
@@ -117,6 +118,4 @@
 #     print(baholangan_talabalar)
 
 # set_ball()
-
-
 
