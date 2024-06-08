@@ -1,4 +1,4 @@
-import math
+# import math
 
 # def daraja(x):
 #     ifoda = x * x
@@ -15,16 +15,14 @@ import math
 
 
 # sonlar_3 = lambda x, y, z: x * y * z
-
 # print(sonlar_3(3, 4, 5))
 
 
 
-
-# # # def kbvadrat(x, y):
-
 # kvadrat = lambda x, y: x ** y
 # print(kvadrat(2, 3))
+
+
 
 
 
@@ -34,11 +32,13 @@ import math
 # kv = daraja(2)
 # kub = daraja(3)
 # four = daraja(4)
+# besh = daraja(5)
 
 # print(kv(4))
 # print(kv(9))
 # print(kub(6))
 # print(four(16))
+# print(besh(12))
 
 
 
@@ -51,7 +51,7 @@ import math
 
 
 
-# from math import sqrt, factorial  # sqrt - kvadrat ildiz
+# from math import sqrt # sqrt - kvadrat ildiz
 
 
 # print(list(map(sqrt, list(range(11)))))
@@ -64,10 +64,11 @@ import math
 
 
 
+
 # print(ildizlar)
 
 
-# names = ['ali', 'vali', 'olim', 'hakim', 'husan', 'hasan']
+# names = ['ali', 'vali', 'olim', 'husan', 'hasan']
 
 # def ism_upper(arr):
 #     ismlar = []
@@ -75,6 +76,9 @@ import math
 #         ismlar.append(ism.upper())
 #     return ismlar
 # print(ism_upper(names))
+
+
+
 
 # print(list(map(lambda x: x.upper(), names)))
 
@@ -97,45 +101,44 @@ import math
 # sonlar = list(range(11))
 
 # def son_t(x):
-#     if x % 2 == 1:
+#     if x % 2 != 0:
 #         return x
 
 # print(list(map(son_t, sonlar)))
       
 
-# print(list(map(son_t, sonlar)))
 
 
 
 # sonlar = list(range(11))
 
-# kvadratlar = list(map(lambda x: x * x, sonlar))
+# kvadratlar = list(map(lambda x: x % 2 != 0, sonlar))
 # print(kvadratlar)
+
+
 
 
 # a = [4, 5, 6]
 # b = [7, 8, 9]   
-
 # c = [3, 7, 2]
-# a+b+c
 
-# a_plus_b = list(map(lambda x, y: x + y, a, b))
+
+# a_plus_b = list(map(lambda x, y, z: x + y + z, a, b, c))
 # print(a_plus_b)
 
 
 
 
-import random as r
-
-sonlar = r.sample(range(100), 5)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
-print(sonlar)
 
 
-# def juftmi(x):
-#     return x % 2 == 0
+# import random as r
+
+# sonlar = r.sample(range(100), 5)  # 0-99 oralig'ida 10 ta tasodifiy sonlar
+# print(sonlar)
 
 
-print(list(filter(lambda x: x % 2 == 0, sonlar)))
+# print(list(filter(lambda x: x % 2 == 0, sonlar)))
+
 
 
 
@@ -144,21 +147,25 @@ print(list(filter(lambda x: x % 2 == 0, sonlar)))
 # print(juft_sonlar)
 
 
-# import random as r
 
-# mevalar1 = ["olma", "limon", "sabzi", 
+
+# mevalar = ["olma", "limon", "sabzi", 
 #             "kivi", "olcha", "olxuri", 
 #             "sarimsoq"]
 
-# filtered_fruits = list(filter(lambda meva: meva.startswith('o'), mevalar1))
-# print(filtered_fruits)
+# f_fruits = list(filter(lambda meva: meva.startswith('o'), mevalar))
+# print(f_fruits)
 
 
 
 
 
-# mevalar2 = list(filter(lambda meva: len(meva) >= 5, mevalar1))
+# mevalar2 = list(filter(lambda meva: len(meva) > 5, mevalar))
 # print(mevalar2)
+
+
+
+
 
 # print(list(filter(lambda meva: (meva.startswith("o") and meva.endswith("a")), mevalar1)))
 
@@ -166,14 +173,15 @@ print(list(filter(lambda x: x % 2 == 0, sonlar)))
 
 
 # import random as r
-
+ 
 # sonlar = r.sample(range(100), 10)
 
-# print(sonlar)
 
 # juft = [son for son in sonlar if son%2==0]; print(juft)
 
+
 # toq = [son for son in sonlar if son%2!=0]; print(toq)
+
 
 # for son in sonlar:
 #     if son%2==0:
@@ -187,6 +195,7 @@ print(list(filter(lambda x: x % 2 == 0, sonlar)))
 
 # son = r.randint(0, 100) # 0 va 100 oralig'ida tasodifiy son
 # print(son)
+
 
 
 # ismlar = ['olim','anvar','hasan','husan']
