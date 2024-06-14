@@ -14,17 +14,17 @@
 
 
 
-# def toliq_ism_yasa(ism, familiya, o_ismi=""):     # args - parms
-#     if o_ismi: 
-#         toliq_ism = f"{ism} {familiya} {o_ismi} ."
-#     else:
-#         toliq_ism = f"{ism} {familiya}"
-#     return toliq_ism
+def toliq_ism_yasa(ism, familiya, o_ismi=""):     # args - parms
+    if o_ismi: 
+        toliq_ism = f"{ism} {familiya} {o_ismi} "
+    else:
+        toliq_ism = f"{ism} {familiya}"
+    return toliq_ism
 
-# talaba1 = toliq_ism_yasa("husan", "jamolov")
-# talaba2 = toliq_ism_yasa("hakim", "kamolov", "olim o'g'li")
+talaba1 = toliq_ism_yasa("husan", "jamolov")
+talaba2 = toliq_ism_yasa("hakim", "kamolov", "olim o'g'li.")
 
-# print(f"Darsga kelmagan talabalar: {talaba1} va {talaba2}")
+print(f"Darsga kelmaganlar: {talaba1} va {talaba2}")
 
 
 
