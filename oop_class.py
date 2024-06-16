@@ -1,14 +1,14 @@
-"""
-OOP, yoki Ob'ektga yo'naltirilgan 
-dasturlash, dasturlashning bir 
-usuli bo'lib, dasturchilarga ob'ektlarni
-yaratish, ularga kerakli xususiyatlar 
-va metodlarni berish, shuningdek 
-ulardan foydalanishni o'rgatadi. 
-Bu, kodni tuzatish va boshqa dasturlash 
-prinsiplari bilan solishtirishni 
-osonlashtiradi.
-"""
+# """
+# OOP, yoki Ob'ektga yo'naltirilgan 
+# dasturlash, dasturlashning bir 
+# usuli bo'lib, dasturchilarga ob'ektlarni
+# yaratish, ularga kerakli xususiyatlar 
+# va metodlarni berish, shuningdek 
+# ulardan foydalanishni o'rgatadi. 
+# Bu, kodni tuzatish va boshqa dasturlash 
+# prinsiplari bilan solishtirishni 
+# osonlashtiradi.
+# """
 
 # """
 # Xususiyat    -----  malumotlari
@@ -32,18 +32,12 @@ osonlashtiradi.
 #         return f"""Xodimning ismi: {self.ism.title()},
 # familiyasi: {self.familiya.title()}, yoshi: {self.yosh}"""
         
-#     def t_yil(self):
-#         return f"Xodimning tugulgan yili: {2024 - self.yosh}"
-
 # xodim1 = Xodim("temur", "nosirov", 13)
-# xodim2 = Xodim("salim", "karimov", 13)
-# xodim3 = Xodim("asadbek", "baxtiyorov", 14)
-
 
 
 
 # class Telefon:
-#     def __init__(self, model, narx):
+#     def __init__(self, model, narx):   # __
 #         self.model = model
 #         self.narx = narx
 #         self.xotira = 64
@@ -53,15 +47,17 @@ osonlashtiradi.
         
 #     def see_memory(self):
 #         return f"{self.model} telefonida {self.xotira} GB xotira bor." 
- 
+
 #     def narxni_ozgartir(self, yangi_narx):
 #         self.narx = yangi_narx
+        
+#     def change_memory(self, yangi_xotira):
+#         self.xotira = yangi_xotira
 
+# t1 = Telefon("iPhone", 1200)
+# t2 = Telefon("Samsung1", 800)
 
-# telefon1 = Telefon("iPhone", 1200)
-# telefon2 = Telefon("Samsung1", 800)
-
-# print(f"{telefon1.model}: {telefon1.narx}")
+# print(f"{t1.model}: {t1.narx}")
 
 # telefon1.xotira_qolganini_korsat()
 # telefon2.xotira_qolganini_korsat()
