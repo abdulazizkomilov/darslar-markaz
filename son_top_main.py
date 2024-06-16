@@ -14,10 +14,9 @@
 #         else:
 #             print("Yutdingiz!")
 #             break
-
 #     print(f"Tabriklayman. {taxminlar} ta taxmin bilan topdingiz!")
 #     return taxminlar
-
+# print(sontop())
 
 
 
@@ -56,7 +55,7 @@
 #     print(f"Men {taxminlar} ta taxmin bilan topdim!")
 #     return taxminlar
 
-
+# print(sontop_computer())
 
 
 
